@@ -11,7 +11,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  DZSwipeViewController: 091233eb3f2fca5cfb0e104aaf7c2b05f206e455
+  DZSwipeViewController: df475239653a9cf95a7ed8cde5ef7d1fcbe64861
   FBSnapshotTestCase: 9d5fe43b29ae3a0ed8fc829477971b281038f748
 
 COCOAPODS: 0.35.0.rc2

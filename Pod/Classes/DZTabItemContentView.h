@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DZTabItemContentView : UIView
+@interface DZTabItemContentView : UIView {
+    UILabel* _textLabel;
+    UIImageView* _imageView;
+}
 @property (nonatomic, strong, readonly) UILabel* textLabel;
 @property (nonatomic, strong, readonly) UIImageView* imageView;
 @property (nonatomic, assign)BOOL selected;

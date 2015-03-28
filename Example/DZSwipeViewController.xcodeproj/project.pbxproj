@@ -22,13 +22,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		652FB8D21AC676DD0082894E /* DZSwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 652FB8CA1AC676DD0082894E /* DZSwipeViewController.m */; };
-		652FB8D31AC676DD0082894E /* DZTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 652FB8CC1AC676DD0082894E /* DZTabView.m */; };
-		652FB8D41AC676DD0082894E /* DZTabViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 652FB8CF1AC676DD0082894E /* DZTabViewItem.m */; };
-		652FB8D51AC676DD0082894E /* UIViewController+DZSwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 652FB8D11AC676DD0082894E /* UIViewController+DZSwipeViewController.m */; };
 		652FB8D91AC6778C0082894E /* DZFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 652FB8D81AC6778C0082894E /* DZFirstViewController.m */; };
 		652FB8DC1AC677990082894E /* DZSencondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 652FB8DB1AC677990082894E /* DZSencondViewController.m */; };
-		652FB8DF1AC67BB00082894E /* DZTabItemContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 652FB8DE1AC67BB00082894E /* DZTabItemContentView.m */; };
 		B1DB3D82A779F3C315275CB4 /* libPods-DZSwipeViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67950C92B4FDC7022139D6CC /* libPods-DZSwipeViewController.a */; };
 /* End PBXBuildFile section */
 
@@ -65,21 +60,10 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		652FB8C91AC676DD0082894E /* DZSwipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZSwipeViewController.h; sourceTree = "<group>"; };
-		652FB8CA1AC676DD0082894E /* DZSwipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZSwipeViewController.m; sourceTree = "<group>"; };
-		652FB8CB1AC676DD0082894E /* DZTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZTabView.h; sourceTree = "<group>"; };
-		652FB8CC1AC676DD0082894E /* DZTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZTabView.m; sourceTree = "<group>"; };
-		652FB8CD1AC676DD0082894E /* DZTabViewItem_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZTabViewItem_Private.h; sourceTree = "<group>"; };
-		652FB8CE1AC676DD0082894E /* DZTabViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZTabViewItem.h; sourceTree = "<group>"; };
-		652FB8CF1AC676DD0082894E /* DZTabViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZTabViewItem.m; sourceTree = "<group>"; };
-		652FB8D01AC676DD0082894E /* UIViewController+DZSwipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DZSwipeViewController.h"; sourceTree = "<group>"; };
-		652FB8D11AC676DD0082894E /* UIViewController+DZSwipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DZSwipeViewController.m"; sourceTree = "<group>"; };
 		652FB8D71AC6778C0082894E /* DZFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZFirstViewController.h; sourceTree = "<group>"; };
 		652FB8D81AC6778C0082894E /* DZFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZFirstViewController.m; sourceTree = "<group>"; };
 		652FB8DA1AC677990082894E /* DZSencondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZSencondViewController.h; sourceTree = "<group>"; };
 		652FB8DB1AC677990082894E /* DZSencondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZSencondViewController.m; sourceTree = "<group>"; };
-		652FB8DD1AC67BB00082894E /* DZTabItemContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZTabItemContentView.h; sourceTree = "<group>"; };
-		652FB8DE1AC67BB00082894E /* DZTabItemContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZTabItemContentView.m; sourceTree = "<group>"; };
 		67950C92B4FDC7022139D6CC /* libPods-DZSwipeViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DZSwipeViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		945484F728C3CE627A4906D9 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94694527080A9F7A2338273D /* Pods-DZSwipeViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DZSwipeViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DZSwipeViewController/Pods-DZSwipeViewController.debug.xcconfig"; sourceTree = "<group>"; };
@@ -208,17 +192,6 @@
 		652FB8C81AC676300082894E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				652FB8C91AC676DD0082894E /* DZSwipeViewController.h */,
-				652FB8CA1AC676DD0082894E /* DZSwipeViewController.m */,
-				652FB8CB1AC676DD0082894E /* DZTabView.h */,
-				652FB8CC1AC676DD0082894E /* DZTabView.m */,
-				652FB8CD1AC676DD0082894E /* DZTabViewItem_Private.h */,
-				652FB8CE1AC676DD0082894E /* DZTabViewItem.h */,
-				652FB8CF1AC676DD0082894E /* DZTabViewItem.m */,
-				652FB8DD1AC67BB00082894E /* DZTabItemContentView.h */,
-				652FB8DE1AC67BB00082894E /* DZTabItemContentView.m */,
-				652FB8D01AC676DD0082894E /* UIViewController+DZSwipeViewController.h */,
-				652FB8D11AC676DD0082894E /* UIViewController+DZSwipeViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -412,13 +385,8 @@
 			files = (
 				652FB8DC1AC677990082894E /* DZSencondViewController.m in Sources */,
 				6003F59E195388D20070C39A /* DZAppDelegate.m in Sources */,
-				652FB8D41AC676DD0082894E /* DZTabViewItem.m in Sources */,
-				652FB8D51AC676DD0082894E /* UIViewController+DZSwipeViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* DZViewController.m in Sources */,
-				652FB8DF1AC67BB00082894E /* DZTabItemContentView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				652FB8D21AC676DD0082894E /* DZSwipeViewController.m in Sources */,
-				652FB8D31AC676DD0082894E /* DZTabView.m in Sources */,
 				652FB8D91AC6778C0082894E /* DZFirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

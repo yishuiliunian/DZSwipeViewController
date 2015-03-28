@@ -10,19 +10,15 @@
 Pod::Spec.new do |s|
   s.name             = "DZSwipeViewController"
   s.version          = "0.1.0"
-  s.summary          = "A short description of DZSwipeViewController."
+  s.summary          = "DZSwipeViewController，左右滑动的视图控制器，支持顶部样式自定义。"
   s.description      = <<-DESC
-                       An optional longer description of DZSwipeViewController
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       DZSwipeViewController，左右滑动的视图控制器，支持顶部样式自定义。方便用来实现顶部Tab的视图管理器，支持视图左右滑动。
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/DZSwipeViewController"
+  s.homepage         = "https://github.com/yishuiliunian/DZSwipeViewController"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "stonedong" => "yishuiliunian@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/DZSwipeViewController.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/yishuiliunian/DZSwipeViewController.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
