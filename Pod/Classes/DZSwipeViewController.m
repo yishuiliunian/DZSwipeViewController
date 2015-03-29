@@ -136,7 +136,7 @@ CGFloat const kDZTabHeight = 44;
 {
     if (_topView != topView) {
         [_topView removeFromSuperview];
-        if (_topView) {
+        if (topView) {
             [self.view addSubview:topView];
         }
         _topView = topView;
