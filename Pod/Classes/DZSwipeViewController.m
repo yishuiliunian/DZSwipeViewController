@@ -126,7 +126,9 @@ CGFloat const kDZTabHeight = 44;
 - (void) setTabViewHeight:(CGFloat)tabViewHeight
 {
     _tabViewHeight = tabViewHeight;
-    [self setTopOffset:_topOffSet];
+    if (self.isViewLoaded) {
+        [self setTopOffset:_topOffSet];
+    }
 }
 
 - (void) setTopView:(UIView *)topView
