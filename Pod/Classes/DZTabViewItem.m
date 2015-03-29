@@ -69,6 +69,7 @@
 - (void) setSelected:(BOOL)selected
 {
     _selected = selected;
+    [self.contentView setSelected:selected];
 }
 
 - (void) layoutSubviews

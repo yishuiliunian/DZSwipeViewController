@@ -13,6 +13,7 @@ extern void const * kDZViewSwiperTabItem;
 @interface UIViewController (DZSwipeViewController)
 @property (nonatomic, strong) NSString* swipeTitle;
 @property (nonatomic, strong) UIImage* swipeImage;
+@property (nonatomic, strong) UIImage* swipeSelectedImage;
 @property (nonatomic, strong, readonly) NSDictionary* swipeInfos;
 @property (nonatomic, strong, readonly) DZSwipeViewController* swipeViewController;
 @property (nonatomic, weak, readonly) DZTabViewItem* swipeTabItem;

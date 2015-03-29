@@ -14,6 +14,8 @@ void const* kDZSwipeTitle = &kDZSwipeTitle;
 void const* kDZSwipeImage = &kDZSwipeImage;
 void const* kDZSwipeInfos = &kDZSwipeInfos;
 void const * kDZViewSwiperTabItem = &kDZViewSwiperTabItem;
+
+void const* KDZViewSwipeSelectedImage = &KDZViewSwipeSelectedImage;
 @implementation UIViewController (DZSwipeViewController)
 
 - (void) setSwipeTitle:(NSString *)swipeTitle
@@ -36,8 +38,15 @@ void const * kDZViewSwiperTabItem = &kDZViewSwiperTabItem;
     return objc_getAssociatedObject(self, kDZSwipeImage);
 }
 
+- (UIImage*) swipeSelectedImage
+{
+    return objc_getAssociatedObject(self, KDZViewSwipeSelectedImage);
+}
 
-
+- (void) setSwipeSelectedImage:(UIImage *)swipeSelectedImage
+{
+    objc_setAssociatedObject(self, KDZViewSwipeSelectedImage, swipeSelectedImage, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
 - (DZTabViewItem*) swipeTabItem
 {
     return objc_getAssociatedObject(self, kDZViewSwiperTabItem);

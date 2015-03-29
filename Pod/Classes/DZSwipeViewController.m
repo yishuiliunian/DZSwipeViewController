@@ -10,6 +10,7 @@
 #import "DZTabViewItem.h"
 #import <objc/runtime.h>
 #import "UIViewController+DZSwipeViewController.h"
+#import "DZTabViewItem_Private.h"
 @interface UIViewController (SwipeInner)
 @end
 
@@ -67,11 +68,11 @@ CGFloat const kDZTabHeight = 44;
 - (UIPageViewController*) pageViewController
 {
     if (!_pageViewController) {
-            _pageViewController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal options:nil];
+        _pageViewController = [[UIPageViewController alloc] initWithTransitionStyle:UIPageViewControllerTransitionStyleScroll navigationOrientation:UIPageViewControllerNavigationOrientationHorizontal options:nil];
         _pageViewController.delegate = self;
         _pageViewController.dataSource = self;
         [self syncScrollView];
-
+        
     }
     return _pageViewController;
 }
@@ -100,7 +101,7 @@ CGFloat const kDZTabHeight = 44;
     if ([keyPath isEqualToString:@"contentOffset"] && [object isKindOfClass:[UIScrollView class]]) {
         UIScrollView* scrollView = (UIScrollView*)object;
         CGPoint  offset = [change[NSKeyValueChangeNewKey] CGPointValue];
-
+        
         if (ABS(offset.y) > 0) {
             if (CGRectGetMinY(_topView.frame) <= 0) {
                 CGFloat yOffSet = -offset.y;
@@ -110,8 +111,8 @@ CGFloat const kDZTabHeight = 44;
                 [self moveStepOffset:yOffSet];
             }
         }
-
-
+        
+        
     }
 }
 - (DZTabView*) tabView
@@ -156,7 +157,7 @@ CGFloat const kDZTabHeight = 44;
     CGPoint currentPoint = [touch locationInView:self.view];
     
     CGFloat offset = currentPoint.y - previousPoint.y;
-
+    
     [self moveStepOffset:offset];
     
 }
@@ -176,7 +177,9 @@ CGFloat const kDZTabHeight = 44;
     _animating = NO;
     _firstLoadFrame = YES;
     //
-    _tabViewHeight = 44;
+    if (_tabViewHeight <=0.1) {
+        _tabViewHeight = 44;
+    }
     //
     _tapTabbarAnimating = NO;
     [self dz_addChildViewController:self.pageViewController];
@@ -191,6 +194,8 @@ CGFloat const kDZTabHeight = 44;
         DZTabViewItem* item = [[DZTabViewItem alloc] initWithContentClass:contentClass];
         item.textLabel.text = vc.swipeTitle;
         item.imageView.image = vc.swipeImage;
+        item.imageView.highlightedImage = vc.swipeSelectedImage;
+        item.contentView.viewController = vc;
         [itemsArray addObject:item];
         vc.swipeTabItem = item;
     }
@@ -199,6 +204,7 @@ CGFloat const kDZTabHeight = 44;
     [self.pageViewController setViewControllers:@[_viewControllers[0]] direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];
     
     //
+    [[(UIViewController*)_viewControllers.firstObject swipeTabItem] setSelected:YES];
 }
 
 - (void) setTopOffset:(CGFloat)offset
@@ -206,7 +212,7 @@ CGFloat const kDZTabHeight = 44;
     _topOffSet = offset;
     CGFloat contentWidth =  CGRectGetWidth(self.view.bounds);
     CGFloat contentHeight = CGRectGetHeight(self.view.bounds);
-
+    
     _pageViewController.view.frame = CGRectMake( 0, CGRectGetMaxY(_tabView.frame), contentWidth , contentHeight - CGRectGetMaxY(_tabView.frame));
     [UIView animateWithDuration:0.01 animations:^{
         _topView.frame = CGRectMake(0, offset, contentWidth , _topViewHeight);
@@ -216,7 +222,7 @@ CGFloat const kDZTabHeight = 44;
         
         NSLog(@"current offset is %f", CGRectGetMinY(_topView.frame));
     }];
-
+    
     
 }
 

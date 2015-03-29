@@ -7,7 +7,7 @@
 //
 
 #import "DZTabItemContentView.h"
-
+#import "UIViewController+DZSwipeViewController.h"
 @implementation DZTabItemContentView
 - (instancetype) initWithFrame:(CGRect)frame
 {
@@ -21,6 +21,7 @@
     _imageView = [UIImageView new];
     [self addSubview:_imageView];
     
+    _textLabel.adjustsFontSizeToFitWidth = YES;
     self.backgroundColor = [UIColor whiteColor];
     return self;
 }
@@ -39,9 +40,13 @@
 {
     _selected = selected;
     if (_selected) {
-        _textLabel.textColor = [UIColor blackColor];
-    } else {
         _textLabel.textColor = [UIColor blueColor];
+        if (self.viewController.swipeSelectedImage) {
+            _imageView.image = self.viewController.swipeSelectedImage;
+        }
+    } else {
+        _textLabel.textColor = [UIColor blackColor];
+        _imageView.image = self.viewController.swipeImage;
     }
 }
 
@@ -50,3 +55,4 @@
     
 }
 @end
+

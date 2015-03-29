@@ -14,6 +14,7 @@
 }
 @property (nonatomic, strong, readonly) UILabel* textLabel;
 @property (nonatomic, strong, readonly) UIImageView* imageView;
+@property (nonatomic, weak) UIViewController* viewController;
 @property (nonatomic, assign)BOOL selected;
 - (void) swipeInfoChangedValue:(NSObject*)value forKey:(NSString*)key;
 @end
