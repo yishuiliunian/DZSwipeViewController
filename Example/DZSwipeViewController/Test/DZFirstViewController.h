@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DZFirstViewController : UIViewController
+@interface DZFirstViewController : UITableViewController
 
 @end

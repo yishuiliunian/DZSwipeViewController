@@ -15,6 +15,18 @@ CGFloat const kDZTabHeight = 44;
     NSArray* _viewControllers;
     NSInteger _currentPageIndex;
     BOOL _tapTabbarAnimating;
+    UIPanGestureRecognizer* _tapGestrueRecognier;
+    
+    CGFloat _topOffSet;
+    CGFloat _topViewHeight;
+    CGFloat _contentViewHeight;
+    CGFloat _tabItemHeight;
+    
+    
+    CGPoint _beginPoint;
+    
+    BOOL _animating;
+    BOOL _firstLoadFrame;
 }
 @property (nonatomic, assign) BOOL tapTabbarAnimating;
 @end
@@ -37,6 +49,7 @@ CGFloat const kDZTabHeight = 44;
     [self addChildViewController:vc];
     [self.view addSubview:vc.view];
     [vc didMoveToParentViewController:self];
+    
 }
 - (UIPageViewController*) pageViewController
 {
@@ -49,7 +62,45 @@ CGFloat const kDZTabHeight = 44;
     }
     return _pageViewController;
 }
+- (void) addObserverForChildScrollView
+{
+    for (UIViewController* vc in _viewControllers) {
+        if ([vc respondsToSelector:@selector(swipInnerScrollView)]) {
+            UIScrollView* scrollView = [vc performSelector:@selector(swipInnerScrollView)];
+            [scrollView addObserver:self forKeyPath:@"contentOffset" options:NSKeyValueObservingOptionNew context:nil];
+        }
+    }
+}
 
+- (void) removeObserverForChildScrollView
+{
+    for (UIViewController* vc in _viewControllers) {
+        if ([vc respondsToSelector:@selector(swipInnerScrollView)]) {
+            UIScrollView* scrollView = [vc performSelector:@selector(swipInnerScrollView)];
+            [scrollView removeObserver:self forKeyPath:@"contentOffset"];
+        }
+    }
+}
+
+- (void) observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
+{
+    if ([keyPath isEqualToString:@"contentOffset"] && [object isKindOfClass:[UIScrollView class]]) {
+        UIScrollView* scrollView = (UIScrollView*)object;
+        CGPoint  offset = [change[NSKeyValueChangeNewKey] CGPointValue];
+
+        if (ABS(offset.y) > 0) {
+            if (CGRectGetMinY(_topView.frame) <= 0) {
+                CGFloat yOffSet = -offset.y;
+                if (offset.y < 0  && CGRectGetMinY(_topView.frame) < 0) {
+                    scrollView.contentOffset = CGPointMake(0, 0);
+                }
+                [self moveStepOffset:yOffSet];
+            }
+        }
+
+
+    }
+}
 - (DZTabView*) tabView
 {
     if (!_tabView) {
@@ -59,11 +110,53 @@ CGFloat const kDZTabHeight = 44;
     return _tabView;
 }
 
+- (void) setTopView:(UIView *)topView
+{
+    if (_topView != topView) {
+        [_topView removeFromSuperview];
+        if (_topView) {
+            [self.view addSubview:topView];
+        }
+        _topView = topView;
+        _topViewHeight = CGRectGetHeight(_topView.frame);
+    }
+}
+- (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [super touchesBegan:touches withEvent:event];
+    UITouch* touch = [touches anyObject];
+}
 
+- (void) touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [super touchesMoved:touches withEvent:event];
+    UITouch* touch =[touches anyObject];
+    CGPoint previousPoint = [touch previousLocationInView:self.view];
+    CGPoint currentPoint = [touch locationInView:self.view];
+    
+    CGFloat offset = currentPoint.y - previousPoint.y;
+
+    [self moveStepOffset:offset];
+    
+}
+
+- (void) touchesCancelled:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [super touchesCancelled:touches withEvent:event];
+}
+- (void) touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    [super touchesEnded:touches withEvent:event];
+}
 - (void) viewDidLoad
 {
     [super viewDidLoad];
-    
+    //
+    _animating = NO;
+    _firstLoadFrame = YES;
+    //
+    _tabItemHeight = 44;
+    //
     _tapTabbarAnimating = NO;
     [self dz_addChildViewController:self.pageViewController];
     [self.view addSubview:self.tabView];
@@ -79,10 +172,44 @@ CGFloat const kDZTabHeight = 44;
         item.imageView.image = vc.swipeImage;
         [itemsArray addObject:item];
     }
+    [self addObserverForChildScrollView];
     [self.tabView setItems:itemsArray];
     [self.pageViewController setViewControllers:@[_viewControllers[0]] direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];
+    
+    //
 }
 
+- (void) setTopOffset:(CGFloat)offset
+{
+    _topOffSet = offset;
+    CGFloat contentWidth =  CGRectGetWidth(self.view.bounds);
+    CGFloat contentHeight = CGRectGetHeight(self.view.bounds);
+
+    _pageViewController.view.frame = CGRectMake( 0, CGRectGetMaxY(_tabView.frame), contentWidth , contentHeight - CGRectGetMaxY(_tabView.frame));
+    [UIView animateWithDuration:0.01 animations:^{
+        _topView.frame = CGRectMake(0, offset, contentWidth , _topViewHeight);
+        _tabView.frame = CGRectMake(0, CGRectGetMaxY(_topView.frame), contentWidth, _tabItemHeight);
+        _pageViewController.view.frame = CGRectMake( 0, CGRectGetMaxY(_tabView.frame), contentWidth , contentHeight - CGRectGetMaxY(_tabView.frame));
+        
+        
+        NSLog(@"current offset is %f", CGRectGetMinY(_topView.frame));
+    }];
+
+    
+}
+
+- (void) moveStepOffset:(CGFloat)offset
+{
+    CGFloat currentOffset = CGRectGetMinY(_topView.frame);
+    CGFloat aimOffset = offset + currentOffset;
+    if (aimOffset+ _topViewHeight < 0) {
+        aimOffset= -_topViewHeight;
+    }
+    if (aimOffset > 0) {
+        aimOffset = 0;
+    }
+    [self setTopOffset:aimOffset];
+}
 -(void)syncScrollView
 {
     for (UIView* view in _pageViewController.view.subviews){
@@ -98,9 +225,10 @@ CGFloat const kDZTabHeight = 44;
 - (void) viewWillLayoutSubviews
 {
     [super viewWillLayoutSubviews];
-    _tabView.frame = CGRectMake(0, 0, CGRectGetWidth(self.view.frame), kDZTabHeight);
-    _pageViewController.view.frame = CGRectMake(0, CGRectGetMaxY(_tabView.frame), CGRectGetWidth(self.view.frame), CGRectGetHeight(self.view.frame) - kDZTabHeight);
-    
+    if (_firstLoadFrame) {
+        [self setTopOffset:0];
+        _firstLoadFrame = NO;
+    }
 }
 
 
@@ -129,14 +257,24 @@ CGFloat const kDZTabHeight = 44;
 }
 - (void) scrollViewDidScroll:(UIScrollView *)scrollView
 {
+    UIViewController* vc = [self.pageViewController.viewControllers lastObject];
+    
+    CGRect rect =  [scrollView convertRect:vc.view.frame fromView:vc.view.superview];
+    NSLog(@"xx  %f",rect.origin.x);
+    
     if (!_tapTabbarAnimating) {
-        CGFloat xFromCenter = self.view.frame.size.width-scrollView.contentOffset.x;       CGFloat ratio =  xFromCenter / CGRectGetWidth(scrollView.frame);
+        CGFloat xFromCenter = self.view.frame.size.width-scrollView.contentOffset.x; //%%% positive for right swipe, negative for left
+        
+        
+        CGFloat ratio =  xFromCenter / CGRectGetWidth(scrollView.frame);
+        
         [self.tabView setSelectedViewOffSetRatio:ratio];
+        
+        NSLog(@"offset is %f", scrollView.contentOffset.x);
     }
 }
 - (void) dz_tabView:(DZTabView *)tabView didSelectedAtIndex:(NSUInteger)index
 {
-    
     UIPageViewControllerNavigationDirection direction =
     self.tabView.lastSelectedIndex > index ?
     UIPageViewControllerNavigationDirectionReverse :
@@ -158,10 +296,5 @@ CGFloat const kDZTabHeight = 44;
     } else {
         
     }
-}
-
-- (void) pageViewController:(UIPageViewController *)pageViewController willTransitionToViewControllers:(NSArray *)pendingViewControllers
-{
-    
 }
 @end

@@ -17,10 +17,15 @@
     DZFirstViewController* fvc = [DZFirstViewController new];
     fvc.swipeTitle = @"xxx";
     DZSencondViewController* sVC = [DZSencondViewController new];
-    sVC.swipeTitle = @"yyyy";
+    sVC.swipeTitle = @"yyy";
     DZFirstViewController* tvc = [DZFirstViewController new];
     tvc.swipeTitle = @"777";
+    
+    
+    UIView* aView = [UIView new];
+    aView.frame = CGRectMake(0, 0, CGRectGetWidth([UIScreen mainScreen].bounds), 300);
     DZSwipeViewController* swipVC = [[DZSwipeViewController alloc] initWithViewControllers:@[fvc , sVC, tvc]];
+    swipVC.topView = aView;
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = swipVC;
     [self.window makeKeyAndVisible];

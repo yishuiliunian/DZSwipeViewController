@@ -9,5 +9,13 @@
 #import "DZFirstViewController.h"
 
 @implementation DZFirstViewController
-
+- (void) viewDidLoad
+{
+    [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
+}
+- (UIScrollView*) swipInnerScrollView
+{
+    return self.tableView;
+}
 @end

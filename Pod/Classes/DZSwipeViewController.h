@@ -10,6 +10,7 @@
 #import "DZTabView.h"
 #import "UIViewController+DZSwipeViewController.h"
 @interface DZSwipeViewController : UIViewController
+@property (nonatomic, strong) UIView* topView;
 @property (nonatomic, strong, readonly) UIPageViewController* pageViewController;
 @property (nonatomic, strong, readonly) DZTabView* tabView;
 @property (nonatomic, strong) Class tabItemContentViewClass;
