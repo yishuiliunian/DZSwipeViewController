@@ -9,8 +9,11 @@
 #import "UIViewController+DZSwipeViewController.h"
 #import "DZSwipeViewController.h"
 #import <objc/runtime.h>
+#import "DZTabViewItem.h"
 void const* kDZSwipeTitle = &kDZSwipeTitle;
 void const* kDZSwipeImage = &kDZSwipeImage;
+void const* kDZSwipeInfos = &kDZSwipeInfos;
+void const * kDZViewSwiperTabItem = &kDZViewSwiperTabItem;
 @implementation UIViewController (DZSwipeViewController)
 
 - (void) setSwipeTitle:(NSString *)swipeTitle
@@ -31,6 +34,47 @@ void const* kDZSwipeImage = &kDZSwipeImage;
 - (UIImage*) swipeImage
 {
     return objc_getAssociatedObject(self, kDZSwipeImage);
+}
+
+
+
+- (DZTabViewItem*) swipeTabItem
+{
+    return objc_getAssociatedObject(self, kDZViewSwiperTabItem);
+}
+
+- (NSMutableDictionary*) mutableSwipeInfos
+{
+    NSMutableDictionary* dic = objc_getAssociatedObject(self, kDZSwipeInfos);
+    if (!dic) {
+        dic = [NSMutableDictionary new];
+        [self setMutableSwipeInfos:dic];
+    }
+    return dic;
+}
+
+- (NSDictionary*) swipeInfos
+{
+    return [self mutableSwipeInfos];
+}
+
+- (void) addSwipeValue:(NSObject*)value forKey:(NSString*)key
+{
+    if (!key) {
+        return;
+    }
+    NSMutableDictionary* infos = [self mutableSwipeInfos];
+    if (value) {
+        infos[key] = value;
+        [self.swipeTabItem.contentView swipeInfoChangedValue:value forKey:key];
+    } else {
+        [infos removeObjectForKey:key];
+        [self.swipeTabItem.contentView swipeInfoChangedValue:nil forKey:key];
+    }
+}
+- (void) setMutableSwipeInfos:(NSMutableDictionary *)swipeInfos
+{
+    objc_setAssociatedObject(self, kDZSwipeInfos, swipeInfos, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 
 - (DZSwipeViewController*) swipeViewController

@@ -8,6 +8,20 @@
 
 #import "DZSwipeViewController.h"
 #import "DZTabViewItem.h"
+#import <objc/runtime.h>
+#import "UIViewController+DZSwipeViewController.h"
+@interface UIViewController (SwipeInner)
+@end
+
+@implementation UIViewController (SwipeInner)
+
+
+- (void) setSwipeTabItem:(DZTabViewItem *)swipeTabItem
+{
+    objc_setAssociatedObject(self, kDZViewSwiperTabItem, swipeTabItem, OBJC_ASSOCIATION_ASSIGN);
+}
+
+@end
 
 CGFloat const kDZTabHeight = 44;
 @interface DZSwipeViewController () <UIPageViewControllerDataSource, UIPageViewControllerDelegate, DZTabViewDelegate, UIScrollViewDelegate>
@@ -20,7 +34,6 @@ CGFloat const kDZTabHeight = 44;
     CGFloat _topOffSet;
     CGFloat _topViewHeight;
     CGFloat _contentViewHeight;
-    CGFloat _tabItemHeight;
     
     
     CGPoint _beginPoint;
@@ -110,6 +123,12 @@ CGFloat const kDZTabHeight = 44;
     return _tabView;
 }
 
+- (void) setTabViewHeight:(CGFloat)tabViewHeight
+{
+    _tabViewHeight = tabViewHeight;
+    [self setTopOffset:_topOffSet];
+}
+
 - (void) setTopView:(UIView *)topView
 {
     if (_topView != topView) {
@@ -155,7 +174,7 @@ CGFloat const kDZTabHeight = 44;
     _animating = NO;
     _firstLoadFrame = YES;
     //
-    _tabItemHeight = 44;
+    _tabViewHeight = 44;
     //
     _tapTabbarAnimating = NO;
     [self dz_addChildViewController:self.pageViewController];
@@ -171,6 +190,7 @@ CGFloat const kDZTabHeight = 44;
         item.textLabel.text = vc.swipeTitle;
         item.imageView.image = vc.swipeImage;
         [itemsArray addObject:item];
+        vc.swipeTabItem = item;
     }
     [self addObserverForChildScrollView];
     [self.tabView setItems:itemsArray];
@@ -188,7 +208,7 @@ CGFloat const kDZTabHeight = 44;
     _pageViewController.view.frame = CGRectMake( 0, CGRectGetMaxY(_tabView.frame), contentWidth , contentHeight - CGRectGetMaxY(_tabView.frame));
     [UIView animateWithDuration:0.01 animations:^{
         _topView.frame = CGRectMake(0, offset, contentWidth , _topViewHeight);
-        _tabView.frame = CGRectMake(0, CGRectGetMaxY(_topView.frame), contentWidth, _tabItemHeight);
+        _tabView.frame = CGRectMake(0, CGRectGetMaxY(_topView.frame), contentWidth, _tabViewHeight);
         _pageViewController.view.frame = CGRectMake( 0, CGRectGetMaxY(_tabView.frame), contentWidth , contentHeight - CGRectGetMaxY(_tabView.frame));
         
         

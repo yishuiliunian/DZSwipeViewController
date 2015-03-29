@@ -14,7 +14,7 @@
 @property (nonatomic, assign, readonly) BOOL isSelected;
 @property (nonatomic, strong, readonly) UILabel* textLabel;
 @property (nonatomic, strong, readonly) UIImageView* imageView;
-@property (nonatomic, strong, readonly) UIView* contentView;
+@property (nonatomic, strong, readonly) DZTabItemContentView* contentView;
 
 - (instancetype) initWithContentClass:(Class)cla;
 @end

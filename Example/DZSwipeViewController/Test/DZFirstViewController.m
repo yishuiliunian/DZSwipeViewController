@@ -7,12 +7,17 @@
 //
 
 #import "DZFirstViewController.h"
-
+#import <UIViewController+DZSwipeViewController.h>
 @implementation DZFirstViewController
 - (void) viewDidLoad
 {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
+}
+- (void) viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    [self addSwipeValue:@"xx" forKey:@"xxx"];
 }
 - (UIScrollView*) swipInnerScrollView
 {

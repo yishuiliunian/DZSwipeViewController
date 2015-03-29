@@ -13,6 +13,9 @@
 @property (nonatomic, strong) UIView* topView;
 @property (nonatomic, strong, readonly) UIPageViewController* pageViewController;
 @property (nonatomic, strong, readonly) DZTabView* tabView;
+@property (nonatomic, assign) CGFloat tabViewHeight;
 @property (nonatomic, strong) Class tabItemContentViewClass;
 - (instancetype) initWithViewControllers:(NSArray*)viewControllers;
+
+
 @end

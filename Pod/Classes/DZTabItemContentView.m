@@ -44,4 +44,9 @@
         _textLabel.textColor = [UIColor blueColor];
     }
 }
+
+- (void) swipeInfoChangedValue:(NSObject*)value forKey:(NSString*)key
+{
+    
+}
 @end
