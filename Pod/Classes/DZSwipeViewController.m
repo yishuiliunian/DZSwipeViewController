@@ -43,11 +43,15 @@ CGFloat const kDZTabHeight = 44;
     BOOL _firstLoadFrame;
 }
 @property (nonatomic, assign) BOOL tapTabbarAnimating;
+@property (nonatomic, assign) NSInteger currentPageIndex;
 @end
 @implementation DZSwipeViewController
 @synthesize pageViewController = _pageViewController;
 @synthesize tabView = _tabView;
-
+- (void) dealloc
+{
+    [self removeObserverForChildScrollView];
+}
 - (instancetype) initWithViewControllers:(NSArray*)viewControllers
 {
     self = [super init];
@@ -76,11 +80,13 @@ CGFloat const kDZTabHeight = 44;
     }
     return _pageViewController;
 }
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wundeclared-selector"
 - (void) addObserverForChildScrollView
 {
     for (UIViewController* vc in _viewControllers) {
-        if ([vc respondsToSelector:@selector(swipInnerScrollView)]) {
-            UIScrollView* scrollView = [vc performSelector:@selector(swipInnerScrollView)];
+        if ([vc respondsToSelector:@selector(swipeInnerScrollView)]) {
+            UIScrollView* scrollView = [vc performSelector:@selector(swipeInnerScrollView)];
             [scrollView addObserver:self forKeyPath:@"contentOffset" options:NSKeyValueObservingOptionNew context:nil];
         }
     }
@@ -89,8 +95,8 @@ CGFloat const kDZTabHeight = 44;
 - (void) removeObserverForChildScrollView
 {
     for (UIViewController* vc in _viewControllers) {
-        if ([vc respondsToSelector:@selector(swipInnerScrollView)]) {
-            UIScrollView* scrollView = [vc performSelector:@selector(swipInnerScrollView)];
+        if ([vc respondsToSelector:@selector(swipeInnerScrollView)]) {
+            UIScrollView* scrollView = [vc performSelector:@selector(swipeInnerScrollView)];
             [scrollView removeObserver:self forKeyPath:@"contentOffset"];
         }
     }
@@ -101,20 +107,29 @@ CGFloat const kDZTabHeight = 44;
     if ([keyPath isEqualToString:@"contentOffset"] && [object isKindOfClass:[UIScrollView class]]) {
         UIScrollView* scrollView = (UIScrollView*)object;
         CGPoint  offset = [change[NSKeyValueChangeNewKey] CGPointValue];
-        
-        if (ABS(offset.y) > 0) {
+        UIViewController* viewController = _viewControllers[_currentPageIndex];
+        if (![viewController respondsToSelector:@selector(swipeInnerScrollView)]) {
+            return;
+        } else {
+            UIScrollView* scrollView =  [viewController performSelector:@selector(swipeInnerScrollView)];
+            if (object != scrollView) {
+                return;
+            }
+        }
+        if (ABS(offset.y ) > 0) {
             if (CGRectGetMinY(_topView.frame) <= 0) {
                 CGFloat yOffSet = -offset.y;
                 if (offset.y < 0  && CGRectGetMinY(_topView.frame) < 0) {
                     scrollView.contentOffset = CGPointMake(0, 0);
                 }
-                [self moveStepOffset:yOffSet];
+                [self moveStepOffset:yOffSet - scrollView.contentInset.top];
             }
         }
         
         
     }
 }
+#pragma clang diagnostic pop
 - (DZTabView*) tabView
 {
     if (!_tabView) {
@@ -313,6 +328,7 @@ CGFloat const kDZTabHeight = 44;
     [self.pageViewController setViewControllers:@[_viewControllers[index]] direction:direction animated:YES completion:^(BOOL finished) {
         DZSwipeViewController* swipe = swipeVC;
         swipe.tapTabbarAnimating = NO;
+        swipe.currentPageIndex = index;
     }];
 }
 
