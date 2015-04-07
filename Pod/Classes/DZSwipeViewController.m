@@ -41,6 +41,8 @@ CGFloat const kDZTabHeight = 44;
     
     BOOL _animating;
     BOOL _firstLoadFrame;
+    
+    UIScrollView* _scrollView;
 }
 @property (nonatomic, assign) BOOL tapTabbarAnimating;
 @property (nonatomic, assign) NSInteger currentPageIndex;
@@ -60,6 +62,12 @@ CGFloat const kDZTabHeight = 44;
     }
     _viewControllers = viewControllers;
     return self;
+}
+
+- (void) loadView
+{
+    _scrollView = [UIScrollView new];
+    self.view = _scrollView;
 }
 - (void) dz_addChildViewController:(UIViewController*)vc
 {
@@ -117,16 +125,12 @@ CGFloat const kDZTabHeight = 44;
             }
         }
         if (ABS(offset.y ) > 0) {
-            if (CGRectGetMinY(_topView.frame) <= 0) {
-                CGFloat yOffSet = -offset.y;
-                if (offset.y < 0  && CGRectGetMinY(_topView.frame) < 0) {
-                    scrollView.contentOffset = CGPointMake(0, 0);
-                }
-                [self moveStepOffset:yOffSet - scrollView.contentInset.top];
+            CGFloat yOffSet = offset.y;
+            if (offset.y < 0  && CGRectGetMinY(_topView.frame) < 0) {
+                scrollView.contentOffset = CGPointMake(0, 0);
             }
+            [self moveStepOffset:yOffSet ];
         }
-        
-        
     }
 }
 #pragma clang diagnostic pop
@@ -156,12 +160,13 @@ CGFloat const kDZTabHeight = 44;
         }
         _topView = topView;
         _topViewHeight = CGRectGetHeight(_topView.frame);
+        [self relayoutScrollViewContentSize];
+        
     }
 }
 - (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
     [super touchesBegan:touches withEvent:event];
-    UITouch* touch = [touches anyObject];
 }
 
 - (void) touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
@@ -220,6 +225,7 @@ CGFloat const kDZTabHeight = 44;
     
     //
     [[(UIViewController*)_viewControllers.firstObject swipeTabItem] setSelected:YES];
+    [self relayoutScrollViewContentSize];
 }
 
 - (void) setTopOffset:(CGFloat)offset
@@ -228,27 +234,26 @@ CGFloat const kDZTabHeight = 44;
     CGFloat contentWidth =  CGRectGetWidth(self.view.bounds);
     CGFloat contentHeight = CGRectGetHeight(self.view.bounds);
     
-    _pageViewController.view.frame = CGRectMake( 0, CGRectGetMaxY(_tabView.frame), contentWidth , contentHeight - CGRectGetMaxY(_tabView.frame));
-    [UIView animateWithDuration:0.01 animations:^{
-        _topView.frame = CGRectMake(0, offset, contentWidth , _topViewHeight);
-        _tabView.frame = CGRectMake(0, CGRectGetMaxY(_topView.frame), contentWidth, _tabViewHeight);
-        _pageViewController.view.frame = CGRectMake( 0, CGRectGetMaxY(_tabView.frame), contentWidth , contentHeight - CGRectGetMaxY(_tabView.frame));
-        
-        
-        NSLog(@"current offset is %f", CGRectGetMinY(_topView.frame));
-    }];
-    
-    
+    _scrollView.contentOffset = CGPointMake(0, _topOffSet);
+    //    _pageViewController.view.frame = CGRectMake( 0, CGRectGetMaxY(_tabView.frame), contentWidth , contentHeight - CGRectGetMaxY(_tabView.frame));
+    //    [UIView animateWithDuration:0.01 animations:^{
+    //        _topView.frame = CGRectMake(0, offset, contentWidth , _topViewHeight);
+    //        _tabView.frame = CGRectMake(0, CGRectGetMaxY(_topView.frame), contentWidth, _tabViewHeight);
+    //        _pageViewController.view.frame = CGRectMake( 0, CGRectGetMaxY(_tabView.frame), contentWidth , contentHeight - CGRectGetMaxY(_tabView.frame));
+    //    }];
 }
-
+- (void) relayoutScrollViewContentSize
+{
+    _scrollView.contentSize = CGSizeMake(CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.view.bounds) + _topViewHeight);
+}
 - (void) moveStepOffset:(CGFloat)offset
 {
-    CGFloat currentOffset = CGRectGetMinY(_topView.frame);
+    CGFloat currentOffset = _scrollView.contentOffset.y;
     CGFloat aimOffset = offset + currentOffset;
-    if (aimOffset+ _topViewHeight < 0) {
-        aimOffset= -_topViewHeight;
+    if (aimOffset > _topViewHeight) {
+        aimOffset= _topViewHeight;
     }
-    if (aimOffset > 0) {
+    if (aimOffset < 0) {
         aimOffset = 0;
     }
     [self setTopOffset:aimOffset];
@@ -268,10 +273,12 @@ CGFloat const kDZTabHeight = 44;
 - (void) viewWillLayoutSubviews
 {
     [super viewWillLayoutSubviews];
-    if (_firstLoadFrame) {
-        [self setTopOffset:0];
-        _firstLoadFrame = NO;
-    }
+    CGFloat width = CGRectGetWidth(self.view.bounds);
+    _topView.frame = CGRectMake(0, 0, width, _topViewHeight);
+    _tabView.frame = CGRectMake(0, CGRectGetMaxY(_topView.frame), width, _tabViewHeight);
+    _pageViewController.view.frame = CGRectMake(0, CGRectGetMaxY(_tabView.frame), width, CGRectGetHeight(self.view.bounds) - _tabViewHeight);
+    [self relayoutScrollViewContentSize];
+    
 }
 
 
