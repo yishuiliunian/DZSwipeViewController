@@ -78,7 +78,6 @@ CGFloat const kDZTabHeight = 44;
         [self syncScrollView];
         
     }
-    
     return _pageViewController;
 }
 #pragma clang diagnostic push
@@ -117,17 +116,13 @@ CGFloat const kDZTabHeight = 44;
                 return;
             }
         }
-        if (ABS(offset.y ) > 0) {
-            if (CGRectGetMinY(_topView.frame) <= 0) {
-                CGFloat yOffSet = -offset.y;
-                if (offset.y < 0  && CGRectGetMinY(_topView.frame) < 0) {
-                    scrollView.contentOffset = CGPointMake(0, 0);
-                }
-                [self moveStepOffset:yOffSet - scrollView.contentInset.top];
+        if (CGRectGetMinY(_topView.frame) <= 0) {
+            CGFloat yOffSet = -offset.y;
+            if (offset.y < 0  && CGRectGetMinY(_topView.frame) < 0) {
+                scrollView.contentOffset = CGPointMake(0, 0);
             }
+            [self moveStepOffset:yOffSet - scrollView.contentInset.top];
         }
-        
-        
     }
 }
 #pragma clang diagnostic pop
@@ -234,12 +229,7 @@ CGFloat const kDZTabHeight = 44;
         _topView.frame = CGRectMake(0, offset, contentWidth , _topViewHeight);
         _tabView.frame = CGRectMake(0, CGRectGetMaxY(_topView.frame), contentWidth, _tabViewHeight);
         _pageViewController.view.frame = CGRectMake( 0, CGRectGetMaxY(_tabView.frame), contentWidth , contentHeight - CGRectGetMaxY(_tabView.frame));
-        
-        
-        NSLog(@"current offset is %f", CGRectGetMinY(_topView.frame));
     }];
-    
-    
 }
 
 - (void) moveStepOffset:(CGFloat)offset
@@ -265,7 +255,7 @@ CGFloat const kDZTabHeight = 44;
     }
 }
 
-
+#pragma mark 基础的布局
 - (void) viewWillLayoutSubviews
 {
     [super viewWillLayoutSubviews];
@@ -275,6 +265,8 @@ CGFloat const kDZTabHeight = 44;
     }
 }
 
+
+#pragma mark pageScrollView
 
 - (UIViewController*) pageViewController:(UIPageViewController *)pageViewController viewControllerAfterViewController:(UIViewController *)viewController
 {
