@@ -78,6 +78,7 @@ CGFloat const kDZTabHeight = 44;
         [self syncScrollView];
         
     }
+    
     return _pageViewController;
 }
 #pragma clang diagnostic push
