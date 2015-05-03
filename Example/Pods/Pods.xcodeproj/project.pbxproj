@@ -7,726 +7,618 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00312C20E6835109BC5DCAC8 /* DZTabItemContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = CC27B41DE184C46CE5EF7E8B /* DZTabItemContentView.h */; };
-		04539E099D0FD490355E05B7 /* DZGeometryTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 478D9EA53EEAF8D532456030 /* DZGeometryTools.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		11C812A246537739DA9E667B /* DZTabViewItem_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 371081DEF7EBA4E6E1463CCC /* DZTabViewItem_Private.h */; };
-		143C55F8BCB7A7576A23FB35 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 45830DFCC71BDD218915A8CB /* UIImage+Compare.m */; };
-		1975C098D7F8CE7781FCC5E8 /* DZSwipeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 985E56C75A99D5F590FA0124 /* DZSwipeViewController.h */; };
-		1A10DBDEA8054F26DA795991 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 68845D26CD8EEAEC102CA32D /* UIImage+Diff.m */; };
-		1EBBFAE2E5207430792E2CBC /* Pods-DZSwipeViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B871B4D6F30314DBBCFEB18 /* Pods-DZSwipeViewController-dummy.m */; };
-		1F2C999241074216582B2603 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDA365425FC0FDC604466FC /* FBSnapshotTestController.m */; };
-		254AC9C2DEC7B61A884FAF40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEBD1C5D24A75194BC62C69 /* Foundation.framework */; };
-		2604FF33FD0FFE2CFBA7C4F1 /* DZTabViewItem_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 371081DEF7EBA4E6E1463CCC /* DZTabViewItem_Private.h */; };
-		28AFD906A50306EEC6DA1145 /* Pods-Tests-DZSwipeViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E41F389A549F0C374051457F /* Pods-Tests-DZSwipeViewController-dummy.m */; };
-		298532DB6B26AE278DA25E76 /* DZTabItemContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7343398108086F3EFEBBA0A0 /* DZTabItemContentView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		33F8840F5BBA60CA0429C910 /* DZDevices.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF79DC0C2C824277A0D5274 /* DZDevices.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		36C02231BA47A5684A5999E5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0EFF22BDDBC5F0302D854E5 /* XCTest.framework */; };
-		3E0B8CD8765882E3A9BF31EE /* UIViewController+DZSwipeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0B8746472EB0CD84779306 /* UIViewController+DZSwipeViewController.h */; };
-		3E0CF4DA320FB2CD7150BDC6 /* UIViewController+DZSwipeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0B8746472EB0CD84779306 /* UIViewController+DZSwipeViewController.h */; };
-		40356E3ECD3B88BF2AABE964 /* Pods-Tests-FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAB87FA48696B56A9F2F6E2 /* Pods-Tests-FBSnapshotTestCase-dummy.m */; };
-		48E1BCE9E19D64E661F6D920 /* UIViewController+DZSwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC842C80EE82BF74ED276A6 /* UIViewController+DZSwipeViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		498B3291A09E08CC43F5DF0E /* DZGeometryTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 0662ABED254DDDC5066A869C /* DZGeometryTools.h */; };
-		4D45848F260A3B82328D9804 /* UIViewController+DZSwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC842C80EE82BF74ED276A6 /* UIViewController+DZSwipeViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		4E318BC29534E88071E57A7F /* DZSwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E097B0D215F41990B9511749 /* DZSwipeViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		51A36BC2EE3E1A147BE1D216 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19BD837C1311D5A9711D1414 /* Pods-Tests-dummy.m */; };
-		572391A0AC277E3CE7A4AA9A /* UIDeviceHardware.h in Headers */ = {isa = PBXBuildFile; fileRef = 55A56A200070833CE55C6740 /* UIDeviceHardware.h */; };
-		5796571BCDA663C6304D51FB /* UIDeviceHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0493103B67BB5CCA95DC55 /* UIDeviceHardware.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		6090C899EF1D61D39F377147 /* DZTabViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 085EA1905520BD05D3A9951F /* DZTabViewItem.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		63234860F6B4DC1C710496B2 /* DZTabViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 87099A29349C5C6FC645502B /* DZTabViewItem.h */; };
-		63ABF705CBE92848F05EAB43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEBD1C5D24A75194BC62C69 /* Foundation.framework */; };
-		66C77ACE8E1E8922168BEB2A /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = F4478757B0108238BE7B6A77 /* UIImage+Diff.h */; };
-		68896DD8A0087E6B57590889 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 736A9934772965D7AB3147B7 /* FBSnapshotTestCasePlatform.m */; };
-		68BF900CE891B424E730AA2A /* DZTabItemContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = CC27B41DE184C46CE5EF7E8B /* DZTabItemContentView.h */; };
-		6AFD46303E14FCB21DB9C8E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEBD1C5D24A75194BC62C69 /* Foundation.framework */; };
-		754D56647EA4A4C72D62FA76 /* DZSwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E097B0D215F41990B9511749 /* DZSwipeViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		7A63822F6EE34AC6FF1AB939 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 42EE1B97329B680DF97DE0A6 /* FBSnapshotTestCasePlatform.h */; };
-		8CC4CADB31AB29859FC71911 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A721EE3605AD18552FCB3E57 /* UIImage+Compare.h */; };
-		8DA3F4893CE1990A8AF8D833 /* DZTabViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 87099A29349C5C6FC645502B /* DZTabViewItem.h */; };
-		9BC7E44F7FAA202DF031F503 /* DZGeometryTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 478D9EA53EEAF8D532456030 /* DZGeometryTools.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		9BFBD328563E45A84130EF06 /* DZTabView.h in Headers */ = {isa = PBXBuildFile; fileRef = ABFCFE7878D702ECFABF7D64 /* DZTabView.h */; };
-		A1B7168F5EFDFC1F9606E5F2 /* DZTabView.h in Headers */ = {isa = PBXBuildFile; fileRef = ABFCFE7878D702ECFABF7D64 /* DZTabView.h */; };
-		A3ADAD88559B3BF5DC19839B /* DZDevices.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF79DC0C2C824277A0D5274 /* DZDevices.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B514EA13D1BEBF0FE0A9993E /* DZTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 392A16FE73A26C2C5642B1E4 /* DZTabView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		B7CCE2E3BFFE31ABBCA39E63 /* Pods-DZSwipeViewController-DZGeometryTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B89FA75EF475B19C8BC8D151 /* Pods-DZSwipeViewController-DZGeometryTools-dummy.m */; };
-		B861EB3EBC84D04078B064BE /* Pods-Tests-DZGeometryTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE9D15E13B9D33D4FC4809D /* Pods-Tests-DZGeometryTools-dummy.m */; };
-		BC651F4B8A36154261664F7A /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 81F2883E514878118AB9CCF5 /* FBSnapshotTestCase.h */; };
-		C00D9CAC0BE5342F8D8C9F7B /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 948503E7168153CE7A36EF0A /* FBSnapshotTestCase.m */; };
-		C8D717433614B4C5D0920905 /* DZTabViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 085EA1905520BD05D3A9951F /* DZTabViewItem.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		D2678975D559F48E526589A2 /* UIDeviceHardware.h in Headers */ = {isa = PBXBuildFile; fileRef = 55A56A200070833CE55C6740 /* UIDeviceHardware.h */; };
-		DB036BE5C64AD5911A193323 /* DZGeometryTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 0662ABED254DDDC5066A869C /* DZGeometryTools.h */; };
-		DE1998B5A099181992B50344 /* DZSwipeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 985E56C75A99D5F590FA0124 /* DZSwipeViewController.h */; };
-		DE8B0593D9986B4F08414B11 /* DZTabItemContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7343398108086F3EFEBBA0A0 /* DZTabItemContentView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		DF42239F6FF8A963D7B0FE3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEBD1C5D24A75194BC62C69 /* Foundation.framework */; };
-		DFE56B9146799D90655C16E2 /* UIDeviceHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0493103B67BB5CCA95DC55 /* UIDeviceHardware.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		E1719BF6F45A0C99D9BAA34B /* Pods-DZSwipeViewController-DZSwipeViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB64DB1E3E37A1684117A29 /* Pods-DZSwipeViewController-DZSwipeViewController-dummy.m */; };
-		E3FFD466B3241F0815B34A2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEBD1C5D24A75194BC62C69 /* Foundation.framework */; };
-		EAADC1C2C7E3D127DBA32777 /* DZDevices.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D300E2F21993444BD057126 /* DZDevices.h */; };
-		EF301CE06BE7CDAEF3E74593 /* DZTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 392A16FE73A26C2C5642B1E4 /* DZTabView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		EFD9D41D869FFB557F076648 /* DZDevices.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D300E2F21993444BD057126 /* DZDevices.h */; };
-		F4A34CBFDF3CF1D289961A3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEBD1C5D24A75194BC62C69 /* Foundation.framework */; };
-		F6BFC7D1438FE283E146AF65 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = FA9C1B82604FB97D3AFF3504 /* FBSnapshotTestController.h */; };
-		F9ACC33AF8878AE4C3440414 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEBD1C5D24A75194BC62C69 /* Foundation.framework */; };
+		03EC9691F30F16DBB5BA88FA /* DZTabView.h in Headers */ = {isa = PBXBuildFile; fileRef = 414769103861CD6C56521625 /* DZTabView.h */; };
+		056348D89FD4FE8612775C49 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 0732C4969E84640F16202A7D /* FBSnapshotTestCase.h */; };
+		05DE6561BFF9FED5451A1EE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D098737AF6EB6D21BDF76C60 /* Foundation.framework */; };
+		0DBED1773D6A5D85CD148FDF /* DZGeometryTools.m in Sources */ = {isa = PBXBuildFile; fileRef = EADAA64980A711E04220558D /* DZGeometryTools.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		110B1FE68037CEA0D2297E68 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9D4DAB492AD294BCFC73EC /* FBSnapshotTestController.m */; };
+		127733CBC66933670C2EE62D /* DZTabItemContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = B1E5783539800E6C41256C04 /* DZTabItemContentView.h */; };
+		1DE93ED7A59AF57AF3B78A10 /* DZTabItemContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = AABF45E6F7A6D68C845121DD /* DZTabItemContentView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		248C010F2DE748FCF8737711 /* DZSwipeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B7D89AC9C7D1E25AFF27DAE /* DZSwipeViewController.h */; };
+		2AA03582B1B9DC69F9C633DF /* DZDevices.h in Headers */ = {isa = PBXBuildFile; fileRef = A75868E26F75CB970DA20307 /* DZDevices.h */; };
+		2E7BB1268F9200CEA5A2AC35 /* DZTabViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D05FF8AC7DF085A050E029E5 /* DZTabViewItem.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3407992E61E01E537AD68596 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D098737AF6EB6D21BDF76C60 /* Foundation.framework */; };
+		343D6163FC3992C235A860E0 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = BF001612A678258B1E4A5522 /* UIImage+Diff.h */; };
+		4195E76191B0414172355632 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3FC1BAB22AA71B5B8E745F /* UIImage+Compare.m */; };
+		4200763343DFAA809EB6B3DF /* UIViewController+DZSwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 965D2D138BEAD37BF99595A8 /* UIViewController+DZSwipeViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		457B9A27E152CE99B3EE7294 /* DZTabViewItem_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = CCC73F87AFC1996E41D0657E /* DZTabViewItem_Private.h */; };
+		4CBE5586FE57D82D76A3DEA3 /* UIViewController+DZSwipeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 162F8071FB5A4248D59800C7 /* UIViewController+DZSwipeViewController.h */; };
+		522AA91924FEA4818B66B45C /* UIDeviceHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AF56D45B25B4EEC1A79DDE /* UIDeviceHardware.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5467DF82F2383368B50A5F04 /* UIDeviceHardware.h in Headers */ = {isa = PBXBuildFile; fileRef = C0F67CD5085E624A3E5E4FDB /* UIDeviceHardware.h */; };
+		5A743F4D2C621F33699F55E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D098737AF6EB6D21BDF76C60 /* Foundation.framework */; };
+		5E0A1727A79F47B9DF004C21 /* DZTabViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D05FF8AC7DF085A050E029E5 /* DZTabViewItem.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6513DA40A579569F6796C52F /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F818A11AD410D5045F7D8ED /* UIImage+Compare.h */; };
+		6F67C184158D4EABF9811609 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9164024A3E2650D89DA9E256 /* FBSnapshotTestController.h */; };
+		7017FB9F7EA379D084C66C39 /* DZTabItemContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = B1E5783539800E6C41256C04 /* DZTabItemContentView.h */; };
+		74F45E9233FE31080E2A4526 /* Pods-DZSwipeViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E94353DC78365D1380944F /* Pods-DZSwipeViewController-dummy.m */; };
+		8027E4B3881F1A069C9C30A6 /* DZTabItemContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = AABF45E6F7A6D68C845121DD /* DZTabItemContentView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		828AD2D9EE8E68FB441EAC0F /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF4A40F834591DB5198B2D7 /* FBSnapshotTestCase.m */; };
+		83408D780B8A4944519E1060 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F69B4B675C96FD9E93782D /* FBSnapshotTestCasePlatform.m */; };
+		8AF7D34E80C80697589AF54F /* UIDeviceHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = C0AF56D45B25B4EEC1A79DDE /* UIDeviceHardware.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		8C577748539F1ABEA518AE68 /* Pods-Tests-FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB9403968E2EF1309CB3E91 /* Pods-Tests-FBSnapshotTestCase-dummy.m */; };
+		90786C9B16C3AB1D8065DD41 /* UIViewController+DZSwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 965D2D138BEAD37BF99595A8 /* UIViewController+DZSwipeViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9291D2567A7FC2F743AA5BCF /* DZTabViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = AFD30C746498AE2C96B0CF5E /* DZTabViewItem.h */; };
+		9A459F9565AD54104089D396 /* DZDevices.h in Headers */ = {isa = PBXBuildFile; fileRef = A75868E26F75CB970DA20307 /* DZDevices.h */; };
+		9A487FF3A21C4549A7FB6BB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D098737AF6EB6D21BDF76C60 /* Foundation.framework */; };
+		9BB8F49C257FEFCE0D3F7D09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D098737AF6EB6D21BDF76C60 /* Foundation.framework */; };
+		A3EFF84750399EDBABFE184C /* Pods-DZSwipeViewController-DZSwipeViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C786BAF6F2ACC503B69A8644 /* Pods-DZSwipeViewController-DZSwipeViewController-dummy.m */; };
+		A5692CDF08CF4ADFDB036730 /* DZSwipeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B7D89AC9C7D1E25AFF27DAE /* DZSwipeViewController.h */; };
+		A984A30786016FFDB61D8E6C /* Pods-DZSwipeViewController-DZGeometryTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 629E4360624DB686A811E99D /* Pods-DZSwipeViewController-DZGeometryTools-dummy.m */; };
+		AABB9902C4E6B7AD34E7A44C /* DZGeometryTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AEC597859F05F42CDF3E04F /* DZGeometryTools.h */; };
+		AB04964A56F5B8F23B9F896F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D24F134ABAFE1F53867F9E9 /* UIImage+Diff.m */; };
+		AB7FF8A374629BBAC4FD4C23 /* DZDevices.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FED139578B5C084D742213D /* DZDevices.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AC490E4E0ED6085434F4FE57 /* Pods-Tests-DZSwipeViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F93DDF29BFE5B56E26A296 /* Pods-Tests-DZSwipeViewController-dummy.m */; };
+		BBE67531A0B1E51113B89CD2 /* DZTabView.h in Headers */ = {isa = PBXBuildFile; fileRef = 414769103861CD6C56521625 /* DZTabView.h */; };
+		C0E27D62C62469A1A01A29D8 /* DZSwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66684496DBC7F169AE4437E3 /* DZSwipeViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C3E10BBDA2E6D699CA32711D /* UIDeviceHardware.h in Headers */ = {isa = PBXBuildFile; fileRef = C0F67CD5085E624A3E5E4FDB /* UIDeviceHardware.h */; };
+		C70AD639B0E9FB01897A7A92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D098737AF6EB6D21BDF76C60 /* Foundation.framework */; };
+		C7E6A2E429521D4099DFDCA8 /* DZGeometryTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AEC597859F05F42CDF3E04F /* DZGeometryTools.h */; };
+		CA1D9E083A35EA5F95E1CC83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D098737AF6EB6D21BDF76C60 /* Foundation.framework */; };
+		CC43958F93876DF8F7914B6A /* DZTabViewItem_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = CCC73F87AFC1996E41D0657E /* DZTabViewItem_Private.h */; };
+		D16C135AB80221D0112E5455 /* DZTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F301A4A877E1827CF3B3433 /* DZTabView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D7013601B29B27905597322F /* DZGeometryTools.m in Sources */ = {isa = PBXBuildFile; fileRef = EADAA64980A711E04220558D /* DZGeometryTools.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DBCA51ED8ED1C36CF01F4AE5 /* DZTabViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = AFD30C746498AE2C96B0CF5E /* DZTabViewItem.h */; };
+		E3A531CECCFF054D5A3F6673 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70520D41AF74B17E21FA6770 /* XCTest.framework */; };
+		E5812BE53B2F4E1A6BE3BF55 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 328DE2947C7F5418CFEFD930 /* Pods-Tests-dummy.m */; };
+		E5D0FD00DB28EDC751046425 /* DZTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F301A4A877E1827CF3B3433 /* DZTabView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EA00B638B1618CBF20AE83E5 /* Pods-Tests-DZGeometryTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C75E68DD31936D8D480D59 /* Pods-Tests-DZGeometryTools-dummy.m */; };
+		EEA0285C51872753AB0861C6 /* UIViewController+DZSwipeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 162F8071FB5A4248D59800C7 /* UIViewController+DZSwipeViewController.h */; };
+		F609D41B7A88069CBF05DE1C /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = C2D77672A3AABDDE50DD53E3 /* FBSnapshotTestCasePlatform.h */; };
+		FCFFD6E9A674953EF8522702 /* DZSwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66684496DBC7F169AE4437E3 /* DZSwipeViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FFCA7C6154EA36A57A6983D7 /* DZDevices.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FED139578B5C084D742213D /* DZDevices.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		008CB7124B9846E6CD651CAE /* PBXContainerItemProxy */ = {
+		03814F4FC808889A6008BFB7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F1823E6360F1ECE60C9C1F4F /* Project object */;
+			containerPortal = 1CEBF6A2E0B910A3FFB80FB5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 73F87E1D72DC37BA79CE751D;
-			remoteInfo = "Pods-Tests-DZGeometryTools";
-		};
-		11D66B92EBFBD5D392F458B5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F1823E6360F1ECE60C9C1F4F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 46DFC4F051D2417292D8EA94;
-			remoteInfo = "Pods-DZSwipeViewController-DZGeometryTools-DZGeometryTools";
-		};
-		1A750711AC25A31CF3A111A6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F1823E6360F1ECE60C9C1F4F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A208824699AD96E3E6E5608D;
-			remoteInfo = "Pods-Tests-DZGeometryTools-DZGeometryTools";
-		};
-		229DBF440A8EEE1F5585C819 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F1823E6360F1ECE60C9C1F4F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 25A488B7C3229D9299B864BB;
-			remoteInfo = "Pods-DZSwipeViewController-DZGeometryTools";
-		};
-		2E529D26AD299213B127D9A6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F1823E6360F1ECE60C9C1F4F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 869AC0785B803D10AB08F406;
-			remoteInfo = "Pods-Tests-FBSnapshotTestCase";
-		};
-		4B381668493AA71E1ED51EF2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F1823E6360F1ECE60C9C1F4F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 25A488B7C3229D9299B864BB;
-			remoteInfo = "Pods-DZSwipeViewController-DZGeometryTools";
-		};
-		A6328D7EBEAEFDDCF8651A69 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F1823E6360F1ECE60C9C1F4F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 73F87E1D72DC37BA79CE751D;
-			remoteInfo = "Pods-Tests-DZGeometryTools";
-		};
-		A91F6D74974E727A4CEC5FC7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F1823E6360F1ECE60C9C1F4F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F4EB606708F23F45588A7E37;
-			remoteInfo = "Pods-Tests-DZSwipeViewController";
-		};
-		D891E232798FCF280B6D0397 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F1823E6360F1ECE60C9C1F4F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 491070FE037D189D152E4A8C;
+			remoteGlobalIDString = 8FF9E8AF820AD27467112463;
 			remoteInfo = "Pods-DZSwipeViewController-DZSwipeViewController";
 		};
-		E76B5E3BC1624F46601155BA /* PBXContainerItemProxy */ = {
+		28988A39CAA119B1C3578BF0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F1823E6360F1ECE60C9C1F4F /* Project object */;
+			containerPortal = 1CEBF6A2E0B910A3FFB80FB5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A7D2FCA75F5F089C4084C1C1;
+			remoteGlobalIDString = F29F84C0CF9F62D4B1CA09B9;
+			remoteInfo = "Pods-Tests-FBSnapshotTestCase";
+		};
+		28E030511282DB5CC96E93F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CEBF6A2E0B910A3FFB80FB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C97CAA98F01409747A68CED;
+			remoteInfo = "Pods-DZSwipeViewController-DZSwipeViewController-DZSwipeViewController";
+		};
+		55EFFE6C0454854BB10D4FE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CEBF6A2E0B910A3FFB80FB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 754C90D5216E8F86DF3F90CF;
+			remoteInfo = "Pods-Tests-DZSwipeViewController";
+		};
+		64F89BE30ED554814DA148AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CEBF6A2E0B910A3FFB80FB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DE1FCE482F1F4009EBEEB2A;
+			remoteInfo = "Pods-Tests-DZGeometryTools-DZGeometryTools";
+		};
+		7B3615C2707B388EF17278A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CEBF6A2E0B910A3FFB80FB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E220422187984BF8CEEA54AA;
+			remoteInfo = "Pods-DZSwipeViewController-DZGeometryTools-DZGeometryTools";
+		};
+		8EDF848418755B6512E2D81E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CEBF6A2E0B910A3FFB80FB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C689042F4656384375BF3A5;
+			remoteInfo = "Pods-DZSwipeViewController-DZGeometryTools";
+		};
+		C253F1BA7D9BE341C3A16297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CEBF6A2E0B910A3FFB80FB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C689042F4656384375BF3A5;
+			remoteInfo = "Pods-DZSwipeViewController-DZGeometryTools";
+		};
+		C6ABB36120CFA090B72F5092 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CEBF6A2E0B910A3FFB80FB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C65CFAA504A55A305C6C0EBF;
 			remoteInfo = "Pods-Tests-DZSwipeViewController-DZSwipeViewController";
 		};
-		FB0A80481A6B023997C76580 /* PBXContainerItemProxy */ = {
+		D7FDE57E4474B8CA1E473AC2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F1823E6360F1ECE60C9C1F4F /* Project object */;
+			containerPortal = 1CEBF6A2E0B910A3FFB80FB5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A71D22969A8607954F23AA23;
-			remoteInfo = "Pods-DZSwipeViewController-DZSwipeViewController-DZSwipeViewController";
+			remoteGlobalIDString = 24BC3D348ADA2AB791D2ABD3;
+			remoteInfo = "Pods-Tests-DZGeometryTools";
+		};
+		FA32A8F724D107FB2443DE2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CEBF6A2E0B910A3FFB80FB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24BC3D348ADA2AB791D2ABD3;
+			remoteInfo = "Pods-Tests-DZGeometryTools";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04FA820D12E7079E759BEA82 /* Pods-Tests-DZGeometryTools-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DZGeometryTools-Private.xcconfig"; path = "../Pods-Tests-DZGeometryTools/Pods-Tests-DZGeometryTools-Private.xcconfig"; sourceTree = "<group>"; };
-		0662ABED254DDDC5066A869C /* DZGeometryTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZGeometryTools.h; path = Pod/Classes/DZGeometryTools.h; sourceTree = "<group>"; };
-		085EA1905520BD05D3A9951F /* DZTabViewItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZTabViewItem.m; sourceTree = "<group>"; };
-		0B871B4D6F30314DBBCFEB18 /* Pods-DZSwipeViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DZSwipeViewController-dummy.m"; sourceTree = "<group>"; };
-		0CB64DB1E3E37A1684117A29 /* Pods-DZSwipeViewController-DZSwipeViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DZSwipeViewController-DZSwipeViewController-dummy.m"; sourceTree = "<group>"; };
-		0D300E2F21993444BD057126 /* DZDevices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZDevices.h; path = Pod/Classes/DZDevices.h; sourceTree = "<group>"; };
-		0E0493103B67BB5CCA95DC55 /* UIDeviceHardware.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIDeviceHardware.m; path = Pod/Classes/UIDeviceHardware.m; sourceTree = "<group>"; };
-		0F03DA87C1FD5C0A06F2BB04 /* Pods-DZSwipeViewController-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DZSwipeViewController-acknowledgements.markdown"; sourceTree = "<group>"; };
-		19BD837C1311D5A9711D1414 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
-		29D0F5EC4AD7F800916E9276 /* libPods-Tests-FBSnapshotTestCase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-FBSnapshotTestCase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B4EA9D7D10819E01CE0F684 /* Pods-Tests-DZSwipeViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-DZSwipeViewController-prefix.pch"; path = "../Pods-Tests-DZSwipeViewController/Pods-Tests-DZSwipeViewController-prefix.pch"; sourceTree = "<group>"; };
-		371081DEF7EBA4E6E1463CCC /* DZTabViewItem_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZTabViewItem_Private.h; sourceTree = "<group>"; };
-		392A16FE73A26C2C5642B1E4 /* DZTabView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZTabView.m; sourceTree = "<group>"; };
-		392D033B19FDD519E61B69F1 /* Pods-DZSwipeViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZSwipeViewController.release.xcconfig"; sourceTree = "<group>"; };
-		42EE1B97329B680DF97DE0A6 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		45830DFCC71BDD218915A8CB /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/UIImage+Compare.m"; sourceTree = "<group>"; };
-		478D9EA53EEAF8D532456030 /* DZGeometryTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZGeometryTools.m; path = Pod/Classes/DZGeometryTools.m; sourceTree = "<group>"; };
-		4945C6DDA71F63A7C678F808 /* Pods-Tests-DZGeometryTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-DZGeometryTools-prefix.pch"; path = "../Pods-Tests-DZGeometryTools/Pods-Tests-DZGeometryTools-prefix.pch"; sourceTree = "<group>"; };
-		55A56A200070833CE55C6740 /* UIDeviceHardware.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIDeviceHardware.h; path = Pod/Classes/UIDeviceHardware.h; sourceTree = "<group>"; };
-		5C0DA2E94B1EFA04557B3370 /* libPods-Tests-DZGeometryTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-DZGeometryTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FF0F83561B7972AFE94F5EC /* DZSwipeViewController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZSwipeViewController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		62BA1E7C266FE483ABF8F9FA /* Pods-Tests-FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		62E29A85C28334BA35C678F8 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		65DBC3EC2EB3522313C81707 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		66109466C33EF28A325DACD1 /* Pods-Tests-FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-FBSnapshotTestCase.xcconfig"; sourceTree = "<group>"; };
-		68845D26CD8EEAEC102CA32D /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/UIImage+Diff.m"; sourceTree = "<group>"; };
-		6DC7A003F370FA2E92D58A39 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6DDEA80DC4BA292B6999331C /* Pods-Tests-DZGeometryTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DZGeometryTools.xcconfig"; path = "../Pods-Tests-DZGeometryTools/Pods-Tests-DZGeometryTools.xcconfig"; sourceTree = "<group>"; };
-		7343398108086F3EFEBBA0A0 /* DZTabItemContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZTabItemContentView.m; sourceTree = "<group>"; };
-		736A9934772965D7AB3147B7 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		787648A01050A62AB4A607D6 /* libPods-DZSwipeViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DZSwipeViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DD47ADC644C33C49F36A985 /* Pods-Tests-DZSwipeViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DZSwipeViewController.xcconfig"; path = "../Pods-Tests-DZSwipeViewController/Pods-Tests-DZSwipeViewController.xcconfig"; sourceTree = "<group>"; };
-		8125C177EC80E68F9ED88860 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		81F2883E514878118AB9CCF5 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		8360BAE420FD6CF71E56523A /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
-		87099A29349C5C6FC645502B /* DZTabViewItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZTabViewItem.h; sourceTree = "<group>"; };
-		878E8B9632D5401D94551B6C /* Pods-DZSwipeViewController-DZGeometryTools-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZSwipeViewController-DZGeometryTools-Private.xcconfig"; sourceTree = "<group>"; };
-		8AE4F5F5C97758B89E9F09D5 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8CA4672A7B72E50E9B053990 /* Pods-DZSwipeViewController-DZSwipeViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DZSwipeViewController-DZSwipeViewController-prefix.pch"; sourceTree = "<group>"; };
-		948503E7168153CE7A36EF0A /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		9552320E807DA5157C5DD929 /* Pods-DZSwipeViewController-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DZSwipeViewController-acknowledgements.plist"; sourceTree = "<group>"; };
-		97637E7D45F44BB4B7C4DC38 /* Pods-DZSwipeViewController-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DZSwipeViewController-environment.h"; sourceTree = "<group>"; };
-		985E56C75A99D5F590FA0124 /* DZSwipeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZSwipeViewController.h; sourceTree = "<group>"; };
-		9A0B8746472EB0CD84779306 /* UIViewController+DZSwipeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DZSwipeViewController.h"; sourceTree = "<group>"; };
-		9DCEAFFDB5976FF4D25CFE4D /* Pods-DZSwipeViewController-DZGeometryTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DZSwipeViewController-DZGeometryTools-prefix.pch"; sourceTree = "<group>"; };
-		A3B5A5C2F7739336530A521C /* DZGeometryTools.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZGeometryTools.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		A721EE3605AD18552FCB3E57 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/UIImage+Compare.h"; sourceTree = "<group>"; };
-		ABFCFE7878D702ECFABF7D64 /* DZTabView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZTabView.h; sourceTree = "<group>"; };
-		AFDA365425FC0FDC604466FC /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		AFE9D15E13B9D33D4FC4809D /* Pods-Tests-DZGeometryTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-DZGeometryTools-dummy.m"; path = "../Pods-Tests-DZGeometryTools/Pods-Tests-DZGeometryTools-dummy.m"; sourceTree = "<group>"; };
-		AFF79DC0C2C824277A0D5274 /* DZDevices.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZDevices.m; path = Pod/Classes/DZDevices.m; sourceTree = "<group>"; };
-		B116C2F2A37A10DD4B47A92E /* Pods-DZSwipeViewController-DZGeometryTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZSwipeViewController-DZGeometryTools.xcconfig"; sourceTree = "<group>"; };
-		B503818FA1C9C7119AE56C05 /* libPods-DZSwipeViewController-DZGeometryTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DZSwipeViewController-DZGeometryTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B89FA75EF475B19C8BC8D151 /* Pods-DZSwipeViewController-DZGeometryTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DZSwipeViewController-DZGeometryTools-dummy.m"; sourceTree = "<group>"; };
-		C90AA01A5134B680867A1960 /* Pods-DZSwipeViewController-DZSwipeViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZSwipeViewController-DZSwipeViewController-Private.xcconfig"; sourceTree = "<group>"; };
-		CC27B41DE184C46CE5EF7E8B /* DZTabItemContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZTabItemContentView.h; sourceTree = "<group>"; };
-		CCAB87FA48696B56A9F2F6E2 /* Pods-Tests-FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		CDE971E9F3C86ACC03282B15 /* Pods-DZSwipeViewController-DZSwipeViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZSwipeViewController-DZSwipeViewController.xcconfig"; sourceTree = "<group>"; };
-		CEEBD1C5D24A75194BC62C69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D02F4D069EF3927576A54CDB /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		D3EB6CC9E7A03500AB5E1506 /* Pods-DZSwipeViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZSwipeViewController.debug.xcconfig"; sourceTree = "<group>"; };
-		D6B7AF2508DB231F677FAC11 /* Pods-DZSwipeViewController-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DZSwipeViewController-resources.sh"; sourceTree = "<group>"; };
-		D7F82E965C17C7B82CD144FB /* libPods-Tests-DZSwipeViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-DZSwipeViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D98EA56A3B8139668CF5710D /* libPods-DZSwipeViewController-DZSwipeViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DZSwipeViewController-DZSwipeViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFC842C80EE82BF74ED276A6 /* UIViewController+DZSwipeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DZSwipeViewController.m"; sourceTree = "<group>"; };
-		E097B0D215F41990B9511749 /* DZSwipeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZSwipeViewController.m; sourceTree = "<group>"; };
-		E0EFF22BDDBC5F0302D854E5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		E41F389A549F0C374051457F /* Pods-Tests-DZSwipeViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-DZSwipeViewController-dummy.m"; path = "../Pods-Tests-DZSwipeViewController/Pods-Tests-DZSwipeViewController-dummy.m"; sourceTree = "<group>"; };
-		E841D97958CF768C8982B6A5 /* DZSwipeViewController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZSwipeViewController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8DA54AD72ECA0B6B5C4D5E3 /* Pods-Tests-FBSnapshotTestCase-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-FBSnapshotTestCase-Private.xcconfig"; sourceTree = "<group>"; };
-		EC45D9AEB43E537E42287523 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
-		F4478757B0108238BE7B6A77 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/UIImage+Diff.h"; sourceTree = "<group>"; };
-		F873FC0D095689E52A37A2B3 /* DZGeometryTools.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZGeometryTools.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA9C1B82604FB97D3AFF3504 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		FB45A7C65D3E25B3B36F773E /* Pods-Tests-DZSwipeViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DZSwipeViewController-Private.xcconfig"; path = "../Pods-Tests-DZSwipeViewController/Pods-Tests-DZSwipeViewController-Private.xcconfig"; sourceTree = "<group>"; };
+		06C75E68DD31936D8D480D59 /* Pods-Tests-DZGeometryTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-DZGeometryTools-dummy.m"; path = "../Pods-Tests-DZGeometryTools/Pods-Tests-DZGeometryTools-dummy.m"; sourceTree = "<group>"; };
+		0732C4969E84640F16202A7D /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		08BB5E5B9E2720665F6E40FE /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0DF4A40F834591DB5198B2D7 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		0F818A11AD410D5045F7D8ED /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/UIImage+Compare.h"; sourceTree = "<group>"; };
+		0FED139578B5C084D742213D /* DZDevices.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZDevices.m; path = Pod/Classes/DZDevices.m; sourceTree = "<group>"; };
+		15BAA5D9C13B1097B312734D /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		162F8071FB5A4248D59800C7 /* UIViewController+DZSwipeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DZSwipeViewController.h"; sourceTree = "<group>"; };
+		18064E0DF4F352276D4F1343 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1899AC36AB13DC7FC631808C /* Pods-DZSwipeViewController-DZSwipeViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZSwipeViewController-DZSwipeViewController-Private.xcconfig"; sourceTree = "<group>"; };
+		19130211991C6F95A8F0C9B5 /* libPods-DZSwipeViewController-DZGeometryTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DZSwipeViewController-DZGeometryTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9B32280979AEC58DC80064 /* Pods-Tests-DZGeometryTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-DZGeometryTools-prefix.pch"; path = "../Pods-Tests-DZGeometryTools/Pods-Tests-DZGeometryTools-prefix.pch"; sourceTree = "<group>"; };
+		23B9C75FEC77A1C49EA7DF70 /* Pods-Tests-DZGeometryTools-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DZGeometryTools-Private.xcconfig"; path = "../Pods-Tests-DZGeometryTools/Pods-Tests-DZGeometryTools-Private.xcconfig"; sourceTree = "<group>"; };
+		2A6806E1D568041E2EABCA0B /* Pods-Tests-DZSwipeViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DZSwipeViewController-Private.xcconfig"; path = "../Pods-Tests-DZSwipeViewController/Pods-Tests-DZSwipeViewController-Private.xcconfig"; sourceTree = "<group>"; };
+		2CF488AF0FD5D424E922A42B /* DZSwipeViewController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZSwipeViewController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		30381541E7C5617B669D5490 /* libPods-Tests-FBSnapshotTestCase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-FBSnapshotTestCase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		328DE2947C7F5418CFEFD930 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		32E94353DC78365D1380944F /* Pods-DZSwipeViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DZSwipeViewController-dummy.m"; sourceTree = "<group>"; };
+		38DA403EA08707775279CD14 /* Pods-Tests-DZGeometryTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DZGeometryTools.xcconfig"; path = "../Pods-Tests-DZGeometryTools/Pods-Tests-DZGeometryTools.xcconfig"; sourceTree = "<group>"; };
+		3A3FC1BAB22AA71B5B8E745F /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/UIImage+Compare.m"; sourceTree = "<group>"; };
+		3D24F134ABAFE1F53867F9E9 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/UIImage+Diff.m"; sourceTree = "<group>"; };
+		3D4C8B315306C35101CB2373 /* Pods-Tests-DZSwipeViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-DZSwipeViewController-prefix.pch"; path = "../Pods-Tests-DZSwipeViewController/Pods-Tests-DZSwipeViewController-prefix.pch"; sourceTree = "<group>"; };
+		3F9D4DAB492AD294BCFC73EC /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		3FF2B6B37376970A7907F84B /* DZSwipeViewController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZSwipeViewController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		414769103861CD6C56521625 /* DZTabView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZTabView.h; sourceTree = "<group>"; };
+		49F69B4B675C96FD9E93782D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		55F93DDF29BFE5B56E26A296 /* Pods-Tests-DZSwipeViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-DZSwipeViewController-dummy.m"; path = "../Pods-Tests-DZSwipeViewController/Pods-Tests-DZSwipeViewController-dummy.m"; sourceTree = "<group>"; };
+		629E4360624DB686A811E99D /* Pods-DZSwipeViewController-DZGeometryTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DZSwipeViewController-DZGeometryTools-dummy.m"; sourceTree = "<group>"; };
+		642BEE714C27E3CD5D2D520A /* libPods-Tests-DZSwipeViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-DZSwipeViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6555062D878290F66D3ADCBD /* Pods-DZSwipeViewController-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DZSwipeViewController-acknowledgements.plist"; sourceTree = "<group>"; };
+		66684496DBC7F169AE4437E3 /* DZSwipeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZSwipeViewController.m; sourceTree = "<group>"; };
+		6B7D89AC9C7D1E25AFF27DAE /* DZSwipeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZSwipeViewController.h; sourceTree = "<group>"; };
+		6F301A4A877E1827CF3B3433 /* DZTabView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZTabView.m; sourceTree = "<group>"; };
+		70520D41AF74B17E21FA6770 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		724C2784E2555493CD3858F9 /* Pods-Tests-FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		7864E42FC6202290784811E2 /* Pods-Tests-FBSnapshotTestCase-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-FBSnapshotTestCase-Private.xcconfig"; sourceTree = "<group>"; };
+		870F43BA17E6A8EBBC3429CC /* Pods-Tests-DZSwipeViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DZSwipeViewController.xcconfig"; path = "../Pods-Tests-DZSwipeViewController/Pods-Tests-DZSwipeViewController.xcconfig"; sourceTree = "<group>"; };
+		873AE742DEF7E8816AB5C896 /* Pods-DZSwipeViewController-DZSwipeViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DZSwipeViewController-DZSwipeViewController-prefix.pch"; sourceTree = "<group>"; };
+		8AEC597859F05F42CDF3E04F /* DZGeometryTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZGeometryTools.h; path = Pod/Classes/DZGeometryTools.h; sourceTree = "<group>"; };
+		8BDE9B41A6F3739AA4B69B3B /* Pods-DZSwipeViewController-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DZSwipeViewController-environment.h"; sourceTree = "<group>"; };
+		9019ACC511CFE388CA66B315 /* Pods-DZSwipeViewController-DZGeometryTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZSwipeViewController-DZGeometryTools.xcconfig"; sourceTree = "<group>"; };
+		9164024A3E2650D89DA9E256 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		965D2D138BEAD37BF99595A8 /* UIViewController+DZSwipeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DZSwipeViewController.m"; sourceTree = "<group>"; };
+		96AFA227ED1D47E5F685656C /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9EB9403968E2EF1309CB3E91 /* Pods-Tests-FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		A75868E26F75CB970DA20307 /* DZDevices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZDevices.h; path = Pod/Classes/DZDevices.h; sourceTree = "<group>"; };
+		A843E5DEF46880506397571A /* libPods-DZSwipeViewController-DZSwipeViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DZSwipeViewController-DZSwipeViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AABF45E6F7A6D68C845121DD /* DZTabItemContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZTabItemContentView.m; sourceTree = "<group>"; };
+		AC280FA5BFD42AC1E5E7E0E2 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		AC79816825A261C392BC659A /* Pods-DZSwipeViewController-DZGeometryTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DZSwipeViewController-DZGeometryTools-prefix.pch"; sourceTree = "<group>"; };
+		AFD30C746498AE2C96B0CF5E /* DZTabViewItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZTabViewItem.h; sourceTree = "<group>"; };
+		B1E5783539800E6C41256C04 /* DZTabItemContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZTabItemContentView.h; sourceTree = "<group>"; };
+		B6A0C6C60DB8DDEFF49A8A29 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		BF001612A678258B1E4A5522 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/UIImage+Diff.h"; sourceTree = "<group>"; };
+		C0AF56D45B25B4EEC1A79DDE /* UIDeviceHardware.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIDeviceHardware.m; path = Pod/Classes/UIDeviceHardware.m; sourceTree = "<group>"; };
+		C0F67CD5085E624A3E5E4FDB /* UIDeviceHardware.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIDeviceHardware.h; path = Pod/Classes/UIDeviceHardware.h; sourceTree = "<group>"; };
+		C1644ED56989EB93230F5BD4 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B1DCA307E9A3AF2A036BBB /* Pods-DZSwipeViewController-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DZSwipeViewController-resources.sh"; sourceTree = "<group>"; };
+		C2D77672A3AABDDE50DD53E3 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		C786BAF6F2ACC503B69A8644 /* Pods-DZSwipeViewController-DZSwipeViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DZSwipeViewController-DZSwipeViewController-dummy.m"; sourceTree = "<group>"; };
+		C7BD079127184FC5BBF02D2C /* DZGeometryTools.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZGeometryTools.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8BB0C1015AE3F855D4005CA /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CCC73F87AFC1996E41D0657E /* DZTabViewItem_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZTabViewItem_Private.h; sourceTree = "<group>"; };
+		D05FF8AC7DF085A050E029E5 /* DZTabViewItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZTabViewItem.m; sourceTree = "<group>"; };
+		D098737AF6EB6D21BDF76C60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D7BE733B076A337A54543E06 /* Pods-DZSwipeViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZSwipeViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		DB9DC0A4F728D568E8D7FB28 /* libPods-Tests-DZGeometryTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-DZGeometryTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3A6C243EE194A4C17667849 /* libPods-DZSwipeViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DZSwipeViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4FF30834A5E41DE34CCF942 /* Pods-DZSwipeViewController-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DZSwipeViewController-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EADAA64980A711E04220558D /* DZGeometryTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZGeometryTools.m; path = Pod/Classes/DZGeometryTools.m; sourceTree = "<group>"; };
+		EB7BF2FF59EFC223B34A64AB /* Pods-DZSwipeViewController-DZSwipeViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZSwipeViewController-DZSwipeViewController.xcconfig"; sourceTree = "<group>"; };
+		ECD6C8C6E1B9FE9934F6D470 /* DZGeometryTools.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZGeometryTools.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0EFD46194FA86F2C7D50BEB /* Pods-Tests-FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-FBSnapshotTestCase.xcconfig"; sourceTree = "<group>"; };
+		F9CC0624AA8704E1A92D519A /* Pods-DZSwipeViewController-DZGeometryTools-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZSwipeViewController-DZGeometryTools-Private.xcconfig"; sourceTree = "<group>"; };
+		FF16211217CD954678AE2336 /* Pods-DZSwipeViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZSwipeViewController.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		019569EF84E75A3FF5185A59 /* Frameworks */ = {
+		1BA78910F4B64C87B02EA457 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3FFD466B3241F0815B34A2A /* Foundation.framework in Frameworks */,
-				36C02231BA47A5684A5999E5 /* XCTest.framework in Frameworks */,
+				CA1D9E083A35EA5F95E1CC83 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1473FEEE331108662F8D8A49 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4DE6DF9EAF15140D4407AF47 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				254AC9C2DEC7B61A884FAF40 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		53A63FF43E57100E3D9E08EE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6AFD46303E14FCB21DB9C8E5 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		61B3B7D3DBE0D2408DB5640F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F4A34CBFDF3CF1D289961A3F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6CB55245CF739314E0DB5A18 /* Frameworks */ = {
+		1C4BF00627AAB45037028852 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D681CE3550B0D2B6B829F17 /* Frameworks */ = {
+		1F7D83E09732750F8A0AA9C2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BD28834BD1E3797518E196D6 /* Frameworks */ = {
+		93B296EC1C60CB95B1EF91DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63ABF705CBE92848F05EAB43 /* Foundation.framework in Frameworks */,
+				5A743F4D2C621F33699F55E5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6B1C06DEB2950001BB9A447 /* Frameworks */ = {
+		A664EB45FA17842025E7662F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9ACC33AF8878AE4C3440414 /* Foundation.framework in Frameworks */,
+				05DE6561BFF9FED5451A1EE0 /* Foundation.framework in Frameworks */,
+				E3A531CECCFF054D5A3F6673 /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CCCC578E3320820E1C3731E3 /* Frameworks */ = {
+		AF7E900F33E510E997E0969D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DBA44BEED580A4C792A79F03 /* Frameworks */ = {
+		C5248E0A6DA0E44A6D963CEF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF42239F6FF8A963D7B0FE3E /* Foundation.framework in Frameworks */,
+				9BB8F49C257FEFCE0D3F7D09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC1E1661600B87DAF299C791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70AD639B0E9FB01897A7A92 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE61CE514304E53C6A85BFC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06E9FDA547E6967D290A71F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A487FF3A21C4549A7FB6BB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB5B6ECAEDA63697F5506A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3407992E61E01E537AD68596 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07680908533AA29231521597 /* Products */ = {
+		0176D5B60A6B96F84485B652 /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
-				A3B5A5C2F7739336530A521C /* DZGeometryTools.bundle */,
-				F873FC0D095689E52A37A2B3 /* DZGeometryTools.bundle */,
-				5FF0F83561B7972AFE94F5EC /* DZSwipeViewController.bundle */,
-				E841D97958CF768C8982B6A5 /* DZSwipeViewController.bundle */,
-				787648A01050A62AB4A607D6 /* libPods-DZSwipeViewController.a */,
-				B503818FA1C9C7119AE56C05 /* libPods-DZSwipeViewController-DZGeometryTools.a */,
-				D98EA56A3B8139668CF5710D /* libPods-DZSwipeViewController-DZSwipeViewController.a */,
-				6DC7A003F370FA2E92D58A39 /* libPods-Tests.a */,
-				5C0DA2E94B1EFA04557B3370 /* libPods-Tests-DZGeometryTools.a */,
-				D7F82E965C17C7B82CD144FB /* libPods-Tests-DZSwipeViewController.a */,
-				29D0F5EC4AD7F800916E9276 /* libPods-Tests-FBSnapshotTestCase.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		0F4896DC532E6563FE14BA0C /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CEEBD1C5D24A75194BC62C69 /* Foundation.framework */,
-				E0EFF22BDDBC5F0302D854E5 /* XCTest.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		31B629844E76EFDDB48DB54C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D2599A646FFDC49C7F95D394 /* DZGeometryTools */,
-				5526249EF26C3150F29DF9F0 /* FBSnapshotTestCase */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		50DA491F6B1D5083141D23CE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CDE971E9F3C86ACC03282B15 /* Pods-DZSwipeViewController-DZSwipeViewController.xcconfig */,
-				C90AA01A5134B680867A1960 /* Pods-DZSwipeViewController-DZSwipeViewController-Private.xcconfig */,
-				0CB64DB1E3E37A1684117A29 /* Pods-DZSwipeViewController-DZSwipeViewController-dummy.m */,
-				8CA4672A7B72E50E9B053990 /* Pods-DZSwipeViewController-DZSwipeViewController-prefix.pch */,
-				7DD47ADC644C33C49F36A985 /* Pods-Tests-DZSwipeViewController.xcconfig */,
-				FB45A7C65D3E25B3B36F773E /* Pods-Tests-DZSwipeViewController-Private.xcconfig */,
-				E41F389A549F0C374051457F /* Pods-Tests-DZSwipeViewController-dummy.m */,
-				2B4EA9D7D10819E01CE0F684 /* Pods-Tests-DZSwipeViewController-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Pods-DZSwipeViewController-DZSwipeViewController";
-			sourceTree = "<group>";
-		};
-		5526249EF26C3150F29DF9F0 /* FBSnapshotTestCase */ = {
-			isa = PBXGroup;
-			children = (
-				81F2883E514878118AB9CCF5 /* FBSnapshotTestCase.h */,
-				948503E7168153CE7A36EF0A /* FBSnapshotTestCase.m */,
-				42EE1B97329B680DF97DE0A6 /* FBSnapshotTestCasePlatform.h */,
-				736A9934772965D7AB3147B7 /* FBSnapshotTestCasePlatform.m */,
-				FA9C1B82604FB97D3AFF3504 /* FBSnapshotTestController.h */,
-				AFDA365425FC0FDC604466FC /* FBSnapshotTestController.m */,
-				A721EE3605AD18552FCB3E57 /* UIImage+Compare.h */,
-				45830DFCC71BDD218915A8CB /* UIImage+Compare.m */,
-				F4478757B0108238BE7B6A77 /* UIImage+Diff.h */,
-				68845D26CD8EEAEC102CA32D /* UIImage+Diff.m */,
-				DA5ABA01EFBA019AF500BFD4 /* Support Files */,
+				0732C4969E84640F16202A7D /* FBSnapshotTestCase.h */,
+				0DF4A40F834591DB5198B2D7 /* FBSnapshotTestCase.m */,
+				C2D77672A3AABDDE50DD53E3 /* FBSnapshotTestCasePlatform.h */,
+				49F69B4B675C96FD9E93782D /* FBSnapshotTestCasePlatform.m */,
+				9164024A3E2650D89DA9E256 /* FBSnapshotTestController.h */,
+				3F9D4DAB492AD294BCFC73EC /* FBSnapshotTestController.m */,
+				0F818A11AD410D5045F7D8ED /* UIImage+Compare.h */,
+				3A3FC1BAB22AA71B5B8E745F /* UIImage+Compare.m */,
+				BF001612A678258B1E4A5522 /* UIImage+Diff.h */,
+				3D24F134ABAFE1F53867F9E9 /* UIImage+Diff.m */,
+				830734D8827D73C2F14BBBCA /* Support Files */,
 			);
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
-		808FD186400FE7B656BCE3EC /* Classes */ = {
+		0C28F28C63AD0F811A7068A7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				985E56C75A99D5F590FA0124 /* DZSwipeViewController.h */,
-				E097B0D215F41990B9511749 /* DZSwipeViewController.m */,
-				CC27B41DE184C46CE5EF7E8B /* DZTabItemContentView.h */,
-				7343398108086F3EFEBBA0A0 /* DZTabItemContentView.m */,
-				ABFCFE7878D702ECFABF7D64 /* DZTabView.h */,
-				392A16FE73A26C2C5642B1E4 /* DZTabView.m */,
-				87099A29349C5C6FC645502B /* DZTabViewItem.h */,
-				085EA1905520BD05D3A9951F /* DZTabViewItem.m */,
-				371081DEF7EBA4E6E1463CCC /* DZTabViewItem_Private.h */,
-				9A0B8746472EB0CD84779306 /* UIViewController+DZSwipeViewController.h */,
-				DFC842C80EE82BF74ED276A6 /* UIViewController+DZSwipeViewController.m */,
+				999D837B4CC65C47B0107F5D /* DZSwipeViewController */,
 			);
-			path = Classes;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		810016E2A1C2C80B58D2DC6C /* Pods-Tests */ = {
+		1146C3F384CEF16664555566 = {
 			isa = PBXGroup;
 			children = (
-				65DBC3EC2EB3522313C81707 /* Pods-Tests-acknowledgements.markdown */,
-				8AE4F5F5C97758B89E9F09D5 /* Pods-Tests-acknowledgements.plist */,
-				19BD837C1311D5A9711D1414 /* Pods-Tests-dummy.m */,
-				EC45D9AEB43E537E42287523 /* Pods-Tests-environment.h */,
-				8360BAE420FD6CF71E56523A /* Pods-Tests-resources.sh */,
-				8125C177EC80E68F9ED88860 /* Pods-Tests.debug.xcconfig */,
-				62E29A85C28334BA35C678F8 /* Pods-Tests.release.xcconfig */,
+				08BB5E5B9E2720665F6E40FE /* Podfile */,
+				0C28F28C63AD0F811A7068A7 /* Development Pods */,
+				4EDDB24B0AF316014D82FFBA /* Frameworks */,
+				A6D0A96BE1E367FA86CE628F /* Pods */,
+				270C81C11FCA1D4C27F30804 /* Products */,
+				A53D38E14A755EF8C08BB70E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		19FDF8912D950C67FFA32DA5 /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				96AFA227ED1D47E5F685656C /* Pods-Tests-acknowledgements.markdown */,
+				18064E0DF4F352276D4F1343 /* Pods-Tests-acknowledgements.plist */,
+				328DE2947C7F5418CFEFD930 /* Pods-Tests-dummy.m */,
+				15BAA5D9C13B1097B312734D /* Pods-Tests-environment.h */,
+				B6A0C6C60DB8DDEFF49A8A29 /* Pods-Tests-resources.sh */,
+				AC280FA5BFD42AC1E5E7E0E2 /* Pods-Tests.debug.xcconfig */,
+				C8BB0C1015AE3F855D4005CA /* Pods-Tests.release.xcconfig */,
 			);
 			name = "Pods-Tests";
 			path = "Target Support Files/Pods-Tests";
 			sourceTree = "<group>";
 		};
-		8C612F5A5CACFE9C640BAEA6 /* Development Pods */ = {
+		270C81C11FCA1D4C27F30804 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF67B5FFBA68F06A76D9CFE5 /* DZSwipeViewController */,
+				ECD6C8C6E1B9FE9934F6D470 /* DZGeometryTools.bundle */,
+				C7BD079127184FC5BBF02D2C /* DZGeometryTools.bundle */,
+				2CF488AF0FD5D424E922A42B /* DZSwipeViewController.bundle */,
+				3FF2B6B37376970A7907F84B /* DZSwipeViewController.bundle */,
+				E3A6C243EE194A4C17667849 /* libPods-DZSwipeViewController.a */,
+				19130211991C6F95A8F0C9B5 /* libPods-DZSwipeViewController-DZGeometryTools.a */,
+				A843E5DEF46880506397571A /* libPods-DZSwipeViewController-DZSwipeViewController.a */,
+				C1644ED56989EB93230F5BD4 /* libPods-Tests.a */,
+				DB9DC0A4F728D568E8D7FB28 /* libPods-Tests-DZGeometryTools.a */,
+				642BEE714C27E3CD5D2D520A /* libPods-Tests-DZSwipeViewController.a */,
+				30381541E7C5617B669D5490 /* libPods-Tests-FBSnapshotTestCase.a */,
 			);
-			name = "Development Pods";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		A0BCC912459FB5DE541AA2ED /* Targets Support Files */ = {
+		4DE5B0501C4634DBCC200212 /* DZGeometryTools */ = {
 			isa = PBXGroup;
 			children = (
-				A4754FCF7E1704A43E64BD30 /* Pods-DZSwipeViewController */,
-				810016E2A1C2C80B58D2DC6C /* Pods-Tests */,
+				A75868E26F75CB970DA20307 /* DZDevices.h */,
+				0FED139578B5C084D742213D /* DZDevices.m */,
+				8AEC597859F05F42CDF3E04F /* DZGeometryTools.h */,
+				EADAA64980A711E04220558D /* DZGeometryTools.m */,
+				C0F67CD5085E624A3E5E4FDB /* UIDeviceHardware.h */,
+				C0AF56D45B25B4EEC1A79DDE /* UIDeviceHardware.m */,
+				860B2B4D1FBF093BE5FF221D /* Support Files */,
 			);
-			name = "Targets Support Files";
+			path = DZGeometryTools;
 			sourceTree = "<group>";
 		};
-		A4754FCF7E1704A43E64BD30 /* Pods-DZSwipeViewController */ = {
+		4EDDB24B0AF316014D82FFBA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0F03DA87C1FD5C0A06F2BB04 /* Pods-DZSwipeViewController-acknowledgements.markdown */,
-				9552320E807DA5157C5DD929 /* Pods-DZSwipeViewController-acknowledgements.plist */,
-				0B871B4D6F30314DBBCFEB18 /* Pods-DZSwipeViewController-dummy.m */,
-				97637E7D45F44BB4B7C4DC38 /* Pods-DZSwipeViewController-environment.h */,
-				D6B7AF2508DB231F677FAC11 /* Pods-DZSwipeViewController-resources.sh */,
-				D3EB6CC9E7A03500AB5E1506 /* Pods-DZSwipeViewController.debug.xcconfig */,
-				392D033B19FDD519E61B69F1 /* Pods-DZSwipeViewController.release.xcconfig */,
+				D14D566A25D338043256E5B5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4FC0AE8AEFE71D1787B27D7A /* Pods-DZSwipeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E4FF30834A5E41DE34CCF942 /* Pods-DZSwipeViewController-acknowledgements.markdown */,
+				6555062D878290F66D3ADCBD /* Pods-DZSwipeViewController-acknowledgements.plist */,
+				32E94353DC78365D1380944F /* Pods-DZSwipeViewController-dummy.m */,
+				8BDE9B41A6F3739AA4B69B3B /* Pods-DZSwipeViewController-environment.h */,
+				C1B1DCA307E9A3AF2A036BBB /* Pods-DZSwipeViewController-resources.sh */,
+				D7BE733B076A337A54543E06 /* Pods-DZSwipeViewController.debug.xcconfig */,
+				FF16211217CD954678AE2336 /* Pods-DZSwipeViewController.release.xcconfig */,
 			);
 			name = "Pods-DZSwipeViewController";
 			path = "Target Support Files/Pods-DZSwipeViewController";
 			sourceTree = "<group>";
 		};
-		AEE2581937894BA6AC3B3D0F /* Pod */ = {
+		830734D8827D73C2F14BBBCA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				808FD186400FE7B656BCE3EC /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		BB177F0AD29395B5430EC236 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0F4896DC532E6563FE14BA0C /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C240626E9B7E080533BC8673 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B116C2F2A37A10DD4B47A92E /* Pods-DZSwipeViewController-DZGeometryTools.xcconfig */,
-				878E8B9632D5401D94551B6C /* Pods-DZSwipeViewController-DZGeometryTools-Private.xcconfig */,
-				B89FA75EF475B19C8BC8D151 /* Pods-DZSwipeViewController-DZGeometryTools-dummy.m */,
-				9DCEAFFDB5976FF4D25CFE4D /* Pods-DZSwipeViewController-DZGeometryTools-prefix.pch */,
-				6DDEA80DC4BA292B6999331C /* Pods-Tests-DZGeometryTools.xcconfig */,
-				04FA820D12E7079E759BEA82 /* Pods-Tests-DZGeometryTools-Private.xcconfig */,
-				AFE9D15E13B9D33D4FC4809D /* Pods-Tests-DZGeometryTools-dummy.m */,
-				4945C6DDA71F63A7C678F808 /* Pods-Tests-DZGeometryTools-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Pods-DZSwipeViewController-DZGeometryTools";
-			sourceTree = "<group>";
-		};
-		CC0CD4AF22928164FD03E136 = {
-			isa = PBXGroup;
-			children = (
-				D02F4D069EF3927576A54CDB /* Podfile */,
-				8C612F5A5CACFE9C640BAEA6 /* Development Pods */,
-				BB177F0AD29395B5430EC236 /* Frameworks */,
-				31B629844E76EFDDB48DB54C /* Pods */,
-				07680908533AA29231521597 /* Products */,
-				A0BCC912459FB5DE541AA2ED /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		D2599A646FFDC49C7F95D394 /* DZGeometryTools */ = {
-			isa = PBXGroup;
-			children = (
-				0D300E2F21993444BD057126 /* DZDevices.h */,
-				AFF79DC0C2C824277A0D5274 /* DZDevices.m */,
-				0662ABED254DDDC5066A869C /* DZGeometryTools.h */,
-				478D9EA53EEAF8D532456030 /* DZGeometryTools.m */,
-				55A56A200070833CE55C6740 /* UIDeviceHardware.h */,
-				0E0493103B67BB5CCA95DC55 /* UIDeviceHardware.m */,
-				C240626E9B7E080533BC8673 /* Support Files */,
-			);
-			path = DZGeometryTools;
-			sourceTree = "<group>";
-		};
-		DA5ABA01EFBA019AF500BFD4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				66109466C33EF28A325DACD1 /* Pods-Tests-FBSnapshotTestCase.xcconfig */,
-				E8DA54AD72ECA0B6B5C4D5E3 /* Pods-Tests-FBSnapshotTestCase-Private.xcconfig */,
-				CCAB87FA48696B56A9F2F6E2 /* Pods-Tests-FBSnapshotTestCase-dummy.m */,
-				62BA1E7C266FE483ABF8F9FA /* Pods-Tests-FBSnapshotTestCase-prefix.pch */,
+				F0EFD46194FA86F2C7D50BEB /* Pods-Tests-FBSnapshotTestCase.xcconfig */,
+				7864E42FC6202290784811E2 /* Pods-Tests-FBSnapshotTestCase-Private.xcconfig */,
+				9EB9403968E2EF1309CB3E91 /* Pods-Tests-FBSnapshotTestCase-dummy.m */,
+				724C2784E2555493CD3858F9 /* Pods-Tests-FBSnapshotTestCase-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Pods-Tests-FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
-		DF67B5FFBA68F06A76D9CFE5 /* DZSwipeViewController */ = {
+		860B2B4D1FBF093BE5FF221D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AEE2581937894BA6AC3B3D0F /* Pod */,
-				50DA491F6B1D5083141D23CE /* Support Files */,
+				9019ACC511CFE388CA66B315 /* Pods-DZSwipeViewController-DZGeometryTools.xcconfig */,
+				F9CC0624AA8704E1A92D519A /* Pods-DZSwipeViewController-DZGeometryTools-Private.xcconfig */,
+				629E4360624DB686A811E99D /* Pods-DZSwipeViewController-DZGeometryTools-dummy.m */,
+				AC79816825A261C392BC659A /* Pods-DZSwipeViewController-DZGeometryTools-prefix.pch */,
+				38DA403EA08707775279CD14 /* Pods-Tests-DZGeometryTools.xcconfig */,
+				23B9C75FEC77A1C49EA7DF70 /* Pods-Tests-DZGeometryTools-Private.xcconfig */,
+				06C75E68DD31936D8D480D59 /* Pods-Tests-DZGeometryTools-dummy.m */,
+				1F9B32280979AEC58DC80064 /* Pods-Tests-DZGeometryTools-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-DZSwipeViewController-DZGeometryTools";
+			sourceTree = "<group>";
+		};
+		999D837B4CC65C47B0107F5D /* DZSwipeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FDA299A2EEA70D24ECC0DA79 /* Pod */,
+				BEA03C3C23470BF3E33BA343 /* Support Files */,
 			);
 			name = DZSwipeViewController;
 			path = ../..;
 			sourceTree = "<group>";
 		};
+		A53D38E14A755EF8C08BB70E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FC0AE8AEFE71D1787B27D7A /* Pods-DZSwipeViewController */,
+				19FDF8912D950C67FFA32DA5 /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A6D0A96BE1E367FA86CE628F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DE5B0501C4634DBCC200212 /* DZGeometryTools */,
+				0176D5B60A6B96F84485B652 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BEA03C3C23470BF3E33BA343 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB7BF2FF59EFC223B34A64AB /* Pods-DZSwipeViewController-DZSwipeViewController.xcconfig */,
+				1899AC36AB13DC7FC631808C /* Pods-DZSwipeViewController-DZSwipeViewController-Private.xcconfig */,
+				C786BAF6F2ACC503B69A8644 /* Pods-DZSwipeViewController-DZSwipeViewController-dummy.m */,
+				873AE742DEF7E8816AB5C896 /* Pods-DZSwipeViewController-DZSwipeViewController-prefix.pch */,
+				870F43BA17E6A8EBBC3429CC /* Pods-Tests-DZSwipeViewController.xcconfig */,
+				2A6806E1D568041E2EABCA0B /* Pods-Tests-DZSwipeViewController-Private.xcconfig */,
+				55F93DDF29BFE5B56E26A296 /* Pods-Tests-DZSwipeViewController-dummy.m */,
+				3D4C8B315306C35101CB2373 /* Pods-Tests-DZSwipeViewController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-DZSwipeViewController-DZSwipeViewController";
+			sourceTree = "<group>";
+		};
+		C64A45F42067701E128A63E7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6B7D89AC9C7D1E25AFF27DAE /* DZSwipeViewController.h */,
+				66684496DBC7F169AE4437E3 /* DZSwipeViewController.m */,
+				B1E5783539800E6C41256C04 /* DZTabItemContentView.h */,
+				AABF45E6F7A6D68C845121DD /* DZTabItemContentView.m */,
+				414769103861CD6C56521625 /* DZTabView.h */,
+				6F301A4A877E1827CF3B3433 /* DZTabView.m */,
+				AFD30C746498AE2C96B0CF5E /* DZTabViewItem.h */,
+				D05FF8AC7DF085A050E029E5 /* DZTabViewItem.m */,
+				CCC73F87AFC1996E41D0657E /* DZTabViewItem_Private.h */,
+				162F8071FB5A4248D59800C7 /* UIViewController+DZSwipeViewController.h */,
+				965D2D138BEAD37BF99595A8 /* UIViewController+DZSwipeViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D14D566A25D338043256E5B5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D098737AF6EB6D21BDF76C60 /* Foundation.framework */,
+				70520D41AF74B17E21FA6770 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FDA299A2EEA70D24ECC0DA79 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C64A45F42067701E128A63E7 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		61B2EF2CA069251E2D71561A /* Headers */ = {
+		36FC4A8B6D21C306114E8895 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAADC1C2C7E3D127DBA32777 /* DZDevices.h in Headers */,
-				DB036BE5C64AD5911A193323 /* DZGeometryTools.h in Headers */,
-				D2678975D559F48E526589A2 /* UIDeviceHardware.h in Headers */,
+				A5692CDF08CF4ADFDB036730 /* DZSwipeViewController.h in Headers */,
+				7017FB9F7EA379D084C66C39 /* DZTabItemContentView.h in Headers */,
+				BBE67531A0B1E51113B89CD2 /* DZTabView.h in Headers */,
+				9291D2567A7FC2F743AA5BCF /* DZTabViewItem.h in Headers */,
+				457B9A27E152CE99B3EE7294 /* DZTabViewItem_Private.h in Headers */,
+				4CBE5586FE57D82D76A3DEA3 /* UIViewController+DZSwipeViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91AF3D54700EAF1482FCDA35 /* Headers */ = {
+		390E5994BB06624E011991D1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1975C098D7F8CE7781FCC5E8 /* DZSwipeViewController.h in Headers */,
-				68BF900CE891B424E730AA2A /* DZTabItemContentView.h in Headers */,
-				A1B7168F5EFDFC1F9606E5F2 /* DZTabView.h in Headers */,
-				8DA3F4893CE1990A8AF8D833 /* DZTabViewItem.h in Headers */,
-				11C812A246537739DA9E667B /* DZTabViewItem_Private.h in Headers */,
-				3E0B8CD8765882E3A9BF31EE /* UIViewController+DZSwipeViewController.h in Headers */,
+				2AA03582B1B9DC69F9C633DF /* DZDevices.h in Headers */,
+				AABB9902C4E6B7AD34E7A44C /* DZGeometryTools.h in Headers */,
+				C3E10BBDA2E6D699CA32711D /* UIDeviceHardware.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB5F17AC523473F7E40BD8D5 /* Headers */ = {
+		71A4AEA89E3310FC693A0B52 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE1998B5A099181992B50344 /* DZSwipeViewController.h in Headers */,
-				00312C20E6835109BC5DCAC8 /* DZTabItemContentView.h in Headers */,
-				9BFBD328563E45A84130EF06 /* DZTabView.h in Headers */,
-				63234860F6B4DC1C710496B2 /* DZTabViewItem.h in Headers */,
-				2604FF33FD0FFE2CFBA7C4F1 /* DZTabViewItem_Private.h in Headers */,
-				3E0CF4DA320FB2CD7150BDC6 /* UIViewController+DZSwipeViewController.h in Headers */,
+				9A459F9565AD54104089D396 /* DZDevices.h in Headers */,
+				C7E6A2E429521D4099DFDCA8 /* DZGeometryTools.h in Headers */,
+				5467DF82F2383368B50A5F04 /* UIDeviceHardware.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0915C033CF2385E78E82284 /* Headers */ = {
+		E24CFBE84EF3A8C555B917C6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC651F4B8A36154261664F7A /* FBSnapshotTestCase.h in Headers */,
-				7A63822F6EE34AC6FF1AB939 /* FBSnapshotTestCasePlatform.h in Headers */,
-				F6BFC7D1438FE283E146AF65 /* FBSnapshotTestController.h in Headers */,
-				8CC4CADB31AB29859FC71911 /* UIImage+Compare.h in Headers */,
-				66C77ACE8E1E8922168BEB2A /* UIImage+Diff.h in Headers */,
+				056348D89FD4FE8612775C49 /* FBSnapshotTestCase.h in Headers */,
+				F609D41B7A88069CBF05DE1C /* FBSnapshotTestCasePlatform.h in Headers */,
+				6F67C184158D4EABF9811609 /* FBSnapshotTestController.h in Headers */,
+				6513DA40A579569F6796C52F /* UIImage+Compare.h in Headers */,
+				343D6163FC3992C235A860E0 /* UIImage+Diff.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CEAB705FB9EA306A65D2B7B1 /* Headers */ = {
+		EFDD5F52E20495D3D260706C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFD9D41D869FFB557F076648 /* DZDevices.h in Headers */,
-				498B3291A09E08CC43F5DF0E /* DZGeometryTools.h in Headers */,
-				572391A0AC277E3CE7A4AA9A /* UIDeviceHardware.h in Headers */,
+				248C010F2DE748FCF8737711 /* DZSwipeViewController.h in Headers */,
+				127733CBC66933670C2EE62D /* DZTabItemContentView.h in Headers */,
+				03EC9691F30F16DBB5BA88FA /* DZTabView.h in Headers */,
+				DBCA51ED8ED1C36CF01F4AE5 /* DZTabViewItem.h in Headers */,
+				CC43958F93876DF8F7914B6A /* DZTabViewItem_Private.h in Headers */,
+				EEA0285C51872753AB0861C6 /* UIViewController+DZSwipeViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		22EEDB5B9979E1067E30DEE7 /* Pods-DZSwipeViewController */ = {
+		24BC3D348ADA2AB791D2ABD3 /* Pods-Tests-DZGeometryTools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13D0E2DD018BE2A40795FBE7 /* Build configuration list for PBXNativeTarget "Pods-DZSwipeViewController" */;
+			buildConfigurationList = 18272B2F960F478EBE73539F /* Build configuration list for PBXNativeTarget "Pods-Tests-DZGeometryTools" */;
 			buildPhases = (
-				24D4D38D22B2BF4EC365FF48 /* Sources */,
-				C6B1C06DEB2950001BB9A447 /* Frameworks */,
+				47D751DEF39C49E9632CFB6B /* Sources */,
+				C5248E0A6DA0E44A6D963CEF /* Frameworks */,
+				390E5994BB06624E011991D1 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9AA67CED0F38273E92B6FD83 /* PBXTargetDependency */,
-				5A2E493F4517E49AAFE19C03 /* PBXTargetDependency */,
-			);
-			name = "Pods-DZSwipeViewController";
-			productName = "Pods-DZSwipeViewController";
-			productReference = 787648A01050A62AB4A607D6 /* libPods-DZSwipeViewController.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		25A488B7C3229D9299B864BB /* Pods-DZSwipeViewController-DZGeometryTools */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 364282F6B96CBCD4E5AD532C /* Build configuration list for PBXNativeTarget "Pods-DZSwipeViewController-DZGeometryTools" */;
-			buildPhases = (
-				39BA4F0019519670A25CC46A /* Sources */,
-				61B3B7D3DBE0D2408DB5640F /* Frameworks */,
-				61B2EF2CA069251E2D71561A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E32104A7AE4455EEB058094F /* PBXTargetDependency */,
-			);
-			name = "Pods-DZSwipeViewController-DZGeometryTools";
-			productName = "Pods-DZSwipeViewController-DZGeometryTools";
-			productReference = B503818FA1C9C7119AE56C05 /* libPods-DZSwipeViewController-DZGeometryTools.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		46DFC4F051D2417292D8EA94 /* Pods-DZSwipeViewController-DZGeometryTools-DZGeometryTools */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 17A45185C2E9FBCEA7A33769 /* Build configuration list for PBXNativeTarget "Pods-DZSwipeViewController-DZGeometryTools-DZGeometryTools" */;
-			buildPhases = (
-				D11F5272A9EC71813577E539 /* Sources */,
-				9D681CE3550B0D2B6B829F17 /* Frameworks */,
-				134CA354A0137655D7B95442 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-DZSwipeViewController-DZGeometryTools-DZGeometryTools";
-			productName = "Pods-DZSwipeViewController-DZGeometryTools-DZGeometryTools";
-			productReference = F873FC0D095689E52A37A2B3 /* DZGeometryTools.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		491070FE037D189D152E4A8C /* Pods-DZSwipeViewController-DZSwipeViewController */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0D8F9F0CEC31777CC665D670 /* Build configuration list for PBXNativeTarget "Pods-DZSwipeViewController-DZSwipeViewController" */;
-			buildPhases = (
-				08EABF666170EE302784D565 /* Sources */,
-				DBA44BEED580A4C792A79F03 /* Frameworks */,
-				91AF3D54700EAF1482FCDA35 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4E60E2FC16022F2130901B9A /* PBXTargetDependency */,
-				80D773F6031CA60B261BB1B4 /* PBXTargetDependency */,
-			);
-			name = "Pods-DZSwipeViewController-DZSwipeViewController";
-			productName = "Pods-DZSwipeViewController-DZSwipeViewController";
-			productReference = D98EA56A3B8139668CF5710D /* libPods-DZSwipeViewController-DZSwipeViewController.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		734D27CCFA7B196448321F45 /* Pods-Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A784E14AF4870226BE09ADBC /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
-			buildPhases = (
-				BB33EA8CC57B31CCC21D4649 /* Sources */,
-				BD28834BD1E3797518E196D6 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				41A0204C4FFECFA352E5022E /* PBXTargetDependency */,
-				BE9994F337F391BD1A46A82F /* PBXTargetDependency */,
-				6F3C14415016B23293331F78 /* PBXTargetDependency */,
-			);
-			name = "Pods-Tests";
-			productName = "Pods-Tests";
-			productReference = 6DC7A003F370FA2E92D58A39 /* libPods-Tests.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		73F87E1D72DC37BA79CE751D /* Pods-Tests-DZGeometryTools */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FA33345D328BB3162231F3EB /* Build configuration list for PBXNativeTarget "Pods-Tests-DZGeometryTools" */;
-			buildPhases = (
-				FE50B764D641E9E722D16AF7 /* Sources */,
-				53A63FF43E57100E3D9E08EE /* Frameworks */,
-				CEAB705FB9EA306A65D2B7B1 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				41D6D8EA01881A835D738CFA /* PBXTargetDependency */,
+				F3DD897AB9036CC008BAF7A1 /* PBXTargetDependency */,
 			);
 			name = "Pods-Tests-DZGeometryTools";
 			productName = "Pods-Tests-DZGeometryTools";
-			productReference = 5C0DA2E94B1EFA04557B3370 /* libPods-Tests-DZGeometryTools.a */;
+			productReference = DB9DC0A4F728D568E8D7FB28 /* libPods-Tests-DZGeometryTools.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		869AC0785B803D10AB08F406 /* Pods-Tests-FBSnapshotTestCase */ = {
+		3DE1FCE482F1F4009EBEEB2A /* Pods-Tests-DZGeometryTools-DZGeometryTools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA990C58CCF3B3B27A114464 /* Build configuration list for PBXNativeTarget "Pods-Tests-FBSnapshotTestCase" */;
+			buildConfigurationList = 5F9EB0225D55FC78FD9C8AE9 /* Build configuration list for PBXNativeTarget "Pods-Tests-DZGeometryTools-DZGeometryTools" */;
 			buildPhases = (
-				C78EB11C85FD0EDF57019F2D /* Sources */,
-				019569EF84E75A3FF5185A59 /* Frameworks */,
-				C0915C033CF2385E78E82284 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-Tests-FBSnapshotTestCase";
-			productName = "Pods-Tests-FBSnapshotTestCase";
-			productReference = 29D0F5EC4AD7F800916E9276 /* libPods-Tests-FBSnapshotTestCase.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		A208824699AD96E3E6E5608D /* Pods-Tests-DZGeometryTools-DZGeometryTools */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 557285CB55E8E7DE297CB063 /* Build configuration list for PBXNativeTarget "Pods-Tests-DZGeometryTools-DZGeometryTools" */;
-			buildPhases = (
-				88840C2FD0609E6147446122 /* Sources */,
-				1473FEEE331108662F8D8A49 /* Frameworks */,
-				16CD8870D746C38075B226DF /* Resources */,
+				14F5C78D3AD30ED71AE60FE8 /* Sources */,
+				AF7E900F33E510E997E0969D /* Frameworks */,
+				2C323F0726C229B38325516A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -734,16 +626,72 @@
 			);
 			name = "Pods-Tests-DZGeometryTools-DZGeometryTools";
 			productName = "Pods-Tests-DZGeometryTools-DZGeometryTools";
-			productReference = A3B5A5C2F7739336530A521C /* DZGeometryTools.bundle */;
+			productReference = ECD6C8C6E1B9FE9934F6D470 /* DZGeometryTools.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		A71D22969A8607954F23AA23 /* Pods-DZSwipeViewController-DZSwipeViewController-DZSwipeViewController */ = {
+		497B1F83220F90E56E29F922 /* Pods-Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE5ED367F2EDDF3AF62FECE4 /* Build configuration list for PBXNativeTarget "Pods-DZSwipeViewController-DZSwipeViewController-DZSwipeViewController" */;
+			buildConfigurationList = 0172D0F7A64DBFC4F5F1DA63 /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
 			buildPhases = (
-				01D71935FEF4DE70C49A0ADE /* Sources */,
-				CCCC578E3320820E1C3731E3 /* Frameworks */,
-				2FADEE5E74432A05992D9912 /* Resources */,
+				5E66BBE69608EF2B1D51A6DC /* Sources */,
+				1BA78910F4B64C87B02EA457 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10DB5F4A6B9F236831655B5D /* PBXTargetDependency */,
+				64CB5E94D37EE933FD1583A9 /* PBXTargetDependency */,
+				F0C196B1F3AEA39F168E5D70 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = C1644ED56989EB93230F5BD4 /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4C689042F4656384375BF3A5 /* Pods-DZSwipeViewController-DZGeometryTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 165E5D5C23344041312D9498 /* Build configuration list for PBXNativeTarget "Pods-DZSwipeViewController-DZGeometryTools" */;
+			buildPhases = (
+				61A5A43D7C70976ACA96DD9D /* Sources */,
+				D06E9FDA547E6967D290A71F /* Frameworks */,
+				71A4AEA89E3310FC693A0B52 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B90D7C4C9987D987D6A24B91 /* PBXTargetDependency */,
+			);
+			name = "Pods-DZSwipeViewController-DZGeometryTools";
+			productName = "Pods-DZSwipeViewController-DZGeometryTools";
+			productReference = 19130211991C6F95A8F0C9B5 /* libPods-DZSwipeViewController-DZGeometryTools.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		754C90D5216E8F86DF3F90CF /* Pods-Tests-DZSwipeViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88A90D0041D76B91DE172CE1 /* Build configuration list for PBXNativeTarget "Pods-Tests-DZSwipeViewController" */;
+			buildPhases = (
+				5BCFEA622DFFC4BEFE9EDEFA /* Sources */,
+				93B296EC1C60CB95B1EF91DA /* Frameworks */,
+				36FC4A8B6D21C306114E8895 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0DF539F8B84FE4BB60A6FAD /* PBXTargetDependency */,
+				F2AA867D7EC5D352AECE8E6F /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests-DZSwipeViewController";
+			productName = "Pods-Tests-DZSwipeViewController";
+			productReference = 642BEE714C27E3CD5D2D520A /* libPods-Tests-DZSwipeViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8C97CAA98F01409747A68CED /* Pods-DZSwipeViewController-DZSwipeViewController-DZSwipeViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7C39CB2CD4E37EAC58EA9EA /* Build configuration list for PBXNativeTarget "Pods-DZSwipeViewController-DZSwipeViewController-DZSwipeViewController" */;
+			buildPhases = (
+				B363DE9303BD0CDB3F5332A2 /* Sources */,
+				1C4BF00627AAB45037028852 /* Frameworks */,
+				1690E51355EB64750E0790C9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -751,16 +699,35 @@
 			);
 			name = "Pods-DZSwipeViewController-DZSwipeViewController-DZSwipeViewController";
 			productName = "Pods-DZSwipeViewController-DZSwipeViewController-DZSwipeViewController";
-			productReference = E841D97958CF768C8982B6A5 /* DZSwipeViewController.bundle */;
+			productReference = 3FF2B6B37376970A7907F84B /* DZSwipeViewController.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		A7D2FCA75F5F089C4084C1C1 /* Pods-Tests-DZSwipeViewController-DZSwipeViewController */ = {
+		8FF9E8AF820AD27467112463 /* Pods-DZSwipeViewController-DZSwipeViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1731D8140FEF920C74EC0083 /* Build configuration list for PBXNativeTarget "Pods-Tests-DZSwipeViewController-DZSwipeViewController" */;
+			buildConfigurationList = AE722020EFB85F78FC9DF73D /* Build configuration list for PBXNativeTarget "Pods-DZSwipeViewController-DZSwipeViewController" */;
 			buildPhases = (
-				1E2C987043C036784CC77549 /* Sources */,
-				6CB55245CF739314E0DB5A18 /* Frameworks */,
-				3F42B8388DDEF2619B5F71DB /* Resources */,
+				E73074F7E6A09A0F1AD32796 /* Sources */,
+				CC1E1661600B87DAF299C791 /* Frameworks */,
+				EFDD5F52E20495D3D260706C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32C2109469BBDC151A2981A6 /* PBXTargetDependency */,
+				02FE91D76189411F3CD665F8 /* PBXTargetDependency */,
+			);
+			name = "Pods-DZSwipeViewController-DZSwipeViewController";
+			productName = "Pods-DZSwipeViewController-DZSwipeViewController";
+			productReference = A843E5DEF46880506397571A /* libPods-DZSwipeViewController-DZSwipeViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C65CFAA504A55A305C6C0EBF /* Pods-Tests-DZSwipeViewController-DZSwipeViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47AF83CB0E43897189855BD6 /* Build configuration list for PBXNativeTarget "Pods-Tests-DZSwipeViewController-DZSwipeViewController" */;
+			buildPhases = (
+				053C7B1BF7375EC30403C911 /* Sources */,
+				CE61CE514304E53C6A85BFC1 /* Frameworks */,
+				E540300B9E1AA8DBD771D9EE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -768,86 +735,119 @@
 			);
 			name = "Pods-Tests-DZSwipeViewController-DZSwipeViewController";
 			productName = "Pods-Tests-DZSwipeViewController-DZSwipeViewController";
-			productReference = 5FF0F83561B7972AFE94F5EC /* DZSwipeViewController.bundle */;
+			productReference = 2CF488AF0FD5D424E922A42B /* DZSwipeViewController.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		F4EB606708F23F45588A7E37 /* Pods-Tests-DZSwipeViewController */ = {
+		E220422187984BF8CEEA54AA /* Pods-DZSwipeViewController-DZGeometryTools-DZGeometryTools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F58083785282E5A37978C5B4 /* Build configuration list for PBXNativeTarget "Pods-Tests-DZSwipeViewController" */;
+			buildConfigurationList = 160E38010F6B64BFBDBE92EB /* Build configuration list for PBXNativeTarget "Pods-DZSwipeViewController-DZGeometryTools-DZGeometryTools" */;
 			buildPhases = (
-				32C8C6F3A61E60951ED34F74 /* Sources */,
-				4DE6DF9EAF15140D4407AF47 /* Frameworks */,
-				BB5F17AC523473F7E40BD8D5 /* Headers */,
+				97FC8B105EB32E973EBAC728 /* Sources */,
+				1F7D83E09732750F8A0AA9C2 /* Frameworks */,
+				1DFEBE3DE828B721675D596E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9E515156FA92B09AB3F2030B /* PBXTargetDependency */,
-				8B8B24704E5CB9AF6FD7C9EE /* PBXTargetDependency */,
 			);
-			name = "Pods-Tests-DZSwipeViewController";
-			productName = "Pods-Tests-DZSwipeViewController";
-			productReference = D7F82E965C17C7B82CD144FB /* libPods-Tests-DZSwipeViewController.a */;
+			name = "Pods-DZSwipeViewController-DZGeometryTools-DZGeometryTools";
+			productName = "Pods-DZSwipeViewController-DZGeometryTools-DZGeometryTools";
+			productReference = C7BD079127184FC5BBF02D2C /* DZGeometryTools.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		E76B417E1F903A44BBF65EC0 /* Pods-DZSwipeViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EED7645CA7AF184143C6F74 /* Build configuration list for PBXNativeTarget "Pods-DZSwipeViewController" */;
+			buildPhases = (
+				8D6E04A8039B0ECFF04D3089 /* Sources */,
+				FB5B6ECAEDA63697F5506A25 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A4DF8CA00D2EAF4C53CBC1F /* PBXTargetDependency */,
+				A0C2A89103B9843F9A9BFB03 /* PBXTargetDependency */,
+			);
+			name = "Pods-DZSwipeViewController";
+			productName = "Pods-DZSwipeViewController";
+			productReference = E3A6C243EE194A4C17667849 /* libPods-DZSwipeViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F29F84C0CF9F62D4B1CA09B9 /* Pods-Tests-FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35C912587985490C7824138C /* Build configuration list for PBXNativeTarget "Pods-Tests-FBSnapshotTestCase" */;
+			buildPhases = (
+				0EFA60A204339EFBB8A4C02E /* Sources */,
+				A664EB45FA17842025E7662F /* Frameworks */,
+				E24CFBE84EF3A8C555B917C6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-FBSnapshotTestCase";
+			productName = "Pods-Tests-FBSnapshotTestCase";
+			productReference = 30381541E7C5617B669D5490 /* libPods-Tests-FBSnapshotTestCase.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F1823E6360F1ECE60C9C1F4F /* Project object */ = {
+		1CEBF6A2E0B910A3FFB80FB5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = 8D91EB8A83B263F632569EEF /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 8B2A9A15F29EA2BA58552623 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = CC0CD4AF22928164FD03E136;
-			productRefGroup = 07680908533AA29231521597 /* Products */;
+			mainGroup = 1146C3F384CEF16664555566;
+			productRefGroup = 270C81C11FCA1D4C27F30804 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				22EEDB5B9979E1067E30DEE7 /* Pods-DZSwipeViewController */,
-				25A488B7C3229D9299B864BB /* Pods-DZSwipeViewController-DZGeometryTools */,
-				46DFC4F051D2417292D8EA94 /* Pods-DZSwipeViewController-DZGeometryTools-DZGeometryTools */,
-				491070FE037D189D152E4A8C /* Pods-DZSwipeViewController-DZSwipeViewController */,
-				A71D22969A8607954F23AA23 /* Pods-DZSwipeViewController-DZSwipeViewController-DZSwipeViewController */,
-				734D27CCFA7B196448321F45 /* Pods-Tests */,
-				73F87E1D72DC37BA79CE751D /* Pods-Tests-DZGeometryTools */,
-				A208824699AD96E3E6E5608D /* Pods-Tests-DZGeometryTools-DZGeometryTools */,
-				F4EB606708F23F45588A7E37 /* Pods-Tests-DZSwipeViewController */,
-				A7D2FCA75F5F089C4084C1C1 /* Pods-Tests-DZSwipeViewController-DZSwipeViewController */,
-				869AC0785B803D10AB08F406 /* Pods-Tests-FBSnapshotTestCase */,
+				E76B417E1F903A44BBF65EC0 /* Pods-DZSwipeViewController */,
+				4C689042F4656384375BF3A5 /* Pods-DZSwipeViewController-DZGeometryTools */,
+				E220422187984BF8CEEA54AA /* Pods-DZSwipeViewController-DZGeometryTools-DZGeometryTools */,
+				8FF9E8AF820AD27467112463 /* Pods-DZSwipeViewController-DZSwipeViewController */,
+				8C97CAA98F01409747A68CED /* Pods-DZSwipeViewController-DZSwipeViewController-DZSwipeViewController */,
+				497B1F83220F90E56E29F922 /* Pods-Tests */,
+				24BC3D348ADA2AB791D2ABD3 /* Pods-Tests-DZGeometryTools */,
+				3DE1FCE482F1F4009EBEEB2A /* Pods-Tests-DZGeometryTools-DZGeometryTools */,
+				754C90D5216E8F86DF3F90CF /* Pods-Tests-DZSwipeViewController */,
+				C65CFAA504A55A305C6C0EBF /* Pods-Tests-DZSwipeViewController-DZSwipeViewController */,
+				F29F84C0CF9F62D4B1CA09B9 /* Pods-Tests-FBSnapshotTestCase */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		134CA354A0137655D7B95442 /* Resources */ = {
+		1690E51355EB64750E0790C9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		16CD8870D746C38075B226DF /* Resources */ = {
+		1DFEBE3DE828B721675D596E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2FADEE5E74432A05992D9912 /* Resources */ = {
+		2C323F0726C229B38325516A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F42B8388DDEF2619B5F71DB /* Resources */ = {
+		E540300B9E1AA8DBD771D9EE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -857,195 +857,227 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		01D71935FEF4DE70C49A0ADE /* Sources */ = {
+		053C7B1BF7375EC30403C911 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		08EABF666170EE302784D565 /* Sources */ = {
+		0EFA60A204339EFBB8A4C02E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E318BC29534E88071E57A7F /* DZSwipeViewController.m in Sources */,
-				298532DB6B26AE278DA25E76 /* DZTabItemContentView.m in Sources */,
-				B514EA13D1BEBF0FE0A9993E /* DZTabView.m in Sources */,
-				C8D717433614B4C5D0920905 /* DZTabViewItem.m in Sources */,
-				E1719BF6F45A0C99D9BAA34B /* Pods-DZSwipeViewController-DZSwipeViewController-dummy.m in Sources */,
-				4D45848F260A3B82328D9804 /* UIViewController+DZSwipeViewController.m in Sources */,
+				828AD2D9EE8E68FB441EAC0F /* FBSnapshotTestCase.m in Sources */,
+				83408D780B8A4944519E1060 /* FBSnapshotTestCasePlatform.m in Sources */,
+				110B1FE68037CEA0D2297E68 /* FBSnapshotTestController.m in Sources */,
+				8C577748539F1ABEA518AE68 /* Pods-Tests-FBSnapshotTestCase-dummy.m in Sources */,
+				4195E76191B0414172355632 /* UIImage+Compare.m in Sources */,
+				AB04964A56F5B8F23B9F896F /* UIImage+Diff.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1E2C987043C036784CC77549 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		24D4D38D22B2BF4EC365FF48 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1EBBFAE2E5207430792E2CBC /* Pods-DZSwipeViewController-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		32C8C6F3A61E60951ED34F74 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				754D56647EA4A4C72D62FA76 /* DZSwipeViewController.m in Sources */,
-				DE8B0593D9986B4F08414B11 /* DZTabItemContentView.m in Sources */,
-				EF301CE06BE7CDAEF3E74593 /* DZTabView.m in Sources */,
-				6090C899EF1D61D39F377147 /* DZTabViewItem.m in Sources */,
-				28AFD906A50306EEC6DA1145 /* Pods-Tests-DZSwipeViewController-dummy.m in Sources */,
-				48E1BCE9E19D64E661F6D920 /* UIViewController+DZSwipeViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		39BA4F0019519670A25CC46A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A3ADAD88559B3BF5DC19839B /* DZDevices.m in Sources */,
-				04539E099D0FD490355E05B7 /* DZGeometryTools.m in Sources */,
-				B7CCE2E3BFFE31ABBCA39E63 /* Pods-DZSwipeViewController-DZGeometryTools-dummy.m in Sources */,
-				DFE56B9146799D90655C16E2 /* UIDeviceHardware.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		88840C2FD0609E6147446122 /* Sources */ = {
+		14F5C78D3AD30ED71AE60FE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB33EA8CC57B31CCC21D4649 /* Sources */ = {
+		47D751DEF39C49E9632CFB6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51A36BC2EE3E1A147BE1D216 /* Pods-Tests-dummy.m in Sources */,
+				AB7FF8A374629BBAC4FD4C23 /* DZDevices.m in Sources */,
+				0DBED1773D6A5D85CD148FDF /* DZGeometryTools.m in Sources */,
+				EA00B638B1618CBF20AE83E5 /* Pods-Tests-DZGeometryTools-dummy.m in Sources */,
+				522AA91924FEA4818B66B45C /* UIDeviceHardware.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C78EB11C85FD0EDF57019F2D /* Sources */ = {
+		5BCFEA622DFFC4BEFE9EDEFA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C00D9CAC0BE5342F8D8C9F7B /* FBSnapshotTestCase.m in Sources */,
-				68896DD8A0087E6B57590889 /* FBSnapshotTestCasePlatform.m in Sources */,
-				1F2C999241074216582B2603 /* FBSnapshotTestController.m in Sources */,
-				40356E3ECD3B88BF2AABE964 /* Pods-Tests-FBSnapshotTestCase-dummy.m in Sources */,
-				143C55F8BCB7A7576A23FB35 /* UIImage+Compare.m in Sources */,
-				1A10DBDEA8054F26DA795991 /* UIImage+Diff.m in Sources */,
+				C0E27D62C62469A1A01A29D8 /* DZSwipeViewController.m in Sources */,
+				1DE93ED7A59AF57AF3B78A10 /* DZTabItemContentView.m in Sources */,
+				E5D0FD00DB28EDC751046425 /* DZTabView.m in Sources */,
+				2E7BB1268F9200CEA5A2AC35 /* DZTabViewItem.m in Sources */,
+				AC490E4E0ED6085434F4FE57 /* Pods-Tests-DZSwipeViewController-dummy.m in Sources */,
+				90786C9B16C3AB1D8065DD41 /* UIViewController+DZSwipeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D11F5272A9EC71813577E539 /* Sources */ = {
+		5E66BBE69608EF2B1D51A6DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5812BE53B2F4E1A6BE3BF55 /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61A5A43D7C70976ACA96DD9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCA7C6154EA36A57A6983D7 /* DZDevices.m in Sources */,
+				D7013601B29B27905597322F /* DZGeometryTools.m in Sources */,
+				A984A30786016FFDB61D8E6C /* Pods-DZSwipeViewController-DZGeometryTools-dummy.m in Sources */,
+				8AF7D34E80C80697589AF54F /* UIDeviceHardware.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D6E04A8039B0ECFF04D3089 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F45E9233FE31080E2A4526 /* Pods-DZSwipeViewController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97FC8B105EB32E973EBAC728 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE50B764D641E9E722D16AF7 /* Sources */ = {
+		B363DE9303BD0CDB3F5332A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33F8840F5BBA60CA0429C910 /* DZDevices.m in Sources */,
-				9BC7E44F7FAA202DF031F503 /* DZGeometryTools.m in Sources */,
-				B861EB3EBC84D04078B064BE /* Pods-Tests-DZGeometryTools-dummy.m in Sources */,
-				5796571BCDA663C6304D51FB /* UIDeviceHardware.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E73074F7E6A09A0F1AD32796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFFD6E9A674953EF8522702 /* DZSwipeViewController.m in Sources */,
+				8027E4B3881F1A069C9C30A6 /* DZTabItemContentView.m in Sources */,
+				D16C135AB80221D0112E5455 /* DZTabView.m in Sources */,
+				5E0A1727A79F47B9DF004C21 /* DZTabViewItem.m in Sources */,
+				A3EFF84750399EDBABFE184C /* Pods-DZSwipeViewController-DZSwipeViewController-dummy.m in Sources */,
+				4200763343DFAA809EB6B3DF /* UIViewController+DZSwipeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		41A0204C4FFECFA352E5022E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Tests-DZGeometryTools";
-			target = 73F87E1D72DC37BA79CE751D /* Pods-Tests-DZGeometryTools */;
-			targetProxy = A6328D7EBEAEFDDCF8651A69 /* PBXContainerItemProxy */;
-		};
-		41D6D8EA01881A835D738CFA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Tests-DZGeometryTools-DZGeometryTools";
-			target = A208824699AD96E3E6E5608D /* Pods-Tests-DZGeometryTools-DZGeometryTools */;
-			targetProxy = 1A750711AC25A31CF3A111A6 /* PBXContainerItemProxy */;
-		};
-		4E60E2FC16022F2130901B9A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-DZSwipeViewController-DZGeometryTools";
-			target = 25A488B7C3229D9299B864BB /* Pods-DZSwipeViewController-DZGeometryTools */;
-			targetProxy = 229DBF440A8EEE1F5585C819 /* PBXContainerItemProxy */;
-		};
-		5A2E493F4517E49AAFE19C03 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-DZSwipeViewController-DZSwipeViewController";
-			target = 491070FE037D189D152E4A8C /* Pods-DZSwipeViewController-DZSwipeViewController */;
-			targetProxy = D891E232798FCF280B6D0397 /* PBXContainerItemProxy */;
-		};
-		6F3C14415016B23293331F78 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Tests-FBSnapshotTestCase";
-			target = 869AC0785B803D10AB08F406 /* Pods-Tests-FBSnapshotTestCase */;
-			targetProxy = 2E529D26AD299213B127D9A6 /* PBXContainerItemProxy */;
-		};
-		80D773F6031CA60B261BB1B4 /* PBXTargetDependency */ = {
+		02FE91D76189411F3CD665F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-DZSwipeViewController-DZSwipeViewController-DZSwipeViewController";
-			target = A71D22969A8607954F23AA23 /* Pods-DZSwipeViewController-DZSwipeViewController-DZSwipeViewController */;
-			targetProxy = FB0A80481A6B023997C76580 /* PBXContainerItemProxy */;
+			target = 8C97CAA98F01409747A68CED /* Pods-DZSwipeViewController-DZSwipeViewController-DZSwipeViewController */;
+			targetProxy = 28E030511282DB5CC96E93F2 /* PBXContainerItemProxy */;
 		};
-		8B8B24704E5CB9AF6FD7C9EE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-Tests-DZSwipeViewController-DZSwipeViewController";
-			target = A7D2FCA75F5F089C4084C1C1 /* Pods-Tests-DZSwipeViewController-DZSwipeViewController */;
-			targetProxy = E76B5E3BC1624F46601155BA /* PBXContainerItemProxy */;
-		};
-		9AA67CED0F38273E92B6FD83 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-DZSwipeViewController-DZGeometryTools";
-			target = 25A488B7C3229D9299B864BB /* Pods-DZSwipeViewController-DZGeometryTools */;
-			targetProxy = 4B381668493AA71E1ED51EF2 /* PBXContainerItemProxy */;
-		};
-		9E515156FA92B09AB3F2030B /* PBXTargetDependency */ = {
+		10DB5F4A6B9F236831655B5D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Tests-DZGeometryTools";
-			target = 73F87E1D72DC37BA79CE751D /* Pods-Tests-DZGeometryTools */;
-			targetProxy = 008CB7124B9846E6CD651CAE /* PBXContainerItemProxy */;
+			target = 24BC3D348ADA2AB791D2ABD3 /* Pods-Tests-DZGeometryTools */;
+			targetProxy = D7FDE57E4474B8CA1E473AC2 /* PBXContainerItemProxy */;
 		};
-		BE9994F337F391BD1A46A82F /* PBXTargetDependency */ = {
+		32C2109469BBDC151A2981A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DZSwipeViewController-DZGeometryTools";
+			target = 4C689042F4656384375BF3A5 /* Pods-DZSwipeViewController-DZGeometryTools */;
+			targetProxy = C253F1BA7D9BE341C3A16297 /* PBXContainerItemProxy */;
+		};
+		64CB5E94D37EE933FD1583A9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Tests-DZSwipeViewController";
-			target = F4EB606708F23F45588A7E37 /* Pods-Tests-DZSwipeViewController */;
-			targetProxy = A91F6D74974E727A4CEC5FC7 /* PBXContainerItemProxy */;
+			target = 754C90D5216E8F86DF3F90CF /* Pods-Tests-DZSwipeViewController */;
+			targetProxy = 55EFFE6C0454854BB10D4FE0 /* PBXContainerItemProxy */;
 		};
-		E32104A7AE4455EEB058094F /* PBXTargetDependency */ = {
+		7A4DF8CA00D2EAF4C53CBC1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DZSwipeViewController-DZGeometryTools";
+			target = 4C689042F4656384375BF3A5 /* Pods-DZSwipeViewController-DZGeometryTools */;
+			targetProxy = 8EDF848418755B6512E2D81E /* PBXContainerItemProxy */;
+		};
+		A0C2A89103B9843F9A9BFB03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DZSwipeViewController-DZSwipeViewController";
+			target = 8FF9E8AF820AD27467112463 /* Pods-DZSwipeViewController-DZSwipeViewController */;
+			targetProxy = 03814F4FC808889A6008BFB7 /* PBXContainerItemProxy */;
+		};
+		B0DF539F8B84FE4BB60A6FAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-DZGeometryTools";
+			target = 24BC3D348ADA2AB791D2ABD3 /* Pods-Tests-DZGeometryTools */;
+			targetProxy = FA32A8F724D107FB2443DE2B /* PBXContainerItemProxy */;
+		};
+		B90D7C4C9987D987D6A24B91 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-DZSwipeViewController-DZGeometryTools-DZGeometryTools";
-			target = 46DFC4F051D2417292D8EA94 /* Pods-DZSwipeViewController-DZGeometryTools-DZGeometryTools */;
-			targetProxy = 11D66B92EBFBD5D392F458B5 /* PBXContainerItemProxy */;
+			target = E220422187984BF8CEEA54AA /* Pods-DZSwipeViewController-DZGeometryTools-DZGeometryTools */;
+			targetProxy = 7B3615C2707B388EF17278A3 /* PBXContainerItemProxy */;
+		};
+		F0C196B1F3AEA39F168E5D70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-FBSnapshotTestCase";
+			target = F29F84C0CF9F62D4B1CA09B9 /* Pods-Tests-FBSnapshotTestCase */;
+			targetProxy = 28988A39CAA119B1C3578BF0 /* PBXContainerItemProxy */;
+		};
+		F2AA867D7EC5D352AECE8E6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-DZSwipeViewController-DZSwipeViewController";
+			target = C65CFAA504A55A305C6C0EBF /* Pods-Tests-DZSwipeViewController-DZSwipeViewController */;
+			targetProxy = C6ABB36120CFA090B72F5092 /* PBXContainerItemProxy */;
+		};
+		F3DD897AB9036CC008BAF7A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-DZGeometryTools-DZGeometryTools";
+			target = 3DE1FCE482F1F4009EBEEB2A /* Pods-Tests-DZGeometryTools-DZGeometryTools */;
+			targetProxy = 64F89BE30ED554814DA148AB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		09D7C805CF1E3F5B12CDDCEC /* Release */ = {
+		069439F19459EF77E6600FF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8BB0C1015AE3F855D4005CA /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1B7BF4679422B0E6DE129320 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = DZGeometryTools;
+				PRODUCT_NAME = DZSwipeViewController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
-		1459054358D7FC2EF6156A39 /* Release */ = {
+		1BE445DB3A78A3EF19C6BEB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23B9C75FEC77A1C49EA7DF70 /* Pods-Tests-DZGeometryTools-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-DZGeometryTools/Pods-Tests-DZGeometryTools-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		247F7E3FED0040F11D27D58F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1079,9 +1111,106 @@
 			};
 			name = Release;
 		};
-		15D21F48CD355BA462F697D2 /* Release */ = {
+		28BA36601AD77B1F86D42CA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 878E8B9632D5401D94551B6C /* Pods-DZSwipeViewController-DZGeometryTools-Private.xcconfig */;
+			baseConfigurationReference = 2A6806E1D568041E2EABCA0B /* Pods-Tests-DZSwipeViewController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-DZSwipeViewController/Pods-Tests-DZSwipeViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2F9B6DF245708B8E04F572DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF16211217CD954678AE2336 /* Pods-DZSwipeViewController.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		34A2ABF5AD49BFAC06D6E32F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DZGeometryTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		35AACCAD7675AEBADE753243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9CC0624AA8704E1A92D519A /* Pods-DZSwipeViewController-DZGeometryTools-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DZSwipeViewController-DZGeometryTools/Pods-DZSwipeViewController-DZGeometryTools-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		36C8C87A4B135829DD93D81C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DZSwipeViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		3D35B64AB361AE173819400D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DZSwipeViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5869F37725939B6A9D62B596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7864E42FC6202290784811E2 /* Pods-Tests-FBSnapshotTestCase-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-FBSnapshotTestCase/Pods-Tests-FBSnapshotTestCase-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		58A5E07A465BFB763F537D16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9CC0624AA8704E1A92D519A /* Pods-DZSwipeViewController-DZGeometryTools-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/Pods-DZSwipeViewController-DZGeometryTools/Pods-DZSwipeViewController-DZGeometryTools-prefix.pch";
@@ -1095,7 +1224,163 @@
 			};
 			name = Release;
 		};
-		26D961C53C93206FE16CCCA2 /* Debug */ = {
+		6476AF08FD28A4E74A5E2AA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A6806E1D568041E2EABCA0B /* Pods-Tests-DZSwipeViewController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-DZSwipeViewController/Pods-Tests-DZSwipeViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6D5054E32F88334A10036DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7BE733B076A337A54543E06 /* Pods-DZSwipeViewController.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6F0FB53D4F730CF98ECF1386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DZGeometryTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8F97EFDEE54C34B1934152DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7864E42FC6202290784811E2 /* Pods-Tests-FBSnapshotTestCase-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-FBSnapshotTestCase/Pods-Tests-FBSnapshotTestCase-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9052F71B4275C0419ABFF049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC280FA5BFD42AC1E5E7E0E2 /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A917F9FD2A07ECE9D6E7AE61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DZSwipeViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		AF4F14CA613A1787D9E4F820 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1899AC36AB13DC7FC631808C /* Pods-DZSwipeViewController-DZSwipeViewController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DZSwipeViewController-DZSwipeViewController/Pods-DZSwipeViewController-DZSwipeViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B0731C96D9A65C430E0A9CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1899AC36AB13DC7FC631808C /* Pods-DZSwipeViewController-DZSwipeViewController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DZSwipeViewController-DZSwipeViewController/Pods-DZSwipeViewController-DZSwipeViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BFD26EDF5632ECB72E3EE6E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DZGeometryTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		CB9114CB23A941CF69183910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DZGeometryTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D6D579F6B45E4D979B85F8D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23B9C75FEC77A1C49EA7DF70 /* Pods-Tests-DZGeometryTools-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-DZGeometryTools/Pods-Tests-DZGeometryTools-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E94318C16FD4FDFAC983705E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1134,403 +1419,118 @@
 			};
 			name = Debug;
 		};
-		2B590531AF89581326F7AC4F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62E29A85C28334BA35C678F8 /* Pods-Tests.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		44D80F06753BFC6D3F4D07E1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8125C177EC80E68F9ED88860 /* Pods-Tests.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		462528389A9B7E7227BE8AA2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = DZSwipeViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		4B805F4F3CA945455EFAB433 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 878E8B9632D5401D94551B6C /* Pods-DZSwipeViewController-DZGeometryTools-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-DZSwipeViewController-DZGeometryTools/Pods-DZSwipeViewController-DZGeometryTools-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		4EDE21A584607F552DC288E1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 392D033B19FDD519E61B69F1 /* Pods-DZSwipeViewController.release.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		6DB2A4B5051F60C22EB69EBB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = DZGeometryTools;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		7BC32967AF06352968E4AC47 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = DZGeometryTools;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		800F613E9303A511D2B03486 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB45A7C65D3E25B3B36F773E /* Pods-Tests-DZSwipeViewController-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-DZSwipeViewController/Pods-Tests-DZSwipeViewController-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		89AF5DAB453F3ED692696B5B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8DA54AD72ECA0B6B5C4D5E3 /* Pods-Tests-FBSnapshotTestCase-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-FBSnapshotTestCase/Pods-Tests-FBSnapshotTestCase-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		8AEC8E2BE2CE63BA9D93D8C7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = DZGeometryTools;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		969B6E052AA9957D1C6F526D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3EB6CC9E7A03500AB5E1506 /* Pods-DZSwipeViewController.debug.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		9CC6198A6B32A6B8DD0C2A1C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB45A7C65D3E25B3B36F773E /* Pods-Tests-DZSwipeViewController-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-DZSwipeViewController/Pods-Tests-DZSwipeViewController-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		A43A72B117126C4252FC0E83 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04FA820D12E7079E759BEA82 /* Pods-Tests-DZGeometryTools-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-DZGeometryTools/Pods-Tests-DZGeometryTools-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		B8EDE163CBA802054BE66F31 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = DZSwipeViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		C3551AFB4BE26DC5AF92441E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8DA54AD72ECA0B6B5C4D5E3 /* Pods-Tests-FBSnapshotTestCase-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-FBSnapshotTestCase/Pods-Tests-FBSnapshotTestCase-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		D490D1E35C21FF07031B1A0E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C90AA01A5134B680867A1960 /* Pods-DZSwipeViewController-DZSwipeViewController-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-DZSwipeViewController-DZSwipeViewController/Pods-DZSwipeViewController-DZSwipeViewController-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		D9EC39AE45295F4241BA590E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C90AA01A5134B680867A1960 /* Pods-DZSwipeViewController-DZSwipeViewController-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-DZSwipeViewController-DZSwipeViewController/Pods-DZSwipeViewController-DZSwipeViewController-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		DD07B3C8950B632C976148CC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = DZSwipeViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		E8E268587645291DEA308218 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = DZSwipeViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		FEA072F9D99DEA0AD78D5278 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 04FA820D12E7079E759BEA82 /* Pods-Tests-DZGeometryTools-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-DZGeometryTools/Pods-Tests-DZGeometryTools-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0D8F9F0CEC31777CC665D670 /* Build configuration list for PBXNativeTarget "Pods-DZSwipeViewController-DZSwipeViewController" */ = {
+		0172D0F7A64DBFC4F5F1DA63 /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D9EC39AE45295F4241BA590E /* Debug */,
-				D490D1E35C21FF07031B1A0E /* Release */,
+				9052F71B4275C0419ABFF049 /* Debug */,
+				069439F19459EF77E6600FF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13D0E2DD018BE2A40795FBE7 /* Build configuration list for PBXNativeTarget "Pods-DZSwipeViewController" */ = {
+		0EED7645CA7AF184143C6F74 /* Build configuration list for PBXNativeTarget "Pods-DZSwipeViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				969B6E052AA9957D1C6F526D /* Debug */,
-				4EDE21A584607F552DC288E1 /* Release */,
+				6D5054E32F88334A10036DE9 /* Debug */,
+				2F9B6DF245708B8E04F572DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1731D8140FEF920C74EC0083 /* Build configuration list for PBXNativeTarget "Pods-Tests-DZSwipeViewController-DZSwipeViewController" */ = {
+		160E38010F6B64BFBDBE92EB /* Build configuration list for PBXNativeTarget "Pods-DZSwipeViewController-DZGeometryTools-DZGeometryTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E8E268587645291DEA308218 /* Debug */,
-				462528389A9B7E7227BE8AA2 /* Release */,
+				6F0FB53D4F730CF98ECF1386 /* Debug */,
+				BFD26EDF5632ECB72E3EE6E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		17A45185C2E9FBCEA7A33769 /* Build configuration list for PBXNativeTarget "Pods-DZSwipeViewController-DZGeometryTools-DZGeometryTools" */ = {
+		165E5D5C23344041312D9498 /* Build configuration list for PBXNativeTarget "Pods-DZSwipeViewController-DZGeometryTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6DB2A4B5051F60C22EB69EBB /* Debug */,
-				09D7C805CF1E3F5B12CDDCEC /* Release */,
+				35AACCAD7675AEBADE753243 /* Debug */,
+				58A5E07A465BFB763F537D16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		364282F6B96CBCD4E5AD532C /* Build configuration list for PBXNativeTarget "Pods-DZSwipeViewController-DZGeometryTools" */ = {
+		18272B2F960F478EBE73539F /* Build configuration list for PBXNativeTarget "Pods-Tests-DZGeometryTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4B805F4F3CA945455EFAB433 /* Debug */,
-				15D21F48CD355BA462F697D2 /* Release */,
+				1BE445DB3A78A3EF19C6BEB2 /* Debug */,
+				D6D579F6B45E4D979B85F8D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		557285CB55E8E7DE297CB063 /* Build configuration list for PBXNativeTarget "Pods-Tests-DZGeometryTools-DZGeometryTools" */ = {
+		35C912587985490C7824138C /* Build configuration list for PBXNativeTarget "Pods-Tests-FBSnapshotTestCase" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7BC32967AF06352968E4AC47 /* Debug */,
-				8AEC8E2BE2CE63BA9D93D8C7 /* Release */,
+				5869F37725939B6A9D62B596 /* Debug */,
+				8F97EFDEE54C34B1934152DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8D91EB8A83B263F632569EEF /* Build configuration list for PBXProject "Pods" */ = {
+		47AF83CB0E43897189855BD6 /* Build configuration list for PBXNativeTarget "Pods-Tests-DZSwipeViewController-DZSwipeViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				26D961C53C93206FE16CCCA2 /* Debug */,
-				1459054358D7FC2EF6156A39 /* Release */,
+				36C8C87A4B135829DD93D81C /* Debug */,
+				A917F9FD2A07ECE9D6E7AE61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A784E14AF4870226BE09ADBC /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+		5F9EB0225D55FC78FD9C8AE9 /* Build configuration list for PBXNativeTarget "Pods-Tests-DZGeometryTools-DZGeometryTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				44D80F06753BFC6D3F4D07E1 /* Debug */,
-				2B590531AF89581326F7AC4F /* Release */,
+				34A2ABF5AD49BFAC06D6E32F /* Debug */,
+				CB9114CB23A941CF69183910 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA990C58CCF3B3B27A114464 /* Build configuration list for PBXNativeTarget "Pods-Tests-FBSnapshotTestCase" */ = {
+		88A90D0041D76B91DE172CE1 /* Build configuration list for PBXNativeTarget "Pods-Tests-DZSwipeViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3551AFB4BE26DC5AF92441E /* Debug */,
-				89AF5DAB453F3ED692696B5B /* Release */,
+				28BA36601AD77B1F86D42CA6 /* Debug */,
+				6476AF08FD28A4E74A5E2AA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE5ED367F2EDDF3AF62FECE4 /* Build configuration list for PBXNativeTarget "Pods-DZSwipeViewController-DZSwipeViewController-DZSwipeViewController" */ = {
+		8B2A9A15F29EA2BA58552623 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8EDE163CBA802054BE66F31 /* Debug */,
-				DD07B3C8950B632C976148CC /* Release */,
+				E94318C16FD4FDFAC983705E /* Debug */,
+				247F7E3FED0040F11D27D58F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F58083785282E5A37978C5B4 /* Build configuration list for PBXNativeTarget "Pods-Tests-DZSwipeViewController" */ = {
+		AE722020EFB85F78FC9DF73D /* Build configuration list for PBXNativeTarget "Pods-DZSwipeViewController-DZSwipeViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				800F613E9303A511D2B03486 /* Debug */,
-				9CC6198A6B32A6B8DD0C2A1C /* Release */,
+				B0731C96D9A65C430E0A9CD3 /* Debug */,
+				AF4F14CA613A1787D9E4F820 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA33345D328BB3162231F3EB /* Build configuration list for PBXNativeTarget "Pods-Tests-DZGeometryTools" */ = {
+		D7C39CB2CD4E37EAC58EA9EA /* Build configuration list for PBXNativeTarget "Pods-DZSwipeViewController-DZSwipeViewController-DZSwipeViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A43A72B117126C4252FC0E83 /* Debug */,
-				FEA072F9D99DEA0AD78D5278 /* Release */,
+				3D35B64AB361AE173819400D /* Debug */,
+				1B7BF4679422B0E6DE129320 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F1823E6360F1ECE60C9C1F4F /* Project object */;
+	rootObject = 1CEBF6A2E0B910A3FFB80FB5 /* Project object */;
 }

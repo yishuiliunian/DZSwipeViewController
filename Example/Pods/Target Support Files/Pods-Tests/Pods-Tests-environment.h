@@ -16,7 +16,7 @@
 #define COCOAPODS_POD_AVAILABLE_DZSwipeViewController
 #define COCOAPODS_VERSION_MAJOR_DZSwipeViewController 0
 #define COCOAPODS_VERSION_MINOR_DZSwipeViewController 1
-#define COCOAPODS_VERSION_PATCH_DZSwipeViewController 7
+#define COCOAPODS_VERSION_PATCH_DZSwipeViewController 8
 
 // FBSnapshotTestCase
 #define COCOAPODS_POD_AVAILABLE_FBSnapshotTestCase

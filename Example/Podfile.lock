@@ -1,6 +1,6 @@
 PODS:
   - DZGeometryTools (1.0.5)
-  - DZSwipeViewController (0.1.7):
+  - DZSwipeViewController (0.1.8):
     - DZGeometryTools
   - FBSnapshotTestCase (1.8)
 
@@ -14,7 +14,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   DZGeometryTools: 041db19a4edc67c993b5bae16fdaf7a7b5ff9900
-  DZSwipeViewController: 0425d14987a114b8af3c7d969d769822b368cffc
+  DZSwipeViewController: 3c0dbe3e5dd2ed06c74087897205c6d15722b228
   FBSnapshotTestCase: 05065a47e7acc9c919315648ca39fb614f29ebd4
 
 COCOAPODS: 0.36.3

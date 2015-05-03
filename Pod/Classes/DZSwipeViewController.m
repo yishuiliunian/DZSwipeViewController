@@ -339,7 +339,6 @@ CGFloat const kDZTabHeight = 44;
 }
 - (void) scrollViewDidScroll:(UIScrollView *)scrollView
 {
-    UIViewController* vc = [self.pageViewController.viewControllers lastObject];
     if (!_tapTabbarAnimating) {
         CGFloat xFromCenter = self.view.frame.size.width-scrollView.contentOffset.x; //%%% positive for right swipe, negative for left
         CGFloat ratio =  xFromCenter / CGRectGetWidth(scrollView.frame);
