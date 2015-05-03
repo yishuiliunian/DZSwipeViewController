@@ -1,5 +1,6 @@
 #include "Pods-Tests-DZSwipeViewController.xcconfig"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/DZSwipeViewController" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/DZSwipeViewController" "${PODS_ROOT}/Headers/Public/FBSnapshotTestCase"
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/DZSwipeViewController" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/DZGeometryTools" "${PODS_ROOT}/Headers/Public/DZSwipeViewController" "${PODS_ROOT}/Headers/Public/FBSnapshotTestCase"
 OTHER_LDFLAGS = -ObjC
 PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

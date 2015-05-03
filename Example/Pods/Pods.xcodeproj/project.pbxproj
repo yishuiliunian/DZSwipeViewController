@@ -1,2656 +1,1536 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>01D715DCBA0AE2AD1923AFE3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>DZSwipeViewController.h</string>
-			<key>path</key>
-			<string>Pod/Classes/DZSwipeViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>01ECC3305F030E415DBCCC6C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7535745631052688767C87E1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0950462D33C36D11FBE2F0D2</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>FA2A9596A9E0D1F6E971169F</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>A044BE8E8889C8EBC8E00FFB</string>
-			<key>remoteInfo</key>
-			<string>Pods-DZSwipeViewController-DZSwipeViewController</string>
-		</dict>
-		<key>09808389CE09E0BF817781EF</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>6044B1A4D9AE45D3BB57CEB2</string>
-				<string>2D695447232478492930958C</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>0AC1C162F35743AF806C3BB5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-DZSwipeViewController-DZSwipeViewController-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0C43214FE63FB94FD093405B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B643D5AC91173D899E7ED81A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>0CD0E0C5C869705392C3DE85</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>AA76E72A6FF456CC5275AF6B</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-DZSwipeViewController/Pods-Tests-DZSwipeViewController-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>0DAAF75E20BA8B27236A6753</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Tests-DZSwipeViewController.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>14F480215208195C1DC416D3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIViewController+DZSwipeViewController.h</string>
-			<key>path</key>
-			<string>Pod/Classes/UIViewController+DZSwipeViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>162C0BF530AF59ACE68EAFA2</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8BFE79642D3F400FCB53C2F5</string>
-				<string>80FF6C2B5FF74BED10189A34</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>173E616D5C6AF90C9F900866</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D12C83787C71FB9A51EC05B4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>17DFF7A68D9E6D0083128D4C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-DZSwipeViewController-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>19560CA941C926DBD41FD16F</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>1D2AC0B92EC1DEA27763BCA7</string>
-				<string>BA2304F01BDF8165F6F90577</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>1A552F8ECFA227EB2FD6DD89</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-Tests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1D21CBA24EF65F6EBD71E4A7</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>AA76E72A6FF456CC5275AF6B</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-DZSwipeViewController/Pods-Tests-DZSwipeViewController-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>1D2AC0B92EC1DEA27763BCA7</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>50EEB18BEA1C780D76354F61</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-DZSwipeViewController-DZSwipeViewController/Pods-DZSwipeViewController-DZSwipeViewController-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>1E80DF842922A0B0B0DEB577</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>9287FE7D2EA8230CC41CCA2E</string>
-				<string>6CE0AF1F96E5C8419D219C9B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>214641C438A21E01082A3CBA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2D1FFB1FE0A32633E169166C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>22B1F8064BB53DAAEF020691</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Tests-FBSnapshotTestCase-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>233E41979F3979716191AD8F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B643D5AC91173D899E7ED81A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>25EDE5F8CBC4E729DD724667</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>83A98B1CED70DF2C162F6601</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27C1503E8809AC31450BBB34</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FE4015F116AFCA943709F1D8</string>
-				<string>D325603524CFB11CF90381FA</string>
-				<string>9B488C378E63888F307542C3</string>
-				<string>22B1F8064BB53DAAEF020691</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Pods-Tests-FBSnapshotTestCase</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>27F6ECB1CA792D65EC6AF42E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C56F91F507F3862BBECA0DA4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>28BF432EB0AEB1F279DF4DAC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C56F91F507F3862BBECA0DA4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2A61FC697774CAD2CF73A563</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>A985332DAC9461A1FD4670EF</string>
-				<string>A11E777512BB3BE71EA71E76</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>2D1FFB1FE0A32633E169166C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FBSnapshotTestController.m</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase/FBSnapshotTestController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D695447232478492930958C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>2E00A22764794CE094C997EE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0AC1C162F35743AF806C3BB5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2FF62F84C1D9BE8F599BB8D2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7B05B7341D02CC4CA490D9D2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>323EA1FBE6F80F00C65A8976</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIImage+Diff.m</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase/UIImage+Diff.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>326EBAF9BDCCC441BB030D9F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>32C7EBCD4781324DC9147C46</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>32C7EBCD4781324DC9147C46</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Tests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>32DCA52061E1DB7F11246A81</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5E5CFF504CA676646C8C9184</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>33B3305B6C2616319D8F7D3F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-Tests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>36377B783CEC054877E2F688</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>EF30A38458BFD0FEDF4D46BC</string>
-				<string>8CDC9152F6E95C4F795D996D</string>
-				<string>667503EFE36E3F34D51D6192</string>
-				<string>9E28687216A0CF06ECC5F376</string>
-				<string>79716DACE54B46F41F9D55A5</string>
-				<string>0C43214FE63FB94FD093405B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>36BEF414ABE4D56BAD0C4ACC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>01D715DCBA0AE2AD1923AFE3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>38D2697A94B451FED15183F7</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>FA2A9596A9E0D1F6E971169F</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>54215A12C0487D82E69A48E4</string>
-			<key>remoteInfo</key>
-			<string>DZSwipeViewController</string>
-		</dict>
-		<key>3A6C15F13FF4EB22EF738570</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A95BDAA6C323C5145D841A0D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3B42C22F8780D085E27064EA</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-DZSwipeViewController-DZSwipeViewController</string>
-			<key>target</key>
-			<string>A044BE8E8889C8EBC8E00FFB</string>
-			<key>targetProxy</key>
-			<string>0950462D33C36D11FBE2F0D2</string>
-		</dict>
-		<key>3CDAFBC1CAD391066EA83221</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>1E80DF842922A0B0B0DEB577</string>
-			<key>buildPhases</key>
-			<array>
-				<string>C198DF217490F4AFE1120D34</string>
-				<string>FE2892650353E0AA115564A2</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>FF17E36D0677198BF52AB9F5</string>
-				<string>599750D3E4A17BE649DBD49E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests</string>
-			<key>productName</key>
-			<string>Pods-Tests</string>
-			<key>productReference</key>
-			<string>4728BF967A41150BBB72CCA0</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>3EBD07F36AA6D6D6F41CEA13</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-DZSwipeViewController.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>422649B36DE6B62772C3F294</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BAB212A7C35F9EB438F15EF2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>43904D37F8647EB8261BB70C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>445CC80853FD5A7A963FC5BA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-DZSwipeViewController-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4728BF967A41150BBB72CCA0</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Tests.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>48E69BD3676C994DFF43DF7B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>50EEB18BEA1C780D76354F61</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-DZSwipeViewController-DZSwipeViewController-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>515FEFCCD40177C3CAD07E12</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FBSnapshotTestCase.m</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase/FBSnapshotTestCase.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>51A3D00E7F0EEB4670448426</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A95BDAA6C323C5145D841A0D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>52A059EA71F5F22ECE00B9C5</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D325603524CFB11CF90381FA</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-FBSnapshotTestCase/Pods-Tests-FBSnapshotTestCase-prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>54215A12C0487D82E69A48E4</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>09808389CE09E0BF817781EF</string>
-			<key>buildPhases</key>
-			<array>
-				<string>43904D37F8647EB8261BB70C</string>
-				<string>EB07BDE39526FF793348E2D1</string>
-				<string>FC213B8DFDE373C79DBAEAEE</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>DZSwipeViewController</string>
-			<key>productName</key>
-			<string>DZSwipeViewController</string>
-			<key>productReference</key>
-			<string>C2CAADA4E0996EC172851356</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>54C92079B6FB756EBD267A51</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>2A61FC697774CAD2CF73A563</string>
-			<key>buildPhases</key>
-			<array>
-				<string>CA15EE098DE1E6FAFDFE3F19</string>
-				<string>92F1C5BEC83F2AE762A98DD5</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>3B42C22F8780D085E27064EA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-DZSwipeViewController</string>
-			<key>productName</key>
-			<string>Pods-DZSwipeViewController</string>
-			<key>productReference</key>
-			<string>7BD21C1CC8BE814E8B334A4D</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>5700AA0CF4C6846C2302611D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-DZSwipeViewController-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>57E2B6594C848C0C334AE1DD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>14F480215208195C1DC416D3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>588568EC1C3F6BA554AA116A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>515FEFCCD40177C3CAD07E12</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>58D2C1B48234CBCB3E4133BE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>01D715DCBA0AE2AD1923AFE3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>599750D3E4A17BE649DBD49E</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-Tests-FBSnapshotTestCase</string>
-			<key>target</key>
-			<string>F8CA0EE2E876B14111362F18</string>
-			<key>targetProxy</key>
-			<string>5E3E435913634F7CFBFF4A5D</string>
-		</dict>
-		<key>5CAB00BE849B7D685F075853</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>FA2A9596A9E0D1F6E971169F</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>54215A12C0487D82E69A48E4</string>
-			<key>remoteInfo</key>
-			<string>DZSwipeViewController</string>
-		</dict>
-		<key>5E3E435913634F7CFBFF4A5D</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>FA2A9596A9E0D1F6E971169F</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>F8CA0EE2E876B14111362F18</string>
-			<key>remoteInfo</key>
-			<string>Pods-Tests-FBSnapshotTestCase</string>
-		</dict>
-		<key>5E54634007DF3A903D5AD57B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Pods-Tests-DZSwipeViewController-dummy.m</string>
-			<key>path</key>
-			<string>../Pods-Tests-DZSwipeViewController/Pods-Tests-DZSwipeViewController-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5E5CFF504CA676646C8C9184</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>XCTest.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/XCTest.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>6044B1A4D9AE45D3BB57CEB2</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>617FBD772753EA6E4862706C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>48E69BD3676C994DFF43DF7B</string>
-				<string>82D47C2D26FAF464C256A212</string>
-				<string>25EDE5F8CBC4E729DD724667</string>
-				<string>68857363D7D301E1FF5842CE</string>
-				<string>636DF282B136AC5659C470A0</string>
-				<string>162C0BF530AF59ACE68EAFA2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>636DF282B136AC5659C470A0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>C2CAADA4E0996EC172851356</string>
-				<string>7BD21C1CC8BE814E8B334A4D</string>
-				<string>EF2C622268A50C9B0E76EC28</string>
-				<string>4728BF967A41150BBB72CCA0</string>
-				<string>0DAAF75E20BA8B27236A6753</string>
-				<string>7D14205C9425FB295C239745</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>638E51BE38EB41B039AA30B6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Tests-DZSwipeViewController.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-Tests-DZSwipeViewController/Pods-Tests-DZSwipeViewController.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>664619D5B87D4BE0D8207681</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7535745631052688767C87E1</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>667503EFE36E3F34D51D6192</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CA9B622A77B544BC9C9A7AA4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>68857363D7D301E1FF5842CE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AECE88BBA2F5087CCE9A0CE0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>690976FADFB48A516768451C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C93CB8BFE8E19738BD8EB8BA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>6CE0AF1F96E5C8419D219C9B</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>ECC59CC50EDBB501CA67E6E7</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>6E77F9B668455EF4E797AA27</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FBSnapshotTestController.h</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase/FBSnapshotTestController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6E9311FF0F3901A3B7D3D641</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-DZSwipeViewController-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>71D4D46DFFF8A7AE235ED788</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D12C83787C71FB9A51EC05B4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7535745631052688767C87E1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>DZTabViewItem_Private.h</string>
-			<key>path</key>
-			<string>Pod/Classes/DZTabViewItem_Private.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7938CE9DD94397A0EE28FC41</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>58D2C1B48234CBCB3E4133BE</string>
-				<string>28BF432EB0AEB1F279DF4DAC</string>
-				<string>3A6C15F13FF4EB22EF738570</string>
-				<string>93206C64C7B2E735FCB351CF</string>
-				<string>664619D5B87D4BE0D8207681</string>
-				<string>949E35C246129DE59B42CC11</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>79716DACE54B46F41F9D55A5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5E54634007DF3A903D5AD57B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>7B05B7341D02CC4CA490D9D2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIImage+Diff.h</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase/UIImage+Diff.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7BD21C1CC8BE814E8B334A4D</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-DZSwipeViewController.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>7D14205C9425FB295C239745</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-Tests-FBSnapshotTestCase.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>7D6056A63B70BA9DC97599AB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E725B4EBF206A10DD9D7C46D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>7E81D8586FCBAA41F3EDE16D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Pods-Tests-DZSwipeViewController-prefix.pch</string>
-			<key>path</key>
-			<string>../Pods-Tests-DZSwipeViewController/Pods-Tests-DZSwipeViewController-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>801EE14DBA35BF78021006CA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>588568EC1C3F6BA554AA116A</string>
-				<string>214641C438A21E01082A3CBA</string>
-				<string>8738214E1260E3C218BE985A</string>
-				<string>D43DDCABEA7943E490777E25</string>
-				<string>A1679FDEB254C6DB544B6FE4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>80FF6C2B5FF74BED10189A34</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>33B3305B6C2616319D8F7D3F</string>
-				<string>1A552F8ECFA227EB2FD6DD89</string>
-				<string>32C7EBCD4781324DC9147C46</string>
-				<string>BAD63AA9665CEBE60C6404BA</string>
-				<string>8AEFD8A340027358D5F2059A</string>
-				<string>C4E3FB2781BBE2E017815695</string>
-				<string>ECC59CC50EDBB501CA67E6E7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Tests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>81F46EEE87A113D0F7C18A5D</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>NO</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>82D47C2D26FAF464C256A212</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>ECC934086D165AEC668EFE76</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8348F7B5276EF8F54E23B6CC</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>52A059EA71F5F22ECE00B9C5</string>
-				<string>C75256EC888C1593877A8C81</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>83A98B1CED70DF2C162F6601</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D12C83787C71FB9A51EC05B4</string>
-				<string>5E5CFF504CA676646C8C9184</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8738214E1260E3C218BE985A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9B488C378E63888F307542C3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>88C2837417690A31E12789F3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D12C83787C71FB9A51EC05B4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>890883248E5F36B201966ABF</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>EB3408ED7DD96036ED3B296F</string>
-				<string>81F46EEE87A113D0F7C18A5D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8AEFD8A340027358D5F2059A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Tests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8BFE79642D3F400FCB53C2F5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5700AA0CF4C6846C2302611D</string>
-				<string>B7C6394E39E68329CA0B6FD5</string>
-				<string>445CC80853FD5A7A963FC5BA</string>
-				<string>6E9311FF0F3901A3B7D3D641</string>
-				<string>17DFF7A68D9E6D0083128D4C</string>
-				<string>EBBFAEBC412ECC0D72B5DDB3</string>
-				<string>3EBD07F36AA6D6D6F41CEA13</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-DZSwipeViewController</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-DZSwipeViewController</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8CDC9152F6E95C4F795D996D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E725B4EBF206A10DD9D7C46D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>8D14A91F574CA3A8F312F1B7</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>99CD36B861F5EA33413EFF63</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8E35DF8CEC9B52DC22A935E4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>E677CD3755C5C7F3069DD27C</string>
-				<string>50EEB18BEA1C780D76354F61</string>
-				<string>0AC1C162F35743AF806C3BB5</string>
-				<string>C351ECD0CBF60BDE5CD7D92D</string>
-				<string>638E51BE38EB41B039AA30B6</string>
-				<string>AA76E72A6FF456CC5275AF6B</string>
-				<string>5E54634007DF3A903D5AD57B</string>
-				<string>7E81D8586FCBAA41F3EDE16D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/Pods-DZSwipeViewController-DZSwipeViewController</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9287FE7D2EA8230CC41CCA2E</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C4E3FB2781BBE2E017815695</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>92F1C5BEC83F2AE762A98DD5</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>D3F65FE941EBF582D92680B1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>93206C64C7B2E735FCB351CF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DD7F0ADA099CB6357664BF5B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>949E35C246129DE59B42CC11</key>
-		<dict>
-			<key>fileRef</key>
-			<string>14F480215208195C1DC416D3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>966A190CB0CA2D44CA429F94</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DD7F0ADA099CB6357664BF5B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>980CF8E0B9E4DDD1F82F7FAD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CA79ECD89CC010BBBC461C44</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>99CD36B861F5EA33413EFF63</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D12C83787C71FB9A51EC05B4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9B488C378E63888F307542C3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Tests-FBSnapshotTestCase-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9E28687216A0CF06ECC5F376</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BAB212A7C35F9EB438F15EF2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>9F804BCA69648A72EEC12AFF</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>DZSwipeViewController</string>
-			<key>target</key>
-			<string>54215A12C0487D82E69A48E4</string>
-			<key>targetProxy</key>
-			<string>5CAB00BE849B7D685F075853</string>
-		</dict>
-		<key>A044BE8E8889C8EBC8E00FFB</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>19560CA941C926DBD41FD16F</string>
-			<key>buildPhases</key>
-			<array>
-				<string>EC11D908522E5AFE25670D7E</string>
-				<string>8D14A91F574CA3A8F312F1B7</string>
-				<string>7938CE9DD94397A0EE28FC41</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>9F804BCA69648A72EEC12AFF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-DZSwipeViewController-DZSwipeViewController</string>
-			<key>productName</key>
-			<string>Pods-DZSwipeViewController-DZSwipeViewController</string>
-			<key>productReference</key>
-			<string>EF2C622268A50C9B0E76EC28</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>A11E777512BB3BE71EA71E76</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>3EBD07F36AA6D6D6F41CEA13</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>A1679FDEB254C6DB544B6FE4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>323EA1FBE6F80F00C65A8976</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>A421799D75BF1B83F3FC4D88</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIImage+Compare.h</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase/UIImage+Compare.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A7390B324CBEEE1C424EAA26</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>71D4D46DFFF8A7AE235ED788</string>
-				<string>32DCA52061E1DB7F11246A81</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A95BDAA6C323C5145D841A0D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>DZTabView.h</string>
-			<key>path</key>
-			<string>Pod/Classes/DZTabView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A985332DAC9461A1FD4670EF</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>EBBFAEBC412ECC0D72B5DDB3</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>AA76E72A6FF456CC5275AF6B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-Tests-DZSwipeViewController-Private.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-Tests-DZSwipeViewController/Pods-Tests-DZSwipeViewController-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ACCD337E9A3C85BBBB4FEF28</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A421799D75BF1B83F3FC4D88</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AECE88BBA2F5087CCE9A0CE0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CA79ECD89CC010BBBC461C44</string>
-				<string>515FEFCCD40177C3CAD07E12</string>
-				<string>6E77F9B668455EF4E797AA27</string>
-				<string>2D1FFB1FE0A32633E169166C</string>
-				<string>A421799D75BF1B83F3FC4D88</string>
-				<string>E605EF06FDD81455EDC3ED2E</string>
-				<string>7B05B7341D02CC4CA490D9D2</string>
-				<string>323EA1FBE6F80F00C65A8976</string>
-				<string>27C1503E8809AC31450BBB34</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>FBSnapshotTestCase</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AFE5B479E6F9FD9CCB10CA2D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6E77F9B668455EF4E797AA27</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B4F2DFA54AE8877B59FD7B2A</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>FA2A9596A9E0D1F6E971169F</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>F796CE1FCF4682991D5B0840</string>
-			<key>remoteInfo</key>
-			<string>Pods-Tests-DZSwipeViewController</string>
-		</dict>
-		<key>B643D5AC91173D899E7ED81A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIViewController+DZSwipeViewController.m</string>
-			<key>path</key>
-			<string>Pod/Classes/UIViewController+DZSwipeViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B7C6394E39E68329CA0B6FD5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-DZSwipeViewController-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BA2304F01BDF8165F6F90577</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>50EEB18BEA1C780D76354F61</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-DZSwipeViewController-DZSwipeViewController/Pods-DZSwipeViewController-DZSwipeViewController-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>BAB212A7C35F9EB438F15EF2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>DZTabViewItem.m</string>
-			<key>path</key>
-			<string>Pod/Classes/DZTabViewItem.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BAD63AA9665CEBE60C6404BA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Tests-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BC2BC293296A85BCC11A86EB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CA9B622A77B544BC9C9A7AA4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>BFE0A745A8129B0ACA424037</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>88C2837417690A31E12789F3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C198DF217490F4AFE1120D34</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>326EBAF9BDCCC441BB030D9F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>C2CAADA4E0996EC172851356</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>DZSwipeViewController.bundle</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>C351ECD0CBF60BDE5CD7D92D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-DZSwipeViewController-DZSwipeViewController-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C4E3FB2781BBE2E017815695</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C56F91F507F3862BBECA0DA4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>DZTabItemContentView.h</string>
-			<key>path</key>
-			<string>Pod/Classes/DZTabItemContentView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C75256EC888C1593877A8C81</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>D325603524CFB11CF90381FA</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>DSTROOT</key>
-				<string>/tmp/xcodeproj.dst</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-FBSnapshotTestCase/Pods-Tests-FBSnapshotTestCase-prefix.pch</string>
-				<key>INSTALL_PATH</key>
-				<string>$(BUILT_PRODUCTS_DIR)</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>OTHER_CFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_CPLUSPLUSFLAGS</key>
-				<array>
-					<string>-DNS_BLOCK_ASSERTIONS=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>PUBLIC_HEADERS_FOLDER_PATH</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>C93CB8BFE8E19738BD8EB8BA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>DZSwipeViewController.m</string>
-			<key>path</key>
-			<string>Pod/Classes/DZSwipeViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CA15EE098DE1E6FAFDFE3F19</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>F30DD41BDC09275BBA332C60</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>CA79ECD89CC010BBBC461C44</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FBSnapshotTestCase.h</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase/FBSnapshotTestCase.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CA9B622A77B544BC9C9A7AA4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>DZTabView.m</string>
-			<key>path</key>
-			<string>Pod/Classes/DZTabView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D12C83787C71FB9A51EC05B4</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>D1BA6E789C05834C78EE261A</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>0CD0E0C5C869705392C3DE85</string>
-				<string>1D21CBA24EF65F6EBD71E4A7</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>D325603524CFB11CF90381FA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests-FBSnapshotTestCase-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D3F65FE941EBF582D92680B1</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D12C83787C71FB9A51EC05B4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D43DDCABEA7943E490777E25</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E605EF06FDD81455EDC3ED2E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>DD7F0ADA099CB6357664BF5B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>DZTabViewItem.h</string>
-			<key>path</key>
-			<string>Pod/Classes/DZTabViewItem.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2EF10B94AA462BA102780CB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>36BEF414ABE4D56BAD0C4ACC</string>
-				<string>27F6ECB1CA792D65EC6AF42E</string>
-				<string>51A3D00E7F0EEB4670448426</string>
-				<string>966A190CB0CA2D44CA429F94</string>
-				<string>01ECC3305F030E415DBCCC6C</string>
-				<string>57E2B6594C848C0C334AE1DD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E569E709790A008C456D4C8C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>980CF8E0B9E4DDD1F82F7FAD</string>
-				<string>AFE5B479E6F9FD9CCB10CA2D</string>
-				<string>ACCD337E9A3C85BBBB4FEF28</string>
-				<string>2FF62F84C1D9BE8F599BB8D2</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E605EF06FDD81455EDC3ED2E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIImage+Compare.m</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase/UIImage+Compare.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E677CD3755C5C7F3069DD27C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-DZSwipeViewController-DZSwipeViewController.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E723F13C019DA06C989C065F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>DZSwipeViewController</string>
-			<key>target</key>
-			<string>54215A12C0487D82E69A48E4</string>
-			<key>targetProxy</key>
-			<string>38D2697A94B451FED15183F7</string>
-		</dict>
-		<key>E725B4EBF206A10DD9D7C46D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>DZTabItemContentView.m</string>
-			<key>path</key>
-			<string>Pod/Classes/DZTabItemContentView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EB07BDE39526FF793348E2D1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>EB3408ED7DD96036ED3B296F</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>NO</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>EBBFAEBC412ECC0D72B5DDB3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-DZSwipeViewController.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EC11D908522E5AFE25670D7E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>690976FADFB48A516768451C</string>
-				<string>7D6056A63B70BA9DC97599AB</string>
-				<string>BC2BC293296A85BCC11A86EB</string>
-				<string>422649B36DE6B62772C3F294</string>
-				<string>2E00A22764794CE094C997EE</string>
-				<string>233E41979F3979716191AD8F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>ECC59CC50EDBB501CA67E6E7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ECC934086D165AEC668EFE76</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>01D715DCBA0AE2AD1923AFE3</string>
-				<string>C93CB8BFE8E19738BD8EB8BA</string>
-				<string>C56F91F507F3862BBECA0DA4</string>
-				<string>E725B4EBF206A10DD9D7C46D</string>
-				<string>A95BDAA6C323C5145D841A0D</string>
-				<string>CA9B622A77B544BC9C9A7AA4</string>
-				<string>DD7F0ADA099CB6357664BF5B</string>
-				<string>BAB212A7C35F9EB438F15EF2</string>
-				<string>7535745631052688767C87E1</string>
-				<string>14F480215208195C1DC416D3</string>
-				<string>B643D5AC91173D899E7ED81A</string>
-				<string>8E35DF8CEC9B52DC22A935E4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>DZSwipeViewController</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>EF2C622268A50C9B0E76EC28</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods-DZSwipeViewController-DZSwipeViewController.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>EF30A38458BFD0FEDF4D46BC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C93CB8BFE8E19738BD8EB8BA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc</string>
-			</dict>
-		</dict>
-		<key>F30DD41BDC09275BBA332C60</key>
-		<dict>
-			<key>fileRef</key>
-			<string>445CC80853FD5A7A963FC5BA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F796CE1FCF4682991D5B0840</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>D1BA6E789C05834C78EE261A</string>
-			<key>buildPhases</key>
-			<array>
-				<string>36377B783CEC054877E2F688</string>
-				<string>BFE0A745A8129B0ACA424037</string>
-				<string>E2EF10B94AA462BA102780CB</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>E723F13C019DA06C989C065F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests-DZSwipeViewController</string>
-			<key>productName</key>
-			<string>Pods-Tests-DZSwipeViewController</string>
-			<key>productReference</key>
-			<string>0DAAF75E20BA8B27236A6753</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>F8CA0EE2E876B14111362F18</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>8348F7B5276EF8F54E23B6CC</string>
-			<key>buildPhases</key>
-			<array>
-				<string>801EE14DBA35BF78021006CA</string>
-				<string>A7390B324CBEEE1C424EAA26</string>
-				<string>E569E709790A008C456D4C8C</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests-FBSnapshotTestCase</string>
-			<key>productName</key>
-			<string>Pods-Tests-FBSnapshotTestCase</string>
-			<key>productReference</key>
-			<string>7D14205C9425FB295C239745</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>FA2A9596A9E0D1F6E971169F</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>890883248E5F36B201966ABF</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>617FBD772753EA6E4862706C</string>
-			<key>productRefGroup</key>
-			<string>636DF282B136AC5659C470A0</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>54215A12C0487D82E69A48E4</string>
-				<string>54C92079B6FB756EBD267A51</string>
-				<string>A044BE8E8889C8EBC8E00FFB</string>
-				<string>3CDAFBC1CAD391066EA83221</string>
-				<string>F796CE1FCF4682991D5B0840</string>
-				<string>F8CA0EE2E876B14111362F18</string>
-			</array>
-		</dict>
-		<key>FC213B8DFDE373C79DBAEAEE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FE2892650353E0AA115564A2</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>173E616D5C6AF90C9F900866</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FE4015F116AFCA943709F1D8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests-FBSnapshotTestCase.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FF17E36D0677198BF52AB9F5</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-Tests-DZSwipeViewController</string>
-			<key>target</key>
-			<string>F796CE1FCF4682991D5B0840</string>
-			<key>targetProxy</key>
-			<string>B4F2DFA54AE8877B59FD7B2A</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>FA2A9596A9E0D1F6E971169F</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00312C20E6835109BC5DCAC8 /* DZTabItemContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = CC27B41DE184C46CE5EF7E8B /* DZTabItemContentView.h */; };
+		04539E099D0FD490355E05B7 /* DZGeometryTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 478D9EA53EEAF8D532456030 /* DZGeometryTools.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		11C812A246537739DA9E667B /* DZTabViewItem_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 371081DEF7EBA4E6E1463CCC /* DZTabViewItem_Private.h */; };
+		143C55F8BCB7A7576A23FB35 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 45830DFCC71BDD218915A8CB /* UIImage+Compare.m */; };
+		1975C098D7F8CE7781FCC5E8 /* DZSwipeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 985E56C75A99D5F590FA0124 /* DZSwipeViewController.h */; };
+		1A10DBDEA8054F26DA795991 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 68845D26CD8EEAEC102CA32D /* UIImage+Diff.m */; };
+		1EBBFAE2E5207430792E2CBC /* Pods-DZSwipeViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B871B4D6F30314DBBCFEB18 /* Pods-DZSwipeViewController-dummy.m */; };
+		1F2C999241074216582B2603 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDA365425FC0FDC604466FC /* FBSnapshotTestController.m */; };
+		254AC9C2DEC7B61A884FAF40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEBD1C5D24A75194BC62C69 /* Foundation.framework */; };
+		2604FF33FD0FFE2CFBA7C4F1 /* DZTabViewItem_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 371081DEF7EBA4E6E1463CCC /* DZTabViewItem_Private.h */; };
+		28AFD906A50306EEC6DA1145 /* Pods-Tests-DZSwipeViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E41F389A549F0C374051457F /* Pods-Tests-DZSwipeViewController-dummy.m */; };
+		298532DB6B26AE278DA25E76 /* DZTabItemContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7343398108086F3EFEBBA0A0 /* DZTabItemContentView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		33F8840F5BBA60CA0429C910 /* DZDevices.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF79DC0C2C824277A0D5274 /* DZDevices.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		36C02231BA47A5684A5999E5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0EFF22BDDBC5F0302D854E5 /* XCTest.framework */; };
+		3E0B8CD8765882E3A9BF31EE /* UIViewController+DZSwipeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0B8746472EB0CD84779306 /* UIViewController+DZSwipeViewController.h */; };
+		3E0CF4DA320FB2CD7150BDC6 /* UIViewController+DZSwipeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A0B8746472EB0CD84779306 /* UIViewController+DZSwipeViewController.h */; };
+		40356E3ECD3B88BF2AABE964 /* Pods-Tests-FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCAB87FA48696B56A9F2F6E2 /* Pods-Tests-FBSnapshotTestCase-dummy.m */; };
+		48E1BCE9E19D64E661F6D920 /* UIViewController+DZSwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC842C80EE82BF74ED276A6 /* UIViewController+DZSwipeViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		498B3291A09E08CC43F5DF0E /* DZGeometryTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 0662ABED254DDDC5066A869C /* DZGeometryTools.h */; };
+		4D45848F260A3B82328D9804 /* UIViewController+DZSwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC842C80EE82BF74ED276A6 /* UIViewController+DZSwipeViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4E318BC29534E88071E57A7F /* DZSwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E097B0D215F41990B9511749 /* DZSwipeViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		51A36BC2EE3E1A147BE1D216 /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19BD837C1311D5A9711D1414 /* Pods-Tests-dummy.m */; };
+		572391A0AC277E3CE7A4AA9A /* UIDeviceHardware.h in Headers */ = {isa = PBXBuildFile; fileRef = 55A56A200070833CE55C6740 /* UIDeviceHardware.h */; };
+		5796571BCDA663C6304D51FB /* UIDeviceHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0493103B67BB5CCA95DC55 /* UIDeviceHardware.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6090C899EF1D61D39F377147 /* DZTabViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 085EA1905520BD05D3A9951F /* DZTabViewItem.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		63234860F6B4DC1C710496B2 /* DZTabViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 87099A29349C5C6FC645502B /* DZTabViewItem.h */; };
+		63ABF705CBE92848F05EAB43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEBD1C5D24A75194BC62C69 /* Foundation.framework */; };
+		66C77ACE8E1E8922168BEB2A /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = F4478757B0108238BE7B6A77 /* UIImage+Diff.h */; };
+		68896DD8A0087E6B57590889 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 736A9934772965D7AB3147B7 /* FBSnapshotTestCasePlatform.m */; };
+		68BF900CE891B424E730AA2A /* DZTabItemContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = CC27B41DE184C46CE5EF7E8B /* DZTabItemContentView.h */; };
+		6AFD46303E14FCB21DB9C8E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEBD1C5D24A75194BC62C69 /* Foundation.framework */; };
+		754D56647EA4A4C72D62FA76 /* DZSwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E097B0D215F41990B9511749 /* DZSwipeViewController.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7A63822F6EE34AC6FF1AB939 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 42EE1B97329B680DF97DE0A6 /* FBSnapshotTestCasePlatform.h */; };
+		8CC4CADB31AB29859FC71911 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A721EE3605AD18552FCB3E57 /* UIImage+Compare.h */; };
+		8DA3F4893CE1990A8AF8D833 /* DZTabViewItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 87099A29349C5C6FC645502B /* DZTabViewItem.h */; };
+		9BC7E44F7FAA202DF031F503 /* DZGeometryTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 478D9EA53EEAF8D532456030 /* DZGeometryTools.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9BFBD328563E45A84130EF06 /* DZTabView.h in Headers */ = {isa = PBXBuildFile; fileRef = ABFCFE7878D702ECFABF7D64 /* DZTabView.h */; };
+		A1B7168F5EFDFC1F9606E5F2 /* DZTabView.h in Headers */ = {isa = PBXBuildFile; fileRef = ABFCFE7878D702ECFABF7D64 /* DZTabView.h */; };
+		A3ADAD88559B3BF5DC19839B /* DZDevices.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF79DC0C2C824277A0D5274 /* DZDevices.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B514EA13D1BEBF0FE0A9993E /* DZTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 392A16FE73A26C2C5642B1E4 /* DZTabView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B7CCE2E3BFFE31ABBCA39E63 /* Pods-DZSwipeViewController-DZGeometryTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B89FA75EF475B19C8BC8D151 /* Pods-DZSwipeViewController-DZGeometryTools-dummy.m */; };
+		B861EB3EBC84D04078B064BE /* Pods-Tests-DZGeometryTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE9D15E13B9D33D4FC4809D /* Pods-Tests-DZGeometryTools-dummy.m */; };
+		BC651F4B8A36154261664F7A /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 81F2883E514878118AB9CCF5 /* FBSnapshotTestCase.h */; };
+		C00D9CAC0BE5342F8D8C9F7B /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 948503E7168153CE7A36EF0A /* FBSnapshotTestCase.m */; };
+		C8D717433614B4C5D0920905 /* DZTabViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 085EA1905520BD05D3A9951F /* DZTabViewItem.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D2678975D559F48E526589A2 /* UIDeviceHardware.h in Headers */ = {isa = PBXBuildFile; fileRef = 55A56A200070833CE55C6740 /* UIDeviceHardware.h */; };
+		DB036BE5C64AD5911A193323 /* DZGeometryTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 0662ABED254DDDC5066A869C /* DZGeometryTools.h */; };
+		DE1998B5A099181992B50344 /* DZSwipeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 985E56C75A99D5F590FA0124 /* DZSwipeViewController.h */; };
+		DE8B0593D9986B4F08414B11 /* DZTabItemContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7343398108086F3EFEBBA0A0 /* DZTabItemContentView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DF42239F6FF8A963D7B0FE3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEBD1C5D24A75194BC62C69 /* Foundation.framework */; };
+		DFE56B9146799D90655C16E2 /* UIDeviceHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E0493103B67BB5CCA95DC55 /* UIDeviceHardware.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E1719BF6F45A0C99D9BAA34B /* Pods-DZSwipeViewController-DZSwipeViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CB64DB1E3E37A1684117A29 /* Pods-DZSwipeViewController-DZSwipeViewController-dummy.m */; };
+		E3FFD466B3241F0815B34A2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEBD1C5D24A75194BC62C69 /* Foundation.framework */; };
+		EAADC1C2C7E3D127DBA32777 /* DZDevices.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D300E2F21993444BD057126 /* DZDevices.h */; };
+		EF301CE06BE7CDAEF3E74593 /* DZTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 392A16FE73A26C2C5642B1E4 /* DZTabView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EFD9D41D869FFB557F076648 /* DZDevices.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D300E2F21993444BD057126 /* DZDevices.h */; };
+		F4A34CBFDF3CF1D289961A3F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEBD1C5D24A75194BC62C69 /* Foundation.framework */; };
+		F6BFC7D1438FE283E146AF65 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = FA9C1B82604FB97D3AFF3504 /* FBSnapshotTestController.h */; };
+		F9ACC33AF8878AE4C3440414 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEBD1C5D24A75194BC62C69 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		008CB7124B9846E6CD651CAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1823E6360F1ECE60C9C1F4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73F87E1D72DC37BA79CE751D;
+			remoteInfo = "Pods-Tests-DZGeometryTools";
+		};
+		11D66B92EBFBD5D392F458B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1823E6360F1ECE60C9C1F4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46DFC4F051D2417292D8EA94;
+			remoteInfo = "Pods-DZSwipeViewController-DZGeometryTools-DZGeometryTools";
+		};
+		1A750711AC25A31CF3A111A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1823E6360F1ECE60C9C1F4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A208824699AD96E3E6E5608D;
+			remoteInfo = "Pods-Tests-DZGeometryTools-DZGeometryTools";
+		};
+		229DBF440A8EEE1F5585C819 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1823E6360F1ECE60C9C1F4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25A488B7C3229D9299B864BB;
+			remoteInfo = "Pods-DZSwipeViewController-DZGeometryTools";
+		};
+		2E529D26AD299213B127D9A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1823E6360F1ECE60C9C1F4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 869AC0785B803D10AB08F406;
+			remoteInfo = "Pods-Tests-FBSnapshotTestCase";
+		};
+		4B381668493AA71E1ED51EF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1823E6360F1ECE60C9C1F4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25A488B7C3229D9299B864BB;
+			remoteInfo = "Pods-DZSwipeViewController-DZGeometryTools";
+		};
+		A6328D7EBEAEFDDCF8651A69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1823E6360F1ECE60C9C1F4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73F87E1D72DC37BA79CE751D;
+			remoteInfo = "Pods-Tests-DZGeometryTools";
+		};
+		A91F6D74974E727A4CEC5FC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1823E6360F1ECE60C9C1F4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4EB606708F23F45588A7E37;
+			remoteInfo = "Pods-Tests-DZSwipeViewController";
+		};
+		D891E232798FCF280B6D0397 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1823E6360F1ECE60C9C1F4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 491070FE037D189D152E4A8C;
+			remoteInfo = "Pods-DZSwipeViewController-DZSwipeViewController";
+		};
+		E76B5E3BC1624F46601155BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1823E6360F1ECE60C9C1F4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7D2FCA75F5F089C4084C1C1;
+			remoteInfo = "Pods-Tests-DZSwipeViewController-DZSwipeViewController";
+		};
+		FB0A80481A6B023997C76580 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1823E6360F1ECE60C9C1F4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A71D22969A8607954F23AA23;
+			remoteInfo = "Pods-DZSwipeViewController-DZSwipeViewController-DZSwipeViewController";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04FA820D12E7079E759BEA82 /* Pods-Tests-DZGeometryTools-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DZGeometryTools-Private.xcconfig"; path = "../Pods-Tests-DZGeometryTools/Pods-Tests-DZGeometryTools-Private.xcconfig"; sourceTree = "<group>"; };
+		0662ABED254DDDC5066A869C /* DZGeometryTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZGeometryTools.h; path = Pod/Classes/DZGeometryTools.h; sourceTree = "<group>"; };
+		085EA1905520BD05D3A9951F /* DZTabViewItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZTabViewItem.m; sourceTree = "<group>"; };
+		0B871B4D6F30314DBBCFEB18 /* Pods-DZSwipeViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DZSwipeViewController-dummy.m"; sourceTree = "<group>"; };
+		0CB64DB1E3E37A1684117A29 /* Pods-DZSwipeViewController-DZSwipeViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DZSwipeViewController-DZSwipeViewController-dummy.m"; sourceTree = "<group>"; };
+		0D300E2F21993444BD057126 /* DZDevices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DZDevices.h; path = Pod/Classes/DZDevices.h; sourceTree = "<group>"; };
+		0E0493103B67BB5CCA95DC55 /* UIDeviceHardware.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UIDeviceHardware.m; path = Pod/Classes/UIDeviceHardware.m; sourceTree = "<group>"; };
+		0F03DA87C1FD5C0A06F2BB04 /* Pods-DZSwipeViewController-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DZSwipeViewController-acknowledgements.markdown"; sourceTree = "<group>"; };
+		19BD837C1311D5A9711D1414 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		29D0F5EC4AD7F800916E9276 /* libPods-Tests-FBSnapshotTestCase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-FBSnapshotTestCase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4EA9D7D10819E01CE0F684 /* Pods-Tests-DZSwipeViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-DZSwipeViewController-prefix.pch"; path = "../Pods-Tests-DZSwipeViewController/Pods-Tests-DZSwipeViewController-prefix.pch"; sourceTree = "<group>"; };
+		371081DEF7EBA4E6E1463CCC /* DZTabViewItem_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZTabViewItem_Private.h; sourceTree = "<group>"; };
+		392A16FE73A26C2C5642B1E4 /* DZTabView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZTabView.m; sourceTree = "<group>"; };
+		392D033B19FDD519E61B69F1 /* Pods-DZSwipeViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZSwipeViewController.release.xcconfig"; sourceTree = "<group>"; };
+		42EE1B97329B680DF97DE0A6 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		45830DFCC71BDD218915A8CB /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/UIImage+Compare.m"; sourceTree = "<group>"; };
+		478D9EA53EEAF8D532456030 /* DZGeometryTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZGeometryTools.m; path = Pod/Classes/DZGeometryTools.m; sourceTree = "<group>"; };
+		4945C6DDA71F63A7C678F808 /* Pods-Tests-DZGeometryTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-DZGeometryTools-prefix.pch"; path = "../Pods-Tests-DZGeometryTools/Pods-Tests-DZGeometryTools-prefix.pch"; sourceTree = "<group>"; };
+		55A56A200070833CE55C6740 /* UIDeviceHardware.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UIDeviceHardware.h; path = Pod/Classes/UIDeviceHardware.h; sourceTree = "<group>"; };
+		5C0DA2E94B1EFA04557B3370 /* libPods-Tests-DZGeometryTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-DZGeometryTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FF0F83561B7972AFE94F5EC /* DZSwipeViewController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZSwipeViewController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		62BA1E7C266FE483ABF8F9FA /* Pods-Tests-FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		62E29A85C28334BA35C678F8 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		65DBC3EC2EB3522313C81707 /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		66109466C33EF28A325DACD1 /* Pods-Tests-FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-FBSnapshotTestCase.xcconfig"; sourceTree = "<group>"; };
+		68845D26CD8EEAEC102CA32D /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/UIImage+Diff.m"; sourceTree = "<group>"; };
+		6DC7A003F370FA2E92D58A39 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DDEA80DC4BA292B6999331C /* Pods-Tests-DZGeometryTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DZGeometryTools.xcconfig"; path = "../Pods-Tests-DZGeometryTools/Pods-Tests-DZGeometryTools.xcconfig"; sourceTree = "<group>"; };
+		7343398108086F3EFEBBA0A0 /* DZTabItemContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZTabItemContentView.m; sourceTree = "<group>"; };
+		736A9934772965D7AB3147B7 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		787648A01050A62AB4A607D6 /* libPods-DZSwipeViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DZSwipeViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DD47ADC644C33C49F36A985 /* Pods-Tests-DZSwipeViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DZSwipeViewController.xcconfig"; path = "../Pods-Tests-DZSwipeViewController/Pods-Tests-DZSwipeViewController.xcconfig"; sourceTree = "<group>"; };
+		8125C177EC80E68F9ED88860 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		81F2883E514878118AB9CCF5 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		8360BAE420FD6CF71E56523A /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		87099A29349C5C6FC645502B /* DZTabViewItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZTabViewItem.h; sourceTree = "<group>"; };
+		878E8B9632D5401D94551B6C /* Pods-DZSwipeViewController-DZGeometryTools-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZSwipeViewController-DZGeometryTools-Private.xcconfig"; sourceTree = "<group>"; };
+		8AE4F5F5C97758B89E9F09D5 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8CA4672A7B72E50E9B053990 /* Pods-DZSwipeViewController-DZSwipeViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DZSwipeViewController-DZSwipeViewController-prefix.pch"; sourceTree = "<group>"; };
+		948503E7168153CE7A36EF0A /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		9552320E807DA5157C5DD929 /* Pods-DZSwipeViewController-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DZSwipeViewController-acknowledgements.plist"; sourceTree = "<group>"; };
+		97637E7D45F44BB4B7C4DC38 /* Pods-DZSwipeViewController-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DZSwipeViewController-environment.h"; sourceTree = "<group>"; };
+		985E56C75A99D5F590FA0124 /* DZSwipeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZSwipeViewController.h; sourceTree = "<group>"; };
+		9A0B8746472EB0CD84779306 /* UIViewController+DZSwipeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DZSwipeViewController.h"; sourceTree = "<group>"; };
+		9DCEAFFDB5976FF4D25CFE4D /* Pods-DZSwipeViewController-DZGeometryTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DZSwipeViewController-DZGeometryTools-prefix.pch"; sourceTree = "<group>"; };
+		A3B5A5C2F7739336530A521C /* DZGeometryTools.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZGeometryTools.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A721EE3605AD18552FCB3E57 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/UIImage+Compare.h"; sourceTree = "<group>"; };
+		ABFCFE7878D702ECFABF7D64 /* DZTabView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZTabView.h; sourceTree = "<group>"; };
+		AFDA365425FC0FDC604466FC /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		AFE9D15E13B9D33D4FC4809D /* Pods-Tests-DZGeometryTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-DZGeometryTools-dummy.m"; path = "../Pods-Tests-DZGeometryTools/Pods-Tests-DZGeometryTools-dummy.m"; sourceTree = "<group>"; };
+		AFF79DC0C2C824277A0D5274 /* DZDevices.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DZDevices.m; path = Pod/Classes/DZDevices.m; sourceTree = "<group>"; };
+		B116C2F2A37A10DD4B47A92E /* Pods-DZSwipeViewController-DZGeometryTools.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZSwipeViewController-DZGeometryTools.xcconfig"; sourceTree = "<group>"; };
+		B503818FA1C9C7119AE56C05 /* libPods-DZSwipeViewController-DZGeometryTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DZSwipeViewController-DZGeometryTools.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B89FA75EF475B19C8BC8D151 /* Pods-DZSwipeViewController-DZGeometryTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DZSwipeViewController-DZGeometryTools-dummy.m"; sourceTree = "<group>"; };
+		C90AA01A5134B680867A1960 /* Pods-DZSwipeViewController-DZSwipeViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZSwipeViewController-DZSwipeViewController-Private.xcconfig"; sourceTree = "<group>"; };
+		CC27B41DE184C46CE5EF7E8B /* DZTabItemContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DZTabItemContentView.h; sourceTree = "<group>"; };
+		CCAB87FA48696B56A9F2F6E2 /* Pods-Tests-FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		CDE971E9F3C86ACC03282B15 /* Pods-DZSwipeViewController-DZSwipeViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZSwipeViewController-DZSwipeViewController.xcconfig"; sourceTree = "<group>"; };
+		CEEBD1C5D24A75194BC62C69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D02F4D069EF3927576A54CDB /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D3EB6CC9E7A03500AB5E1506 /* Pods-DZSwipeViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DZSwipeViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		D6B7AF2508DB231F677FAC11 /* Pods-DZSwipeViewController-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DZSwipeViewController-resources.sh"; sourceTree = "<group>"; };
+		D7F82E965C17C7B82CD144FB /* libPods-Tests-DZSwipeViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-DZSwipeViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D98EA56A3B8139668CF5710D /* libPods-DZSwipeViewController-DZSwipeViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DZSwipeViewController-DZSwipeViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC842C80EE82BF74ED276A6 /* UIViewController+DZSwipeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DZSwipeViewController.m"; sourceTree = "<group>"; };
+		E097B0D215F41990B9511749 /* DZSwipeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DZSwipeViewController.m; sourceTree = "<group>"; };
+		E0EFF22BDDBC5F0302D854E5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E41F389A549F0C374051457F /* Pods-Tests-DZSwipeViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-DZSwipeViewController-dummy.m"; path = "../Pods-Tests-DZSwipeViewController/Pods-Tests-DZSwipeViewController-dummy.m"; sourceTree = "<group>"; };
+		E841D97958CF768C8982B6A5 /* DZSwipeViewController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZSwipeViewController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8DA54AD72ECA0B6B5C4D5E3 /* Pods-Tests-FBSnapshotTestCase-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests-FBSnapshotTestCase-Private.xcconfig"; sourceTree = "<group>"; };
+		EC45D9AEB43E537E42287523 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		F4478757B0108238BE7B6A77 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/UIImage+Diff.h"; sourceTree = "<group>"; };
+		F873FC0D095689E52A37A2B3 /* DZGeometryTools.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DZGeometryTools.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA9C1B82604FB97D3AFF3504 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		FB45A7C65D3E25B3B36F773E /* Pods-Tests-DZSwipeViewController-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-DZSwipeViewController-Private.xcconfig"; path = "../Pods-Tests-DZSwipeViewController/Pods-Tests-DZSwipeViewController-Private.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		019569EF84E75A3FF5185A59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3FFD466B3241F0815B34A2A /* Foundation.framework in Frameworks */,
+				36C02231BA47A5684A5999E5 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1473FEEE331108662F8D8A49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DE6DF9EAF15140D4407AF47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				254AC9C2DEC7B61A884FAF40 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53A63FF43E57100E3D9E08EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AFD46303E14FCB21DB9C8E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61B3B7D3DBE0D2408DB5640F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A34CBFDF3CF1D289961A3F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CB55245CF739314E0DB5A18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D681CE3550B0D2B6B829F17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD28834BD1E3797518E196D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63ABF705CBE92848F05EAB43 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B1C06DEB2950001BB9A447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9ACC33AF8878AE4C3440414 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCCC578E3320820E1C3731E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBA44BEED580A4C792A79F03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF42239F6FF8A963D7B0FE3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07680908533AA29231521597 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3B5A5C2F7739336530A521C /* DZGeometryTools.bundle */,
+				F873FC0D095689E52A37A2B3 /* DZGeometryTools.bundle */,
+				5FF0F83561B7972AFE94F5EC /* DZSwipeViewController.bundle */,
+				E841D97958CF768C8982B6A5 /* DZSwipeViewController.bundle */,
+				787648A01050A62AB4A607D6 /* libPods-DZSwipeViewController.a */,
+				B503818FA1C9C7119AE56C05 /* libPods-DZSwipeViewController-DZGeometryTools.a */,
+				D98EA56A3B8139668CF5710D /* libPods-DZSwipeViewController-DZSwipeViewController.a */,
+				6DC7A003F370FA2E92D58A39 /* libPods-Tests.a */,
+				5C0DA2E94B1EFA04557B3370 /* libPods-Tests-DZGeometryTools.a */,
+				D7F82E965C17C7B82CD144FB /* libPods-Tests-DZSwipeViewController.a */,
+				29D0F5EC4AD7F800916E9276 /* libPods-Tests-FBSnapshotTestCase.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F4896DC532E6563FE14BA0C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEEBD1C5D24A75194BC62C69 /* Foundation.framework */,
+				E0EFF22BDDBC5F0302D854E5 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		31B629844E76EFDDB48DB54C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2599A646FFDC49C7F95D394 /* DZGeometryTools */,
+				5526249EF26C3150F29DF9F0 /* FBSnapshotTestCase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		50DA491F6B1D5083141D23CE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDE971E9F3C86ACC03282B15 /* Pods-DZSwipeViewController-DZSwipeViewController.xcconfig */,
+				C90AA01A5134B680867A1960 /* Pods-DZSwipeViewController-DZSwipeViewController-Private.xcconfig */,
+				0CB64DB1E3E37A1684117A29 /* Pods-DZSwipeViewController-DZSwipeViewController-dummy.m */,
+				8CA4672A7B72E50E9B053990 /* Pods-DZSwipeViewController-DZSwipeViewController-prefix.pch */,
+				7DD47ADC644C33C49F36A985 /* Pods-Tests-DZSwipeViewController.xcconfig */,
+				FB45A7C65D3E25B3B36F773E /* Pods-Tests-DZSwipeViewController-Private.xcconfig */,
+				E41F389A549F0C374051457F /* Pods-Tests-DZSwipeViewController-dummy.m */,
+				2B4EA9D7D10819E01CE0F684 /* Pods-Tests-DZSwipeViewController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-DZSwipeViewController-DZSwipeViewController";
+			sourceTree = "<group>";
+		};
+		5526249EF26C3150F29DF9F0 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				81F2883E514878118AB9CCF5 /* FBSnapshotTestCase.h */,
+				948503E7168153CE7A36EF0A /* FBSnapshotTestCase.m */,
+				42EE1B97329B680DF97DE0A6 /* FBSnapshotTestCasePlatform.h */,
+				736A9934772965D7AB3147B7 /* FBSnapshotTestCasePlatform.m */,
+				FA9C1B82604FB97D3AFF3504 /* FBSnapshotTestController.h */,
+				AFDA365425FC0FDC604466FC /* FBSnapshotTestController.m */,
+				A721EE3605AD18552FCB3E57 /* UIImage+Compare.h */,
+				45830DFCC71BDD218915A8CB /* UIImage+Compare.m */,
+				F4478757B0108238BE7B6A77 /* UIImage+Diff.h */,
+				68845D26CD8EEAEC102CA32D /* UIImage+Diff.m */,
+				DA5ABA01EFBA019AF500BFD4 /* Support Files */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		808FD186400FE7B656BCE3EC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				985E56C75A99D5F590FA0124 /* DZSwipeViewController.h */,
+				E097B0D215F41990B9511749 /* DZSwipeViewController.m */,
+				CC27B41DE184C46CE5EF7E8B /* DZTabItemContentView.h */,
+				7343398108086F3EFEBBA0A0 /* DZTabItemContentView.m */,
+				ABFCFE7878D702ECFABF7D64 /* DZTabView.h */,
+				392A16FE73A26C2C5642B1E4 /* DZTabView.m */,
+				87099A29349C5C6FC645502B /* DZTabViewItem.h */,
+				085EA1905520BD05D3A9951F /* DZTabViewItem.m */,
+				371081DEF7EBA4E6E1463CCC /* DZTabViewItem_Private.h */,
+				9A0B8746472EB0CD84779306 /* UIViewController+DZSwipeViewController.h */,
+				DFC842C80EE82BF74ED276A6 /* UIViewController+DZSwipeViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		810016E2A1C2C80B58D2DC6C /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				65DBC3EC2EB3522313C81707 /* Pods-Tests-acknowledgements.markdown */,
+				8AE4F5F5C97758B89E9F09D5 /* Pods-Tests-acknowledgements.plist */,
+				19BD837C1311D5A9711D1414 /* Pods-Tests-dummy.m */,
+				EC45D9AEB43E537E42287523 /* Pods-Tests-environment.h */,
+				8360BAE420FD6CF71E56523A /* Pods-Tests-resources.sh */,
+				8125C177EC80E68F9ED88860 /* Pods-Tests.debug.xcconfig */,
+				62E29A85C28334BA35C678F8 /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		8C612F5A5CACFE9C640BAEA6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF67B5FFBA68F06A76D9CFE5 /* DZSwipeViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A0BCC912459FB5DE541AA2ED /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4754FCF7E1704A43E64BD30 /* Pods-DZSwipeViewController */,
+				810016E2A1C2C80B58D2DC6C /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A4754FCF7E1704A43E64BD30 /* Pods-DZSwipeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0F03DA87C1FD5C0A06F2BB04 /* Pods-DZSwipeViewController-acknowledgements.markdown */,
+				9552320E807DA5157C5DD929 /* Pods-DZSwipeViewController-acknowledgements.plist */,
+				0B871B4D6F30314DBBCFEB18 /* Pods-DZSwipeViewController-dummy.m */,
+				97637E7D45F44BB4B7C4DC38 /* Pods-DZSwipeViewController-environment.h */,
+				D6B7AF2508DB231F677FAC11 /* Pods-DZSwipeViewController-resources.sh */,
+				D3EB6CC9E7A03500AB5E1506 /* Pods-DZSwipeViewController.debug.xcconfig */,
+				392D033B19FDD519E61B69F1 /* Pods-DZSwipeViewController.release.xcconfig */,
+			);
+			name = "Pods-DZSwipeViewController";
+			path = "Target Support Files/Pods-DZSwipeViewController";
+			sourceTree = "<group>";
+		};
+		AEE2581937894BA6AC3B3D0F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				808FD186400FE7B656BCE3EC /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		BB177F0AD29395B5430EC236 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F4896DC532E6563FE14BA0C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C240626E9B7E080533BC8673 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B116C2F2A37A10DD4B47A92E /* Pods-DZSwipeViewController-DZGeometryTools.xcconfig */,
+				878E8B9632D5401D94551B6C /* Pods-DZSwipeViewController-DZGeometryTools-Private.xcconfig */,
+				B89FA75EF475B19C8BC8D151 /* Pods-DZSwipeViewController-DZGeometryTools-dummy.m */,
+				9DCEAFFDB5976FF4D25CFE4D /* Pods-DZSwipeViewController-DZGeometryTools-prefix.pch */,
+				6DDEA80DC4BA292B6999331C /* Pods-Tests-DZGeometryTools.xcconfig */,
+				04FA820D12E7079E759BEA82 /* Pods-Tests-DZGeometryTools-Private.xcconfig */,
+				AFE9D15E13B9D33D4FC4809D /* Pods-Tests-DZGeometryTools-dummy.m */,
+				4945C6DDA71F63A7C678F808 /* Pods-Tests-DZGeometryTools-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-DZSwipeViewController-DZGeometryTools";
+			sourceTree = "<group>";
+		};
+		CC0CD4AF22928164FD03E136 = {
+			isa = PBXGroup;
+			children = (
+				D02F4D069EF3927576A54CDB /* Podfile */,
+				8C612F5A5CACFE9C640BAEA6 /* Development Pods */,
+				BB177F0AD29395B5430EC236 /* Frameworks */,
+				31B629844E76EFDDB48DB54C /* Pods */,
+				07680908533AA29231521597 /* Products */,
+				A0BCC912459FB5DE541AA2ED /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D2599A646FFDC49C7F95D394 /* DZGeometryTools */ = {
+			isa = PBXGroup;
+			children = (
+				0D300E2F21993444BD057126 /* DZDevices.h */,
+				AFF79DC0C2C824277A0D5274 /* DZDevices.m */,
+				0662ABED254DDDC5066A869C /* DZGeometryTools.h */,
+				478D9EA53EEAF8D532456030 /* DZGeometryTools.m */,
+				55A56A200070833CE55C6740 /* UIDeviceHardware.h */,
+				0E0493103B67BB5CCA95DC55 /* UIDeviceHardware.m */,
+				C240626E9B7E080533BC8673 /* Support Files */,
+			);
+			path = DZGeometryTools;
+			sourceTree = "<group>";
+		};
+		DA5ABA01EFBA019AF500BFD4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66109466C33EF28A325DACD1 /* Pods-Tests-FBSnapshotTestCase.xcconfig */,
+				E8DA54AD72ECA0B6B5C4D5E3 /* Pods-Tests-FBSnapshotTestCase-Private.xcconfig */,
+				CCAB87FA48696B56A9F2F6E2 /* Pods-Tests-FBSnapshotTestCase-dummy.m */,
+				62BA1E7C266FE483ABF8F9FA /* Pods-Tests-FBSnapshotTestCase-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-Tests-FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		DF67B5FFBA68F06A76D9CFE5 /* DZSwipeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				AEE2581937894BA6AC3B3D0F /* Pod */,
+				50DA491F6B1D5083141D23CE /* Support Files */,
+			);
+			name = DZSwipeViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		61B2EF2CA069251E2D71561A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAADC1C2C7E3D127DBA32777 /* DZDevices.h in Headers */,
+				DB036BE5C64AD5911A193323 /* DZGeometryTools.h in Headers */,
+				D2678975D559F48E526589A2 /* UIDeviceHardware.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91AF3D54700EAF1482FCDA35 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1975C098D7F8CE7781FCC5E8 /* DZSwipeViewController.h in Headers */,
+				68BF900CE891B424E730AA2A /* DZTabItemContentView.h in Headers */,
+				A1B7168F5EFDFC1F9606E5F2 /* DZTabView.h in Headers */,
+				8DA3F4893CE1990A8AF8D833 /* DZTabViewItem.h in Headers */,
+				11C812A246537739DA9E667B /* DZTabViewItem_Private.h in Headers */,
+				3E0B8CD8765882E3A9BF31EE /* UIViewController+DZSwipeViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB5F17AC523473F7E40BD8D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE1998B5A099181992B50344 /* DZSwipeViewController.h in Headers */,
+				00312C20E6835109BC5DCAC8 /* DZTabItemContentView.h in Headers */,
+				9BFBD328563E45A84130EF06 /* DZTabView.h in Headers */,
+				63234860F6B4DC1C710496B2 /* DZTabViewItem.h in Headers */,
+				2604FF33FD0FFE2CFBA7C4F1 /* DZTabViewItem_Private.h in Headers */,
+				3E0CF4DA320FB2CD7150BDC6 /* UIViewController+DZSwipeViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0915C033CF2385E78E82284 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC651F4B8A36154261664F7A /* FBSnapshotTestCase.h in Headers */,
+				7A63822F6EE34AC6FF1AB939 /* FBSnapshotTestCasePlatform.h in Headers */,
+				F6BFC7D1438FE283E146AF65 /* FBSnapshotTestController.h in Headers */,
+				8CC4CADB31AB29859FC71911 /* UIImage+Compare.h in Headers */,
+				66C77ACE8E1E8922168BEB2A /* UIImage+Diff.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEAB705FB9EA306A65D2B7B1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD9D41D869FFB557F076648 /* DZDevices.h in Headers */,
+				498B3291A09E08CC43F5DF0E /* DZGeometryTools.h in Headers */,
+				572391A0AC277E3CE7A4AA9A /* UIDeviceHardware.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		22EEDB5B9979E1067E30DEE7 /* Pods-DZSwipeViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13D0E2DD018BE2A40795FBE7 /* Build configuration list for PBXNativeTarget "Pods-DZSwipeViewController" */;
+			buildPhases = (
+				24D4D38D22B2BF4EC365FF48 /* Sources */,
+				C6B1C06DEB2950001BB9A447 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AA67CED0F38273E92B6FD83 /* PBXTargetDependency */,
+				5A2E493F4517E49AAFE19C03 /* PBXTargetDependency */,
+			);
+			name = "Pods-DZSwipeViewController";
+			productName = "Pods-DZSwipeViewController";
+			productReference = 787648A01050A62AB4A607D6 /* libPods-DZSwipeViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		25A488B7C3229D9299B864BB /* Pods-DZSwipeViewController-DZGeometryTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 364282F6B96CBCD4E5AD532C /* Build configuration list for PBXNativeTarget "Pods-DZSwipeViewController-DZGeometryTools" */;
+			buildPhases = (
+				39BA4F0019519670A25CC46A /* Sources */,
+				61B3B7D3DBE0D2408DB5640F /* Frameworks */,
+				61B2EF2CA069251E2D71561A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E32104A7AE4455EEB058094F /* PBXTargetDependency */,
+			);
+			name = "Pods-DZSwipeViewController-DZGeometryTools";
+			productName = "Pods-DZSwipeViewController-DZGeometryTools";
+			productReference = B503818FA1C9C7119AE56C05 /* libPods-DZSwipeViewController-DZGeometryTools.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		46DFC4F051D2417292D8EA94 /* Pods-DZSwipeViewController-DZGeometryTools-DZGeometryTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17A45185C2E9FBCEA7A33769 /* Build configuration list for PBXNativeTarget "Pods-DZSwipeViewController-DZGeometryTools-DZGeometryTools" */;
+			buildPhases = (
+				D11F5272A9EC71813577E539 /* Sources */,
+				9D681CE3550B0D2B6B829F17 /* Frameworks */,
+				134CA354A0137655D7B95442 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DZSwipeViewController-DZGeometryTools-DZGeometryTools";
+			productName = "Pods-DZSwipeViewController-DZGeometryTools-DZGeometryTools";
+			productReference = F873FC0D095689E52A37A2B3 /* DZGeometryTools.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		491070FE037D189D152E4A8C /* Pods-DZSwipeViewController-DZSwipeViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D8F9F0CEC31777CC665D670 /* Build configuration list for PBXNativeTarget "Pods-DZSwipeViewController-DZSwipeViewController" */;
+			buildPhases = (
+				08EABF666170EE302784D565 /* Sources */,
+				DBA44BEED580A4C792A79F03 /* Frameworks */,
+				91AF3D54700EAF1482FCDA35 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E60E2FC16022F2130901B9A /* PBXTargetDependency */,
+				80D773F6031CA60B261BB1B4 /* PBXTargetDependency */,
+			);
+			name = "Pods-DZSwipeViewController-DZSwipeViewController";
+			productName = "Pods-DZSwipeViewController-DZSwipeViewController";
+			productReference = D98EA56A3B8139668CF5710D /* libPods-DZSwipeViewController-DZSwipeViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		734D27CCFA7B196448321F45 /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A784E14AF4870226BE09ADBC /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				BB33EA8CC57B31CCC21D4649 /* Sources */,
+				BD28834BD1E3797518E196D6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41A0204C4FFECFA352E5022E /* PBXTargetDependency */,
+				BE9994F337F391BD1A46A82F /* PBXTargetDependency */,
+				6F3C14415016B23293331F78 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = 6DC7A003F370FA2E92D58A39 /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		73F87E1D72DC37BA79CE751D /* Pods-Tests-DZGeometryTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA33345D328BB3162231F3EB /* Build configuration list for PBXNativeTarget "Pods-Tests-DZGeometryTools" */;
+			buildPhases = (
+				FE50B764D641E9E722D16AF7 /* Sources */,
+				53A63FF43E57100E3D9E08EE /* Frameworks */,
+				CEAB705FB9EA306A65D2B7B1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41D6D8EA01881A835D738CFA /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests-DZGeometryTools";
+			productName = "Pods-Tests-DZGeometryTools";
+			productReference = 5C0DA2E94B1EFA04557B3370 /* libPods-Tests-DZGeometryTools.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		869AC0785B803D10AB08F406 /* Pods-Tests-FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA990C58CCF3B3B27A114464 /* Build configuration list for PBXNativeTarget "Pods-Tests-FBSnapshotTestCase" */;
+			buildPhases = (
+				C78EB11C85FD0EDF57019F2D /* Sources */,
+				019569EF84E75A3FF5185A59 /* Frameworks */,
+				C0915C033CF2385E78E82284 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-FBSnapshotTestCase";
+			productName = "Pods-Tests-FBSnapshotTestCase";
+			productReference = 29D0F5EC4AD7F800916E9276 /* libPods-Tests-FBSnapshotTestCase.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A208824699AD96E3E6E5608D /* Pods-Tests-DZGeometryTools-DZGeometryTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 557285CB55E8E7DE297CB063 /* Build configuration list for PBXNativeTarget "Pods-Tests-DZGeometryTools-DZGeometryTools" */;
+			buildPhases = (
+				88840C2FD0609E6147446122 /* Sources */,
+				1473FEEE331108662F8D8A49 /* Frameworks */,
+				16CD8870D746C38075B226DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-DZGeometryTools-DZGeometryTools";
+			productName = "Pods-Tests-DZGeometryTools-DZGeometryTools";
+			productReference = A3B5A5C2F7739336530A521C /* DZGeometryTools.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A71D22969A8607954F23AA23 /* Pods-DZSwipeViewController-DZSwipeViewController-DZSwipeViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE5ED367F2EDDF3AF62FECE4 /* Build configuration list for PBXNativeTarget "Pods-DZSwipeViewController-DZSwipeViewController-DZSwipeViewController" */;
+			buildPhases = (
+				01D71935FEF4DE70C49A0ADE /* Sources */,
+				CCCC578E3320820E1C3731E3 /* Frameworks */,
+				2FADEE5E74432A05992D9912 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DZSwipeViewController-DZSwipeViewController-DZSwipeViewController";
+			productName = "Pods-DZSwipeViewController-DZSwipeViewController-DZSwipeViewController";
+			productReference = E841D97958CF768C8982B6A5 /* DZSwipeViewController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A7D2FCA75F5F089C4084C1C1 /* Pods-Tests-DZSwipeViewController-DZSwipeViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1731D8140FEF920C74EC0083 /* Build configuration list for PBXNativeTarget "Pods-Tests-DZSwipeViewController-DZSwipeViewController" */;
+			buildPhases = (
+				1E2C987043C036784CC77549 /* Sources */,
+				6CB55245CF739314E0DB5A18 /* Frameworks */,
+				3F42B8388DDEF2619B5F71DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-DZSwipeViewController-DZSwipeViewController";
+			productName = "Pods-Tests-DZSwipeViewController-DZSwipeViewController";
+			productReference = 5FF0F83561B7972AFE94F5EC /* DZSwipeViewController.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F4EB606708F23F45588A7E37 /* Pods-Tests-DZSwipeViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F58083785282E5A37978C5B4 /* Build configuration list for PBXNativeTarget "Pods-Tests-DZSwipeViewController" */;
+			buildPhases = (
+				32C8C6F3A61E60951ED34F74 /* Sources */,
+				4DE6DF9EAF15140D4407AF47 /* Frameworks */,
+				BB5F17AC523473F7E40BD8D5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E515156FA92B09AB3F2030B /* PBXTargetDependency */,
+				8B8B24704E5CB9AF6FD7C9EE /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests-DZSwipeViewController";
+			productName = "Pods-Tests-DZSwipeViewController";
+			productReference = D7F82E965C17C7B82CD144FB /* libPods-Tests-DZSwipeViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1823E6360F1ECE60C9C1F4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 8D91EB8A83B263F632569EEF /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC0CD4AF22928164FD03E136;
+			productRefGroup = 07680908533AA29231521597 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22EEDB5B9979E1067E30DEE7 /* Pods-DZSwipeViewController */,
+				25A488B7C3229D9299B864BB /* Pods-DZSwipeViewController-DZGeometryTools */,
+				46DFC4F051D2417292D8EA94 /* Pods-DZSwipeViewController-DZGeometryTools-DZGeometryTools */,
+				491070FE037D189D152E4A8C /* Pods-DZSwipeViewController-DZSwipeViewController */,
+				A71D22969A8607954F23AA23 /* Pods-DZSwipeViewController-DZSwipeViewController-DZSwipeViewController */,
+				734D27CCFA7B196448321F45 /* Pods-Tests */,
+				73F87E1D72DC37BA79CE751D /* Pods-Tests-DZGeometryTools */,
+				A208824699AD96E3E6E5608D /* Pods-Tests-DZGeometryTools-DZGeometryTools */,
+				F4EB606708F23F45588A7E37 /* Pods-Tests-DZSwipeViewController */,
+				A7D2FCA75F5F089C4084C1C1 /* Pods-Tests-DZSwipeViewController-DZSwipeViewController */,
+				869AC0785B803D10AB08F406 /* Pods-Tests-FBSnapshotTestCase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		134CA354A0137655D7B95442 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16CD8870D746C38075B226DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FADEE5E74432A05992D9912 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F42B8388DDEF2619B5F71DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01D71935FEF4DE70C49A0ADE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08EABF666170EE302784D565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E318BC29534E88071E57A7F /* DZSwipeViewController.m in Sources */,
+				298532DB6B26AE278DA25E76 /* DZTabItemContentView.m in Sources */,
+				B514EA13D1BEBF0FE0A9993E /* DZTabView.m in Sources */,
+				C8D717433614B4C5D0920905 /* DZTabViewItem.m in Sources */,
+				E1719BF6F45A0C99D9BAA34B /* Pods-DZSwipeViewController-DZSwipeViewController-dummy.m in Sources */,
+				4D45848F260A3B82328D9804 /* UIViewController+DZSwipeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E2C987043C036784CC77549 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D4D38D22B2BF4EC365FF48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EBBFAE2E5207430792E2CBC /* Pods-DZSwipeViewController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32C8C6F3A61E60951ED34F74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				754D56647EA4A4C72D62FA76 /* DZSwipeViewController.m in Sources */,
+				DE8B0593D9986B4F08414B11 /* DZTabItemContentView.m in Sources */,
+				EF301CE06BE7CDAEF3E74593 /* DZTabView.m in Sources */,
+				6090C899EF1D61D39F377147 /* DZTabViewItem.m in Sources */,
+				28AFD906A50306EEC6DA1145 /* Pods-Tests-DZSwipeViewController-dummy.m in Sources */,
+				48E1BCE9E19D64E661F6D920 /* UIViewController+DZSwipeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39BA4F0019519670A25CC46A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3ADAD88559B3BF5DC19839B /* DZDevices.m in Sources */,
+				04539E099D0FD490355E05B7 /* DZGeometryTools.m in Sources */,
+				B7CCE2E3BFFE31ABBCA39E63 /* Pods-DZSwipeViewController-DZGeometryTools-dummy.m in Sources */,
+				DFE56B9146799D90655C16E2 /* UIDeviceHardware.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88840C2FD0609E6147446122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB33EA8CC57B31CCC21D4649 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A36BC2EE3E1A147BE1D216 /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78EB11C85FD0EDF57019F2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00D9CAC0BE5342F8D8C9F7B /* FBSnapshotTestCase.m in Sources */,
+				68896DD8A0087E6B57590889 /* FBSnapshotTestCasePlatform.m in Sources */,
+				1F2C999241074216582B2603 /* FBSnapshotTestController.m in Sources */,
+				40356E3ECD3B88BF2AABE964 /* Pods-Tests-FBSnapshotTestCase-dummy.m in Sources */,
+				143C55F8BCB7A7576A23FB35 /* UIImage+Compare.m in Sources */,
+				1A10DBDEA8054F26DA795991 /* UIImage+Diff.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D11F5272A9EC71813577E539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE50B764D641E9E722D16AF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33F8840F5BBA60CA0429C910 /* DZDevices.m in Sources */,
+				9BC7E44F7FAA202DF031F503 /* DZGeometryTools.m in Sources */,
+				B861EB3EBC84D04078B064BE /* Pods-Tests-DZGeometryTools-dummy.m in Sources */,
+				5796571BCDA663C6304D51FB /* UIDeviceHardware.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41A0204C4FFECFA352E5022E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-DZGeometryTools";
+			target = 73F87E1D72DC37BA79CE751D /* Pods-Tests-DZGeometryTools */;
+			targetProxy = A6328D7EBEAEFDDCF8651A69 /* PBXContainerItemProxy */;
+		};
+		41D6D8EA01881A835D738CFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-DZGeometryTools-DZGeometryTools";
+			target = A208824699AD96E3E6E5608D /* Pods-Tests-DZGeometryTools-DZGeometryTools */;
+			targetProxy = 1A750711AC25A31CF3A111A6 /* PBXContainerItemProxy */;
+		};
+		4E60E2FC16022F2130901B9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DZSwipeViewController-DZGeometryTools";
+			target = 25A488B7C3229D9299B864BB /* Pods-DZSwipeViewController-DZGeometryTools */;
+			targetProxy = 229DBF440A8EEE1F5585C819 /* PBXContainerItemProxy */;
+		};
+		5A2E493F4517E49AAFE19C03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DZSwipeViewController-DZSwipeViewController";
+			target = 491070FE037D189D152E4A8C /* Pods-DZSwipeViewController-DZSwipeViewController */;
+			targetProxy = D891E232798FCF280B6D0397 /* PBXContainerItemProxy */;
+		};
+		6F3C14415016B23293331F78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-FBSnapshotTestCase";
+			target = 869AC0785B803D10AB08F406 /* Pods-Tests-FBSnapshotTestCase */;
+			targetProxy = 2E529D26AD299213B127D9A6 /* PBXContainerItemProxy */;
+		};
+		80D773F6031CA60B261BB1B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DZSwipeViewController-DZSwipeViewController-DZSwipeViewController";
+			target = A71D22969A8607954F23AA23 /* Pods-DZSwipeViewController-DZSwipeViewController-DZSwipeViewController */;
+			targetProxy = FB0A80481A6B023997C76580 /* PBXContainerItemProxy */;
+		};
+		8B8B24704E5CB9AF6FD7C9EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-DZSwipeViewController-DZSwipeViewController";
+			target = A7D2FCA75F5F089C4084C1C1 /* Pods-Tests-DZSwipeViewController-DZSwipeViewController */;
+			targetProxy = E76B5E3BC1624F46601155BA /* PBXContainerItemProxy */;
+		};
+		9AA67CED0F38273E92B6FD83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DZSwipeViewController-DZGeometryTools";
+			target = 25A488B7C3229D9299B864BB /* Pods-DZSwipeViewController-DZGeometryTools */;
+			targetProxy = 4B381668493AA71E1ED51EF2 /* PBXContainerItemProxy */;
+		};
+		9E515156FA92B09AB3F2030B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-DZGeometryTools";
+			target = 73F87E1D72DC37BA79CE751D /* Pods-Tests-DZGeometryTools */;
+			targetProxy = 008CB7124B9846E6CD651CAE /* PBXContainerItemProxy */;
+		};
+		BE9994F337F391BD1A46A82F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-DZSwipeViewController";
+			target = F4EB606708F23F45588A7E37 /* Pods-Tests-DZSwipeViewController */;
+			targetProxy = A91F6D74974E727A4CEC5FC7 /* PBXContainerItemProxy */;
+		};
+		E32104A7AE4455EEB058094F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DZSwipeViewController-DZGeometryTools-DZGeometryTools";
+			target = 46DFC4F051D2417292D8EA94 /* Pods-DZSwipeViewController-DZGeometryTools-DZGeometryTools */;
+			targetProxy = 11D66B92EBFBD5D392F458B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09D7C805CF1E3F5B12CDDCEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DZGeometryTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		1459054358D7FC2EF6156A39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15D21F48CD355BA462F697D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 878E8B9632D5401D94551B6C /* Pods-DZSwipeViewController-DZGeometryTools-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DZSwipeViewController-DZGeometryTools/Pods-DZSwipeViewController-DZGeometryTools-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		26D961C53C93206FE16CCCA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2B590531AF89581326F7AC4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62E29A85C28334BA35C678F8 /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		44D80F06753BFC6D3F4D07E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8125C177EC80E68F9ED88860 /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		462528389A9B7E7227BE8AA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DZSwipeViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		4B805F4F3CA945455EFAB433 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 878E8B9632D5401D94551B6C /* Pods-DZSwipeViewController-DZGeometryTools-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DZSwipeViewController-DZGeometryTools/Pods-DZSwipeViewController-DZGeometryTools-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4EDE21A584607F552DC288E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 392D033B19FDD519E61B69F1 /* Pods-DZSwipeViewController.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6DB2A4B5051F60C22EB69EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DZGeometryTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7BC32967AF06352968E4AC47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DZGeometryTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		800F613E9303A511D2B03486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB45A7C65D3E25B3B36F773E /* Pods-Tests-DZSwipeViewController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-DZSwipeViewController/Pods-Tests-DZSwipeViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		89AF5DAB453F3ED692696B5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8DA54AD72ECA0B6B5C4D5E3 /* Pods-Tests-FBSnapshotTestCase-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-FBSnapshotTestCase/Pods-Tests-FBSnapshotTestCase-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8AEC8E2BE2CE63BA9D93D8C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DZGeometryTools;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		969B6E052AA9957D1C6F526D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3EB6CC9E7A03500AB5E1506 /* Pods-DZSwipeViewController.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9CC6198A6B32A6B8DD0C2A1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB45A7C65D3E25B3B36F773E /* Pods-Tests-DZSwipeViewController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-DZSwipeViewController/Pods-Tests-DZSwipeViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A43A72B117126C4252FC0E83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04FA820D12E7079E759BEA82 /* Pods-Tests-DZGeometryTools-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-DZGeometryTools/Pods-Tests-DZGeometryTools-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B8EDE163CBA802054BE66F31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DZSwipeViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C3551AFB4BE26DC5AF92441E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8DA54AD72ECA0B6B5C4D5E3 /* Pods-Tests-FBSnapshotTestCase-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-FBSnapshotTestCase/Pods-Tests-FBSnapshotTestCase-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D490D1E35C21FF07031B1A0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C90AA01A5134B680867A1960 /* Pods-DZSwipeViewController-DZSwipeViewController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DZSwipeViewController-DZSwipeViewController/Pods-DZSwipeViewController-DZSwipeViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D9EC39AE45295F4241BA590E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C90AA01A5134B680867A1960 /* Pods-DZSwipeViewController-DZSwipeViewController-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-DZSwipeViewController-DZSwipeViewController/Pods-DZSwipeViewController-DZSwipeViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DD07B3C8950B632C976148CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DZSwipeViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E8E268587645291DEA308218 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DZSwipeViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		FEA072F9D99DEA0AD78D5278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04FA820D12E7079E759BEA82 /* Pods-Tests-DZGeometryTools-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-DZGeometryTools/Pods-Tests-DZGeometryTools-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D8F9F0CEC31777CC665D670 /* Build configuration list for PBXNativeTarget "Pods-DZSwipeViewController-DZSwipeViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9EC39AE45295F4241BA590E /* Debug */,
+				D490D1E35C21FF07031B1A0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13D0E2DD018BE2A40795FBE7 /* Build configuration list for PBXNativeTarget "Pods-DZSwipeViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				969B6E052AA9957D1C6F526D /* Debug */,
+				4EDE21A584607F552DC288E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1731D8140FEF920C74EC0083 /* Build configuration list for PBXNativeTarget "Pods-Tests-DZSwipeViewController-DZSwipeViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8E268587645291DEA308218 /* Debug */,
+				462528389A9B7E7227BE8AA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17A45185C2E9FBCEA7A33769 /* Build configuration list for PBXNativeTarget "Pods-DZSwipeViewController-DZGeometryTools-DZGeometryTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DB2A4B5051F60C22EB69EBB /* Debug */,
+				09D7C805CF1E3F5B12CDDCEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		364282F6B96CBCD4E5AD532C /* Build configuration list for PBXNativeTarget "Pods-DZSwipeViewController-DZGeometryTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B805F4F3CA945455EFAB433 /* Debug */,
+				15D21F48CD355BA462F697D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		557285CB55E8E7DE297CB063 /* Build configuration list for PBXNativeTarget "Pods-Tests-DZGeometryTools-DZGeometryTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BC32967AF06352968E4AC47 /* Debug */,
+				8AEC8E2BE2CE63BA9D93D8C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D91EB8A83B263F632569EEF /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26D961C53C93206FE16CCCA2 /* Debug */,
+				1459054358D7FC2EF6156A39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A784E14AF4870226BE09ADBC /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44D80F06753BFC6D3F4D07E1 /* Debug */,
+				2B590531AF89581326F7AC4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA990C58CCF3B3B27A114464 /* Build configuration list for PBXNativeTarget "Pods-Tests-FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3551AFB4BE26DC5AF92441E /* Debug */,
+				89AF5DAB453F3ED692696B5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE5ED367F2EDDF3AF62FECE4 /* Build configuration list for PBXNativeTarget "Pods-DZSwipeViewController-DZSwipeViewController-DZSwipeViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8EDE163CBA802054BE66F31 /* Debug */,
+				DD07B3C8950B632C976148CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F58083785282E5A37978C5B4 /* Build configuration list for PBXNativeTarget "Pods-Tests-DZSwipeViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800F613E9303A511D2B03486 /* Debug */,
+				9CC6198A6B32A6B8DD0C2A1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA33345D328BB3162231F3EB /* Build configuration list for PBXNativeTarget "Pods-Tests-DZGeometryTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A43A72B117126C4252FC0E83 /* Debug */,
+				FEA072F9D99DEA0AD78D5278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1823E6360F1ECE60C9C1F4F /* Project object */;
+}

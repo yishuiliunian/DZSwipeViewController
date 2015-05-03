@@ -11,6 +11,51 @@
 #import <objc/runtime.h>
 #import "UIViewController+DZSwipeViewController.h"
 #import "DZTabViewItem_Private.h"
+#import <DZGeometryTools.h>
+
+
+CGFloat __MUTopBannerOffset()
+{
+    static CGFloat offset = 0;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        if (DeviceSystemMajorVersion() > 6.99) {
+            offset = 20;
+        }
+        else {
+            offset = 0;
+        }
+    });
+    return offset;
+}
+
+
+#define MUTopBannerOffset __MUTopBannerOffset()
+
+@interface UIScrollView (Inner)
+@property (nonatomic, assign) BOOL changingContentOffSet;
+@end
+
+
+static void* kUIScrollViewContentOffset = &kUIScrollViewContentOffset;
+@implementation UIScrollView (Inner)
+
+- (void) setChangingContentOffSet:(BOOL)changingContentOffSet
+{
+    objc_setAssociatedObject(self, kUIScrollViewContentOffset, @(changingContentOffSet), OBJC_ASSOCIATION_RETAIN);
+}
+
+- (BOOL) changingContentOffSet
+{
+    NSNumber* changing = objc_getAssociatedObject(self, kUIScrollViewContentOffset);
+    if (!changing) {
+        return NO;
+    }
+    return [changing boolValue];
+}
+
+@end
+
 @interface UIViewController (SwipeInner)
 @end
 
@@ -41,8 +86,6 @@ CGFloat const kDZTabHeight = 44;
     
     BOOL _animating;
     BOOL _firstLoadFrame;
-    
-    UIScrollView* _scrollView;
 }
 @property (nonatomic, assign) BOOL tapTabbarAnimating;
 @property (nonatomic, assign) NSInteger currentPageIndex;
@@ -62,12 +105,6 @@ CGFloat const kDZTabHeight = 44;
     }
     _viewControllers = viewControllers;
     return self;
-}
-
-- (void) loadView
-{
-    _scrollView = [UIScrollView new];
-    self.view = _scrollView;
 }
 - (void) dz_addChildViewController:(UIViewController*)vc
 {
@@ -114,6 +151,8 @@ CGFloat const kDZTabHeight = 44;
 {
     if ([keyPath isEqualToString:@"contentOffset"] && [object isKindOfClass:[UIScrollView class]]) {
         UIScrollView* scrollView = (UIScrollView*)object;
+        
+        
         CGPoint  offset = [change[NSKeyValueChangeNewKey] CGPointValue];
         UIViewController* viewController = _viewControllers[_currentPageIndex];
         if (![viewController respondsToSelector:@selector(swipeInnerScrollView)]) {
@@ -124,13 +163,18 @@ CGFloat const kDZTabHeight = 44;
                 return;
             }
         }
-        if (ABS(offset.y ) > 0) {
-            CGFloat yOffSet = offset.y;
-            if (offset.y < 0  && CGRectGetMinY(_topView.frame) < 0) {
-                scrollView.contentOffset = CGPointMake(0, 0);
-            }
-            [self moveStepOffset:yOffSet ];
+        if (scrollView.changingContentOffSet) {
+            return;
         }
+        CGFloat yOffSet = -offset.y;
+        //        if (offset.y < 0  && CGRectGetMinY(_topView.frame) < 20) {
+        //            scrollView.changingContentOffSet = YES;
+        //            scrollView.contentOffset = CGPointMake(20 , 0);
+        //            scrollView.changingContentOffSet = NO;
+        //        }
+        scrollView.changingContentOffSet = YES;
+        [self moveStepOffset:yOffSet - scrollView.contentInset.top];
+        scrollView.changingContentOffSet = NO;
     }
 }
 #pragma clang diagnostic pop
@@ -160,14 +204,9 @@ CGFloat const kDZTabHeight = 44;
         }
         _topView = topView;
         _topViewHeight = CGRectGetHeight(_topView.frame);
-        [self relayoutScrollViewContentSize];
-        
     }
 }
-- (void) touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
-{
-    [super touchesBegan:touches withEvent:event];
-}
+
 
 - (void) touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event
 {
@@ -222,10 +261,7 @@ CGFloat const kDZTabHeight = 44;
     [self addObserverForChildScrollView];
     [self.tabView setItems:itemsArray];
     [self.pageViewController setViewControllers:@[_viewControllers[0]] direction:UIPageViewControllerNavigationDirectionForward animated:NO completion:nil];
-    
-    //
     [[(UIViewController*)_viewControllers.firstObject swipeTabItem] setSelected:YES];
-    [self relayoutScrollViewContentSize];
 }
 
 - (void) setTopOffset:(CGFloat)offset
@@ -234,26 +270,21 @@ CGFloat const kDZTabHeight = 44;
     CGFloat contentWidth =  CGRectGetWidth(self.view.bounds);
     CGFloat contentHeight = CGRectGetHeight(self.view.bounds);
     
-    _scrollView.contentOffset = CGPointMake(0, _topOffSet);
-    //    _pageViewController.view.frame = CGRectMake( 0, CGRectGetMaxY(_tabView.frame), contentWidth , contentHeight - CGRectGetMaxY(_tabView.frame));
-    //    [UIView animateWithDuration:0.01 animations:^{
-    //        _topView.frame = CGRectMake(0, offset, contentWidth , _topViewHeight);
-    //        _tabView.frame = CGRectMake(0, CGRectGetMaxY(_topView.frame), contentWidth, _tabViewHeight);
-    //        _pageViewController.view.frame = CGRectMake( 0, CGRectGetMaxY(_tabView.frame), contentWidth , contentHeight - CGRectGetMaxY(_tabView.frame));
-    //    }];
+    _pageViewController.view.frame = CGRectMake( 0, CGRectGetMaxY(_tabView.frame), contentWidth , contentHeight - CGRectGetMaxY(_tabView.frame));
+    _topView.frame = CGRectMake(0, offset, contentWidth , _topViewHeight);
+    _tabView.frame = CGRectMake(0, CGRectGetMaxY(_topView.frame), contentWidth, _tabViewHeight);
+    _pageViewController.view.frame = CGRectMake( 0, CGRectGetMaxY(_tabView.frame), contentWidth , contentHeight - CGRectGetMaxY(_tabView.frame));
+    [_pageViewController.view setNeedsLayout];
 }
-- (void) relayoutScrollViewContentSize
-{
-    _scrollView.contentSize = CGSizeMake(CGRectGetWidth(self.view.bounds), CGRectGetHeight(self.view.bounds) + _topViewHeight);
-}
+
 - (void) moveStepOffset:(CGFloat)offset
 {
-    CGFloat currentOffset = _scrollView.contentOffset.y;
+    CGFloat currentOffset = CGRectGetMinY(_topView.frame);
     CGFloat aimOffset = offset + currentOffset;
-    if (aimOffset > _topViewHeight) {
-        aimOffset= _topViewHeight;
+    if (aimOffset+ _topViewHeight - MUTopBannerOffset < 0) {
+        aimOffset= -_topViewHeight + MUTopBannerOffset;
     }
-    if (aimOffset < 0) {
+    if (aimOffset > 0) {
         aimOffset = 0;
     }
     [self setTopOffset:aimOffset];
@@ -267,20 +298,21 @@ CGFloat const kDZTabHeight = 44;
             pageScrollView.delegate = self;
         }
     }
+    _pageViewController.view.backgroundColor= [UIColor redColor];
 }
 
-
+#pragma mark 基础的布局
 - (void) viewWillLayoutSubviews
 {
     [super viewWillLayoutSubviews];
-    CGFloat width = CGRectGetWidth(self.view.bounds);
-    _topView.frame = CGRectMake(0, 0, width, _topViewHeight);
-    _tabView.frame = CGRectMake(0, CGRectGetMaxY(_topView.frame), width, _tabViewHeight);
-    _pageViewController.view.frame = CGRectMake(0, CGRectGetMaxY(_tabView.frame), width, CGRectGetHeight(self.view.bounds) - _tabViewHeight);
-    [self relayoutScrollViewContentSize];
-    
+    if (_firstLoadFrame) {
+        [self setTopOffset:0];
+        _firstLoadFrame = NO;
+    }
 }
 
+
+#pragma mark pageScrollView
 
 - (UIViewController*) pageViewController:(UIPageViewController *)pageViewController viewControllerAfterViewController:(UIViewController *)viewController
 {
@@ -308,19 +340,10 @@ CGFloat const kDZTabHeight = 44;
 - (void) scrollViewDidScroll:(UIScrollView *)scrollView
 {
     UIViewController* vc = [self.pageViewController.viewControllers lastObject];
-    
-    CGRect rect =  [scrollView convertRect:vc.view.frame fromView:vc.view.superview];
-    NSLog(@"xx  %f",rect.origin.x);
-    
     if (!_tapTabbarAnimating) {
         CGFloat xFromCenter = self.view.frame.size.width-scrollView.contentOffset.x; //%%% positive for right swipe, negative for left
-        
-        
         CGFloat ratio =  xFromCenter / CGRectGetWidth(scrollView.frame);
-        
         [self.tabView setSelectedViewOffSetRatio:ratio];
-        
-        NSLog(@"offset is %f", scrollView.contentOffset.x);
     }
 }
 - (void) dz_tabView:(DZTabView *)tabView didSelectedAtIndex:(NSUInteger)index
@@ -337,6 +360,8 @@ CGFloat const kDZTabHeight = 44;
         swipe.tapTabbarAnimating = NO;
         swipe.currentPageIndex = index;
     }];
+    
+    [self setTopOffset:-1000];
 }
 
 -(void)pageViewController:(UIPageViewController *)pageViewController didFinishAnimating:(BOOL)finished previousViewControllers:(NSArray *)previousViewControllers transitionCompleted:(BOOL)completed

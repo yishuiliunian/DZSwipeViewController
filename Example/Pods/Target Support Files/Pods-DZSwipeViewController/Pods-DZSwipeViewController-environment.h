@@ -6,9 +6,15 @@
 // project.
 
 
+// DZGeometryTools
+#define COCOAPODS_POD_AVAILABLE_DZGeometryTools
+#define COCOAPODS_VERSION_MAJOR_DZGeometryTools 1
+#define COCOAPODS_VERSION_MINOR_DZGeometryTools 0
+#define COCOAPODS_VERSION_PATCH_DZGeometryTools 5
+
 // DZSwipeViewController
 #define COCOAPODS_POD_AVAILABLE_DZSwipeViewController
 #define COCOAPODS_VERSION_MAJOR_DZSwipeViewController 0
 #define COCOAPODS_VERSION_MINOR_DZSwipeViewController 1
-#define COCOAPODS_VERSION_PATCH_DZSwipeViewController 0
+#define COCOAPODS_VERSION_PATCH_DZSwipeViewController 7
 

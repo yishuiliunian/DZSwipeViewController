@@ -19,7 +19,7 @@
     [super viewDidAppear:animated];
     [self addSwipeValue:@"xx" forKey:@"xxx"];
 }
-- (UIScrollView*) swipInnerScrollView
+- (UIScrollView*) swipeInnerScrollView
 {
     return self.tableView;
 }
