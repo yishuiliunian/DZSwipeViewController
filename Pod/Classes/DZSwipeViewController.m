@@ -298,7 +298,6 @@ CGFloat const kDZTabHeight = 44;
             pageScrollView.delegate = self;
         }
     }
-    _pageViewController.view.backgroundColor= [UIColor redColor];
 }
 
 #pragma mark 基础的布局
