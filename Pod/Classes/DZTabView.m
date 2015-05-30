@@ -54,7 +54,17 @@
     _selectedImageView.backgroundColor = [UIColor orangeColor];
     return self;
 }
-
+- (DZTabViewItem*) itemAtIndex:(NSInteger)index
+{
+    if (index < 0) {
+        return nil;
+    }
+    if (index >= _items.count) {
+        return nil;
+    }
+    
+    return _items[index];
+}
 - (void) handleTapGestureRegc:(UITapGestureRecognizer*)tapRcg
 {
     if (tapRcg.state == UIGestureRecognizerStateRecognized) {
