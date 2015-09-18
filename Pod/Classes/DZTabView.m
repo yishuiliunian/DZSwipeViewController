@@ -133,7 +133,7 @@
 {
     [super layoutSubviews];
     NSUInteger count = _items.count;
-    CGFloat itemSpace = CGRectGetWidth(self.bounds) / count;
+    CGFloat itemSpace = /*CGRectGetWidth(self.bounds)*/ 225 / count;
     
     CGFloat startX = 0;
     for (DZTabViewItem* item in _items) {

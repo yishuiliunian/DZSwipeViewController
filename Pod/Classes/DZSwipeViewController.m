@@ -252,8 +252,8 @@ CGFloat const kDZTabHeight = 44;
         }
         DZTabViewItem* item = [[DZTabViewItem alloc] initWithContentClass:contentClass];
         item.textLabel.text = vc.swipeTitle;
-        item.imageView.image = vc.swipeImage;
-        item.imageView.highlightedImage = vc.swipeSelectedImage;
+//        item.imageView.image = vc.swipeImage;
+//        item.imageView.highlightedImage = vc.swipeSelectedImage;
         item.contentView.viewController = vc;
         [itemsArray addObject:item];
         vc.swipeTabItem = item;
@@ -354,12 +354,14 @@ CGFloat const kDZTabHeight = 44;
     _tapTabbarAnimating = YES;
     __weak DZSwipeViewController* swipeVC = self;
     [self.pageViewController setViewControllers:@[_viewControllers[index]] direction:direction animated:YES completion:^(BOOL finished) {
-        DZSwipeViewController* swipe = swipeVC;
-        swipe.tapTabbarAnimating = NO;
-        swipe.currentPageIndex = index;
+        if (finished) {
+            DZSwipeViewController* swipe = swipeVC;
+            swipe.tapTabbarAnimating = NO;
+            swipe.currentPageIndex = index;
+        }
     }];
     
-    [self setTopOffset:-1000];
+//    [self setTopOffset:-1000];
 }
 
 -(void)pageViewController:(UIPageViewController *)pageViewController didFinishAnimating:(BOOL)finished previousViewControllers:(NSArray *)previousViewControllers transitionCompleted:(BOOL)completed

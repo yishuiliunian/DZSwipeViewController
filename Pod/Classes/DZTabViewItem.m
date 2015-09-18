@@ -53,13 +53,13 @@
     return nil;
 }
 
-- (UIImageView*) imageView
-{
-    if ([_contentView isKindOfClass:[DZTabItemContentView class]]) {
-        return [(DZTabItemContentView*)_contentView imageView];
-    }
-    return nil;
-}
+//- (UIImageView*) imageView
+//{
+//    if ([_contentView isKindOfClass:[DZTabItemContentView class]]) {
+//        return [(DZTabItemContentView*)_contentView imageView];
+//    }
+//    return nil;
+//}
 
 - (BOOL) isSelected
 {
