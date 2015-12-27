@@ -19,7 +19,7 @@
 }
 @end
 @implementation DZTabView
-@synthesize delegate;
+@synthesize tabDelegate;
 @synthesize lastSelectedIndex = _lastSelectedIndex;
 - (instancetype) initWithItems:(NSArray *)items
 {
@@ -79,8 +79,8 @@
             }
         }
         if (selectedIndex != NSNotFound) {
-            if ([self.delegate respondsToSelector:@selector(dz_tabView:didSelectedAtIndex:)]) {
-                [self.delegate dz_tabView:self didSelectedAtIndex:selectedIndex];
+            if ([self.tabDelegate respondsToSelector:@selector(dz_tabView:didSelectedAtIndex:)]) {
+                [self.tabDelegate dz_tabView:self didSelectedAtIndex:selectedIndex];
             }
         }
         [self setLastSelectedIndex:selectedIndex animate:YES];
@@ -105,6 +105,7 @@
     DZTabViewItem* lastItem = _items[_lastSelectedIndex];
     lastItem.selected = NO;
     _lastSelectedIndex = index;
+    [self scrollRectToVisible:CGRectMake(self.itemSpace* index, 0, self.itemSpace, 10) animated:animate];
     if (animate) {
         [UIView animateWithDuration:0.25 animations:^{
             _selectedImageView.frame = item.frame;
@@ -129,15 +130,25 @@
     
     [self setNeedsLayout];
 }
+
+- (void) setFrame:(CGRect)frame
+{
+    if (!CGRectIsEmpty(frame)) {
+      CGFloat itemSpace = CGRectGetWidth(self.bounds)/ _items.count;
+        if (self.itemSpace < itemSpace) {
+            _itemSpace = itemSpace;
+        } else {
+            self.contentSize = CGSizeMake(_itemSpace* _items.count, CGRectGetHeight(frame));
+        }
+    }
+    [super setFrame:frame];
+}
 - (void) layoutSubviews
 {
     [super layoutSubviews];
-    NSUInteger count = _items.count;
-    CGFloat itemSpace = CGRectGetWidth(self.bounds) / count;
-    
     CGFloat startX = 0;
     for (DZTabViewItem* item in _items) {
-        item.frame = CGRectMake(startX, 0, itemSpace, CGRectGetHeight(self.bounds));
+        item.frame = CGRectMake(startX, 0, _itemSpace, CGRectGetHeight(self.bounds));
         startX = CGRectGetMaxX(item.frame);
         
     }

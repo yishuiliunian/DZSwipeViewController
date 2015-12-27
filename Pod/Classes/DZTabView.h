@@ -15,9 +15,10 @@
 - (void) dz_tabView:(DZTabView*)tabView didSelectedAtIndex:(NSUInteger)index;
 
 @end
-@interface DZTabView : UIView
+@interface DZTabView : UIScrollView
 @property (nonatomic, strong, readonly) UIImageView* selectedImageView;
-@property (nonatomic, weak) id<DZTabViewDelegate> delegate;
+@property (nonatomic, weak) id<DZTabViewDelegate> tabDelegate;
+@property (nonatomic, assign) CGFloat itemSpace;
 @property (nonatomic, assign, readonly) NSInteger lastSelectedIndex;
 - (DZTabViewItem*) itemAtIndex:(NSInteger)index;
 - (instancetype) initWithItems:(NSArray*)items;

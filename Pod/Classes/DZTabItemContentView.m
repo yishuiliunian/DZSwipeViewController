@@ -8,6 +8,9 @@
 
 #import "DZTabItemContentView.h"
 #import "UIViewController+DZSwipeViewController.h"
+#define MUColorMainPink     [UIColor colorWithRed:248.0/255 green:50.0/255 blue:125.0/255 alpha:1]
+#define MUColorLabelNormal      [UIColor colorWithRed:65.0/255 green:66.0/255 blue:70.0/255 alpha:1]
+
 @implementation DZTabItemContentView
 - (instancetype) initWithFrame:(CGRect)frame
 {
@@ -16,10 +19,11 @@
         return self;
     }
     _textLabel = [UILabel new];
+    _textLabel.textAlignment = NSTextAlignmentCenter;
     [self addSubview:_textLabel];
     
-    _imageView = [UIImageView new];
-    [self addSubview:_imageView];
+//    _imageView = [UIImageView new];
+//    [self addSubview:_imageView];
     
     _textLabel.adjustsFontSizeToFitWidth = YES;
     self.backgroundColor = [UIColor whiteColor];
@@ -30,11 +34,13 @@
 {
     [super layoutSubviews];
     
-    CGFloat center = CGRectGetWidth(self.frame)/2;
-    CGFloat imageWidth = 15;
-    _imageView.frame = CGRectMake(center - imageWidth -5, (CGRectGetHeight(self.bounds) - imageWidth )/2, imageWidth, imageWidth);
-    _textLabel.frame = CGRectMake(center, 0, center, CGRectGetHeight(self.bounds));
+//    CGFloat center = CGRectGetWidth(self.frame)/2;
+//    CGFloat imageWidth = 15;
+//    _imageView.frame = CGRectMake(center - imageWidth -5, (CGRectGetHeight(self.bounds) - imageWidth )/2, imageWidth, imageWidth);
+    _textLabel.frame = self.bounds;//CGRectMake(center, 0, center, CGRectGetHeight(self.bounds));
 }
+
+
 
 - (void) setSelected:(BOOL)selected
 {

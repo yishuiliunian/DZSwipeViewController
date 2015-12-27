@@ -25,7 +25,11 @@
     UIView* aView = [UIView new];
     aView.frame = CGRectMake(0, 0, CGRectGetWidth([UIScreen mainScreen].bounds), 300);
     DZSwipeViewController* swipVC = [[DZSwipeViewController alloc] initWithViewControllers:@[fvc , sVC, tvc]];
+    swipVC.tabView.itemSpace = 200;
     swipVC.topView = aView;
+    
+    
+    
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = swipVC;
     [self.window makeKeyAndVisible];

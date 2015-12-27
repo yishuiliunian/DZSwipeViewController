@@ -11,26 +11,10 @@
 #import <objc/runtime.h>
 #import "UIViewController+DZSwipeViewController.h"
 #import "DZTabViewItem_Private.h"
-#import <DZGeometryTools.h>
+#import "DZGeometryTools.h"//<DZGeometryTools.h>
 
 
-CGFloat __MUTopBannerOffset()
-{
-    static CGFloat offset = 0;
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        if (DeviceSystemMajorVersion() > 6.99) {
-            offset = 20;
-        }
-        else {
-            offset = 0;
-        }
-    });
-    return offset;
-}
 
-
-#define MUTopBannerOffset __MUTopBannerOffset()
 
 @interface UIScrollView (Inner)
 @property (nonatomic, assign) BOOL changingContentOffSet;
@@ -182,7 +166,7 @@ CGFloat const kDZTabHeight = 44;
 {
     if (!_tabView) {
         _tabView = [[DZTabView alloc] init];
-        _tabView.delegate = self;
+        _tabView.tabDelegate = self;
     }
     return _tabView;
 }
@@ -232,6 +216,7 @@ CGFloat const kDZTabHeight = 44;
 - (void) viewDidLoad
 {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
     //
     _animating = NO;
     _firstLoadFrame = YES;
@@ -281,8 +266,8 @@ CGFloat const kDZTabHeight = 44;
 {
     CGFloat currentOffset = CGRectGetMinY(_topView.frame);
     CGFloat aimOffset = offset + currentOffset;
-    if (aimOffset+ _topViewHeight - MUTopBannerOffset < 0) {
-        aimOffset= -_topViewHeight + MUTopBannerOffset;
+    if (aimOffset+ _topViewHeight  < 0) {
+        aimOffset= -_topViewHeight;
     }
     if (aimOffset > 0) {
         aimOffset = 0;
@@ -354,11 +339,12 @@ CGFloat const kDZTabHeight = 44;
     _tapTabbarAnimating = YES;
     __weak DZSwipeViewController* swipeVC = self;
     [self.pageViewController setViewControllers:@[_viewControllers[index]] direction:direction animated:YES completion:^(BOOL finished) {
-        DZSwipeViewController* swipe = swipeVC;
-        swipe.tapTabbarAnimating = NO;
-        swipe.currentPageIndex = index;
+        if (finished) {
+            DZSwipeViewController* swipe = swipeVC;
+            swipe.tapTabbarAnimating = NO;
+            swipe.currentPageIndex = index;
+        }
     }];
-    
     [self setTopOffset:-1000];
 }
 
