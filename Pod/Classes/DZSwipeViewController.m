@@ -237,8 +237,8 @@ CGFloat const kDZTabHeight = 44;
         }
         DZTabViewItem* item = [[DZTabViewItem alloc] initWithContentClass:contentClass];
         item.textLabel.text = vc.swipeTitle;
-        item.imageView.image = vc.swipeImage;
-        item.imageView.highlightedImage = vc.swipeSelectedImage;
+//        item.imageView.image = vc.swipeImage;
+//        item.imageView.highlightedImage = vc.swipeSelectedImage;
         item.contentView.viewController = vc;
         [itemsArray addObject:item];
         vc.swipeTabItem = item;

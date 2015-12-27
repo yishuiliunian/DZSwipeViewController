@@ -46,13 +46,13 @@
 {
     _selected = selected;
     if (_selected) {
-        _textLabel.textColor = [UIColor blueColor];
+        _textLabel.textColor = MUColorMainPink;//[UIColor blueColor];
         if (self.viewController.swipeSelectedImage) {
-            _imageView.image = self.viewController.swipeSelectedImage;
+//            _imageView.image = self.viewController.swipeSelectedImage;
         }
     } else {
-        _textLabel.textColor = [UIColor blackColor];
-        _imageView.image = self.viewController.swipeImage;
+        _textLabel.textColor = MUColorLabelNormal;//[UIColor blackColor];
+//        _imageView.image = self.viewController.swipeImage;
     }
 }
 
