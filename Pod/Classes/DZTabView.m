@@ -133,13 +133,11 @@
 
 - (void) setFrame:(CGRect)frame
 {
-    if (!CGRectIsEmpty(frame)) {
-      CGFloat itemSpace = CGRectGetWidth(self.bounds)/ _items.count;
-        if (self.itemSpace < itemSpace) {
-            _itemSpace = itemSpace;
-        } else {
-            self.contentSize = CGSizeMake(_itemSpace* _items.count, CGRectGetHeight(frame));
-        }
+    CGFloat itemSpace = CGRectGetWidth(frame)/ _items.count;
+    if (self.itemSpace < itemSpace) {
+        _itemSpace = itemSpace;
+    } else {
+        self.contentSize = CGSizeMake(_itemSpace* _items.count, CGRectGetHeight(frame));
     }
     [super setFrame:frame];
 }
@@ -167,3 +165,4 @@
     [self setNeedsLayout];
 }
 @end
+

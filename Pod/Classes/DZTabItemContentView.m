@@ -8,8 +8,7 @@
 
 #import "DZTabItemContentView.h"
 #import "UIViewController+DZSwipeViewController.h"
-#define MUColorMainPink     [UIColor colorWithRed:248.0/255 green:50.0/255 blue:125.0/255 alpha:1]
-#define MUColorLabelNormal      [UIColor colorWithRed:65.0/255 green:66.0/255 blue:70.0/255 alpha:1]
+
 
 @implementation DZTabItemContentView
 - (instancetype) initWithFrame:(CGRect)frame
@@ -46,12 +45,12 @@
 {
     _selected = selected;
     if (_selected) {
-        _textLabel.textColor = MUColorMainPink;//[UIColor blueColor];
+        _textLabel.textColor = [UIColor blueColor];
         if (self.viewController.swipeSelectedImage) {
 //            _imageView.image = self.viewController.swipeSelectedImage;
         }
     } else {
-        _textLabel.textColor = MUColorLabelNormal;//[UIColor blackColor];
+        _textLabel.textColor = [UIColor blackColor];
 //        _imageView.image = self.viewController.swipeImage;
     }
 }
