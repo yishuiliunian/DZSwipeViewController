@@ -40,6 +40,8 @@
     if (!self) {
         return self;
     }
+    self.showsVerticalScrollIndicator = NO;
+    self.showsHorizontalScrollIndicator = NO;
     _selectedImageView= [UIImageView new];
     [self addSubview:_selectedImageView];
     
