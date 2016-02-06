@@ -16,7 +16,7 @@
 
 @end
 @interface DZTabView : UIScrollView
-@property (nonatomic, strong, readonly) UIImageView* selectedImageView;
+@property (nonatomic, strong) UIView* selectedIndicatorView;
 @property (nonatomic, weak) id<DZTabViewDelegate> tabDelegate;
 @property (nonatomic, assign) CGFloat itemSpace;
 @property (nonatomic, assign, readonly) NSInteger lastSelectedIndex;

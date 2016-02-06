@@ -42,8 +42,8 @@
     }
     self.showsVerticalScrollIndicator = NO;
     self.showsHorizontalScrollIndicator = NO;
-    _selectedImageView= [UIImageView new];
-    [self addSubview:_selectedImageView];
+    _selectedIndicatorView= [UIImageView new];
+    [self addSubview:_selectedIndicatorView];
     
     
     UITapGestureRecognizer* tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTapGestureRegc:)];
@@ -52,9 +52,18 @@
     [self addGestureRecognizer:tap];
     
     _selectedItemOffSet = 0.0f;
-    
-    _selectedImageView.backgroundColor = [UIColor orangeColor];
+    _selectedIndicatorView.backgroundColor = [UIColor clearColor];
     return self;
+}
+
+- (void) setSelectedIndicatorView:(UIView *)selectedIndicatorView
+{
+    if (_selectedIndicatorView != selectedIndicatorView) {
+        [_selectedIndicatorView removeFromSuperview];
+        _selectedIndicatorView = selectedIndicatorView;
+        [self addSubview:_selectedIndicatorView];
+    }
+
 }
 - (DZTabViewItem*) itemAtIndex:(NSInteger)index
 {
@@ -110,7 +119,7 @@
     [self scrollRectToVisible:CGRectMake(self.itemSpace* index, 0, self.itemSpace, 10) animated:animate];
     if (animate) {
         [UIView animateWithDuration:0.25 animations:^{
-            _selectedImageView.frame = item.frame;
+            _selectedIndicatorView.frame = item.frame;
         } completion:^(BOOL finished) {
         }];
     }
@@ -146,6 +155,7 @@
 - (void) layoutSubviews
 {
     [super layoutSubviews];
+    [self bringSubviewToFront:_selectedIndicatorView];
     CGFloat startX = 0;
     for (DZTabViewItem* item in _items) {
         item.frame = CGRectMake(startX, 0, _itemSpace, CGRectGetHeight(self.bounds));
@@ -154,7 +164,7 @@
     }
     if (_lastSelectedIndex != NSNotFound) {
         DZTabViewItem* selectedItem = _items[_lastSelectedIndex];
-        _selectedImageView.frame = CGRectMake(CGRectGetMinX(selectedItem.frame) -  _selectedItemOffSet * CGRectGetWidth(selectedItem.frame), 0, CGRectGetWidth(selectedItem.frame), CGRectGetHeight(self.frame));
+        _selectedIndicatorView.frame = CGRectMake(CGRectGetMinX(selectedItem.frame) -  _selectedItemOffSet * CGRectGetWidth(selectedItem.frame), 0, CGRectGetWidth(selectedItem.frame), CGRectGetHeight(self.frame));
     }
 }
 

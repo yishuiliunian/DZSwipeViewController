@@ -75,7 +75,7 @@
 - (void) layoutSubviews
 {
     [super layoutSubviews];
-    _contentView.frame = CGRectMake(0, 0, CGRectGetWidth(self.frame), CGRectGetHeight(self.frame) - 5);
+    _contentView.frame = CGRectMake(0, 0, CGRectGetWidth(self.frame), CGRectGetHeight(self.frame));
 }
 
 @end
