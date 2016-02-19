@@ -123,10 +123,8 @@
         } completion:^(BOOL finished) {
         }];
     }
-    else {
-        _lastSelectedIndex = index;
-    }
 }
+
 - (void) setItems:(NSArray*)items
 {
     for (DZTabViewItem* item in _items) {
@@ -173,7 +171,6 @@
 - (void) setSelectedViewOffSetRatio:(CGFloat)ratio
 {
     _selectedItemOffSet = ratio;
-    NSLog(@"%f", _selectedItemOffSet);
     [self setNeedsLayout];
 }
 @end

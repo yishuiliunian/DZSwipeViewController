@@ -14,6 +14,7 @@
 
 - (void) dz_tabView:(DZTabView*)tabView didSelectedAtIndex:(NSUInteger)index;
 
+
 @end
 @interface DZTabView : UIScrollView
 @property (nonatomic, strong) UIView* selectedIndicatorView;

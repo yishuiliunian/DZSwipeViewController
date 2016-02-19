@@ -151,11 +151,6 @@ CGFloat const kDZTabHeight = 44;
             return;
         }
         CGFloat yOffSet = -offset.y;
-        //        if (offset.y < 0  && CGRectGetMinY(_topView.frame) < 20) {
-        //            scrollView.changingContentOffSet = YES;
-        //            scrollView.contentOffset = CGPointMake(20 , 0);
-        //            scrollView.changingContentOffSet = NO;
-        //        }
         scrollView.changingContentOffSet = YES;
         [self moveStepOffset:yOffSet - scrollView.contentInset.top];
         scrollView.changingContentOffSet = NO;
@@ -237,8 +232,6 @@ CGFloat const kDZTabHeight = 44;
         }
         DZTabViewItem* item = [[DZTabViewItem alloc] initWithContentClass:contentClass];
         item.textLabel.text = vc.swipeTitle;
-//        item.imageView.image = vc.swipeImage;
-//        item.imageView.highlightedImage = vc.swipeSelectedImage;
         item.contentView.viewController = vc;
         [itemsArray addObject:item];
         vc.swipeTabItem = item;
@@ -348,13 +341,35 @@ CGFloat const kDZTabHeight = 44;
     [self setTopOffset:-1000];
 }
 
+- (UIViewController*) activeViewController
+{
+    return _viewControllers[self.tabView.lastSelectedIndex];
+}
+
 -(void)pageViewController:(UIPageViewController *)pageViewController didFinishAnimating:(BOOL)finished previousViewControllers:(NSArray *)previousViewControllers transitionCompleted:(BOOL)completed
 {
     if (completed) {
         _currentPageIndex = [_viewControllers indexOfObject:[self.pageViewController.viewControllers lastObject]];
         [self.tabView setSelectedIndex:_currentPageIndex];
-    } else {
-        
+        [self didSwipeToViewController:_viewControllers[_currentPageIndex]];
+    }
+}
+
+- (void) didSwipeToViewController:(UIViewController *)vc
+{
+    
+}
+
+- (void) setScrollEnable:(BOOL)scrollEnable
+{
+    _scrollEnable = scrollEnable;
+    _tabView.userInteractionEnabled = scrollEnable;
+    for (UIView* view in _pageViewController.view.subviews){
+        if([view isKindOfClass:[UIScrollView class]])
+        {
+            UIScrollView* pageScrollView = (UIScrollView *)view;
+            pageScrollView.scrollEnabled = scrollEnable;
+        }
     }
 }
 @end
