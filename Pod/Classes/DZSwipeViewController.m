@@ -336,6 +336,8 @@ CGFloat const kDZTabHeight = 44;
             DZSwipeViewController* swipe = swipeVC;
             swipe.tapTabbarAnimating = NO;
             swipe.currentPageIndex = index;
+            [self didSwipeToViewController:_viewControllers[index]];
+            
         }
     }];
     [self setTopOffset:-1000];
