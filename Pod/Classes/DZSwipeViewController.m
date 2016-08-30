@@ -32,7 +32,7 @@ static void* kUIScrollViewContentOffset = &kUIScrollViewContentOffset;
 - (BOOL) changingContentOffSet
 {
     NSNumber* changing = objc_getAssociatedObject(self, kUIScrollViewContentOffset);
-    if (!changing) {
+    if (changing == nil) {
         return NO;
     }
     return [changing boolValue];
